@@ -6,11 +6,11 @@ theme = 'anubis'
 
 paginate = 3
 
-[autor]
+[author]
 name = 'Jacob Moena'
 
 [params]
-autor = 'Jacob Moena'
+author = 'Jacob Moena'
 description = 'Increasingly interesting'
 dateFormat ='01-02-2022'
 paginationSinglePost = true
