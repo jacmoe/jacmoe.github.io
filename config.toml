@@ -2,7 +2,7 @@ baseURL = 'https://jacmoe.github.io/'
 languageCode = 'en-us'
 title = 'Jacmoes Cyber Soapbox'
 publishDir = 'docs'
-theme = 'hugo-kiera'
+theme = 'hugo-geekblog'
 pygmentsCodeFences = true
 
 disqusShortname = "" #Disqus shortname
@@ -15,6 +15,6 @@ googleAnalytics = "" #Google Analytics ID
     twitter = "jacmoe"        #Twitter username
 
 [params]
-    tagline = "increasingly interesting"
+    tagline = "increasingly interesting - and what happens if I create an extra long tag-line?"
     customCSS = []  #Optional Customised CSS
     disableDarkModeCSS = true # disables css style for users using dark-mode
