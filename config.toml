@@ -2,7 +2,7 @@ baseURL = 'https://jacmoe.github.io/'
 languageCode = 'en-us'
 title = 'Jacmoes Cyber Soapbox'
 publishDir = 'docs'
-theme = 'hugo-geekblog'
+theme = 'anubis'
 pygmentsCodeFences = true
 
 disqusShortname = "" #Disqus shortname
