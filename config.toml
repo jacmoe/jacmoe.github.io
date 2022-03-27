@@ -1,6 +1,7 @@
 baseURL = 'https://jacmoe.github.io/'
 languageCode = 'en-us'
 title = 'Jacmoes Cyber Soapbox'
+publishDir = 'docs'
 theme = 'hugo-kiera'
 pygmentsCodeFences = true
 
