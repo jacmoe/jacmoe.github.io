@@ -3,3 +3,26 @@ languageCode = 'en-us'
 title = 'Jacmoes Cyber Soapbox'
 publishDir = 'docs'
 theme = 'anubis'
+
+paginate = 3
+
+[autor]
+name = 'Jacob Moena'
+
+[params]
+autor = 'Jacob Moena'
+description = 'Increasingly interesting'
+dateFormat ='01-02-2022'
+paginationSinglePost = true
+style = 'auto-without-switcher'
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+
+[social]
+
+[[social.github]]
+id = 'github'
+name = 'jacmoe'
+url = 'https://twitter.com/jacmoe/'
