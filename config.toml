@@ -3,18 +3,3 @@ languageCode = 'en-us'
 title = 'Jacmoes Cyber Soapbox'
 publishDir = 'docs'
 theme = 'anubis'
-pygmentsCodeFences = true
-
-disqusShortname = "" #Disqus shortname
-googleAnalytics = "" #Google Analytics ID
-
-[author]
-    name = "Jacob Moena"           #Author name
-    github = "jacmoe"         #Github username
-    facebook = "jacmoe"       #Facebook username
-    twitter = "jacmoe"        #Twitter username
-
-[params]
-    tagline = "increasingly interesting - and what happens if I create an extra long tag-line?"
-    customCSS = []  #Optional Customised CSS
-    disableDarkModeCSS = true # disables css style for users using dark-mode
