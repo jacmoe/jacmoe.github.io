@@ -3,8 +3,12 @@
   <channel>
     <title>Tags on Jacmoes Cyber Soapbox</title>
     <link>https://jacmoe.github.io/tags/</link>
-    <description>Recent content in Tags on Jacmoes Cyber Soapbox</description>
+    <description>Jacmoes Cyber Soapbox (Tags)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jacmoe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+    <atom:link href="https://jacmoe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
