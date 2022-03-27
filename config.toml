@@ -9,15 +9,10 @@ disqusShortname = "" #Disqus shortname
 googleAnalytics = "" #Google Analytics ID
 
 [author]
-    name = ""           #Author name
-    github = ""         #Github username
-    gitlab = ""         #Gitlab username
-    linkedin = ""       #LinkedIn username
-    facebook = ""       #Facebook username
-    twitter = ""        #Twitter username
-    instagram = ""      #Instagram username
-    stackoverflow = ""  #StackOverflow username
-    devto = ""          #Dev.to username
+    name = "Jacob Moena"           #Author name
+    github = "jacmoe"         #Github username
+    facebook = "jacmoe"       #Facebook username
+    twitter = "jacmoe"        #Twitter username
 
 [params]
     tagline = "increasingly interesting"
