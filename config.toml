@@ -34,3 +34,6 @@ url = 'https://github.com/jacmoe/'
 id = 'facebook'
 name = 'jacmoe'
 url = 'https://facebook.com/jacmoe/'
+
+[markup.goldmark.renderer]
+unsafe = true
