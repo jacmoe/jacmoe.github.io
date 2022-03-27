@@ -20,9 +20,17 @@ readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
 
-[social]
-
-[[social.github]]
-id = 'github'
+[[params.social]]
+id = 'twitter'
 name = 'jacmoe'
 url = 'https://twitter.com/jacmoe/'
+
+[[params.social]]
+id = 'github'
+name = 'jacmoe'
+url = 'https://github.com/jacmoe/'
+
+[[params.social]]
+id = 'facebook'
+name = 'jacmoe'
+url = 'https://facebook.com/jacmoe/'
