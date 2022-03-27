@@ -3,7 +3,6 @@
 
 <html lang="en-us" data-theme="">
 <head>
-	<meta name="generator" content="Hugo 0.96.0" />
     
         
 <meta charset="utf-8">
@@ -11,15 +10,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Jacmoes Cyber Soapbox</title>
+<title>Welcome to my new blog - Jacmoes Cyber Soapbox</title>
 
-<meta name="description" content="Increasingly interesting">
+<meta name="description" content="My old blog at Wordpress only has one single post in it.
+I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.
+That was good.
+I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.
+I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository.">
 
 
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://jacmoe.github.io/index.xml" title="Jacmoes Cyber Soapbox" />
 <link rel="icon" type="image/x-icon" href="https://jacmoe.github.io/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://jacmoe.github.io/favicon.png">
 
@@ -86,15 +88,25 @@
 
 
 
-<meta property="og:title" content="Jacmoes Cyber Soapbox" />
-<meta property="og:description" content="Increasingly interesting" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jacmoe.github.io/" />
+<meta property="og:title" content="Welcome to my new blog" />
+<meta property="og:description" content="My old blog at Wordpress only has one single post in it.
+I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.
+That was good.
+I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.
+I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jacmoe.github.io/posts/welcome-to-my-new-blog/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-28T00:00:00+02:00" />
+<meta property="article:modified_time" content="2022-03-28T00:00:00+02:00" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jacmoes Cyber Soapbox"/>
-<meta name="twitter:description" content="Increasingly interesting"/>
+<meta name="twitter:title" content="Welcome to my new blog"/>
+<meta name="twitter:description" content="My old blog at Wordpress only has one single post in it.
+I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.
+That was good.
+I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.
+I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository."/>
 
 
 
@@ -201,29 +213,38 @@
         </header>
         <main id="main" tabindex="-1"> 
             
-    <div class="homepage-content">
-        
-    </div>
-
-    <div class="articles h-feed">
-        
-        
-            <article class="post-list h-feed">
-    <div class="post-header">
-        <header>
-            <h1 class="p-name post-title"><a class="u-url" href="/posts/welcome-to-my-new-blog/">Welcome to my new blog</a></h1>
-        </header>
-        
-    </div>
-
     
-    
-        <div class="read-more">
-            <a class="u-url" href="/posts/welcome-to-my-new-blog/">Read more</a>
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">Welcome to my new blog</h1>
+
+                
+            </header>
         </div>
-    
-    
-    
+        <div class="content e-content">
+            <p><img src="/images/hugoblog.png" alt="">
+My <a href="https:/jacmoes.wordpress.com/">old blog</a> at Wordpress only has one single post in it.</p>
+<p>I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.</p>
+<p>That was good.</p>
+<p>I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.</p>
+<p>I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository. I don&rsquo;t want to deal with a website like Wordpress, to be honest.</p>
+<h2 id="hugo-and-emacs" >Hugo and Emacs
+<span>
+    <a href="#hugo-and-emacs">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>After hunting around, I stumbled over a good workflow using <a href="https://gohugo.io/">Hugo </a> and the excellent Emacs extension <code>ox-hugo</code>.
+All I have to do is write my blog posts in one org-file within Emacs, export to Hugo using the exporter, and let Hugo generate the output. Then I commit the changes to my git repository, pushes it to Github, and my homepage is updated.</p>
+<p>I don&rsquo;t have to mess around with anything, like I did in Wordpress.</p>
+<p>Since it&rsquo;s now going to be much easier to get a blog post up, I am sure I will actually blog a post or two now :)</p>
+<p>I have several ideas, and the good thing about it is, that I can have those posts in my org-file, as sub-trees, because the <a href="https://ox-hugo.scripter.co/">Emacs Hugo exporter</a> will only export the trees that are <code>DONE</code>, not the ones marked with <code>TODO</code>.</p>
+<p>It should be easy to blog, and I am most comfortable in Emacs. So, there&rsquo;s that :)</p>
+
+        </div>
+        
 
 
 <div class="post-info">
@@ -261,11 +282,27 @@
     </div>
 </div>
 
-</article>
+    </article>
+
+    
         
+        
+    
+
+    
         
 
-    </div>
+
+
+    
+
+    
+
+    
+
+    
+
+    
 
 
         </main>

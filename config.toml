@@ -12,13 +12,13 @@ name = 'Jacob Moena'
 [params]
 author = 'Jacob Moena'
 description = 'Increasingly interesting'
-dateFormat ='01-02-2022'
 paginationSinglePost = true
 style = 'auto-without-switcher'
-readMore = false
+readMore = true
 readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
+disableSummary = true
 
 [[params.social]]
 id = 'twitter'
