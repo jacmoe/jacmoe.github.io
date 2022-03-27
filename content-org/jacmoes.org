@@ -1,0 +1,7 @@
+#+hugo_base_dir: ..
+
+* My post
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-post
+:END:
+This gets created in ~<HUGO_BASE_DIR>/content/posts/~.

@@ -1,3 +1,24 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://jacmoe.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jacmoes Cyber Soapbox'
+theme = 'hugo-kiera'
+pygmentsCodeFences = true
+
+disqusShortname = "" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = ""           #Author name
+    github = ""         #Github username
+    gitlab = ""         #Gitlab username
+    linkedin = ""       #LinkedIn username
+    facebook = ""       #Facebook username
+    twitter = ""        #Twitter username
+    instagram = ""      #Instagram username
+    stackoverflow = ""  #StackOverflow username
+    devto = ""          #Dev.to username
+
+[params]
+    tagline = "increasingly interesting"
+    customCSS = []  #Optional Customised CSS
+    disableDarkModeCSS = true # disables css style for users using dark-mode
