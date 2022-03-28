@@ -18,7 +18,12 @@ readMore = true
 readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
-disableSummary = false
+disableSummary = true
+utterancesRepo = 'stuff'
+GiscusRepo = 'jacmoe.github.io'
+GiscusRepoId = 'R_kgDOHEtFBg'
+GiscusCategory = 'Announcements'
+GiscusCategoryId = 'DIC_kwDOHEtFBs4COT4Z'
 
 [[params.social]]
 id = 'twitter'

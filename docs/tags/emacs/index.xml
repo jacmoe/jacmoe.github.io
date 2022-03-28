@@ -22,7 +22,8 @@ My &lt;a href=&#34;https:/jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at W
 &lt;p&gt;I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.&lt;/p&gt;
 &lt;p&gt;That was good.&lt;/p&gt;
 &lt;p&gt;I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing blog posts.&lt;/p&gt;
-&lt;p&gt;I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to a git repository, and pushing it to a repository. I don&amp;rsquo;t want to deal with a website like WordPress, to be honest.&lt;/p&gt;
+&lt;p&gt;That was bad.&lt;/p&gt;
+&lt;p&gt;So, I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to git source control, and pushing it to a remote repository to be hosted. I don&amp;rsquo;t want to deal with a website like WordPress, to be honest.&lt;/p&gt;
 &lt;h2 id=&#34;hugo-and-emacs&#34; &gt;Hugo and Emacs
 &lt;span&gt;
     &lt;a href=&#34;#hugo-and-emacs&#34;&gt;

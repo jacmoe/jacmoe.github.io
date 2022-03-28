@@ -1,7 +1,6 @@
 +++
 title = "Welcome to my new blog"
 author = ["jacmoe"]
-summary = "My old blog at WordPress only has one single post in it. I wrote it using Org-mode in Emacs, and used an Emacs package to send it to WordPress. And that was good, but the bad thing was that I had to tweak a lot of HTML, obviously putting me off writing blog posts. But now things are changing!"
 date = 2022-03-28T00:00:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
@@ -18,7 +17,9 @@ That was good.
 
 I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing blog posts.
 
-I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to a git repository, and pushing it to a repository. I don't want to deal with a website like WordPress, to be honest.
+That was bad.
+
+So, I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to git source control, and pushing it to a remote repository to be hosted. I don't want to deal with a website like WordPress, to be honest.
 
 
 ## Hugo and Emacs {#hugo-and-emacs}
