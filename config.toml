@@ -18,7 +18,7 @@ readMore = true
 readNextPosts = 2
 copyCodeButton = true
 rssAsSocialIcon = true
-disableSummary = true
+disableSummary = false
 
 [[params.social]]
 id = 'twitter'
