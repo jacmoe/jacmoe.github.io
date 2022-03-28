@@ -8,6 +8,9 @@ draft = false
 featured_image = "/images/hugoblog.png"
 +++
 
+\#+begin_description
+My old blog at WordPress only has one single post in it. I wrote it using Org-mode in Emacs, and used an Emacs package to send it to WordPress. And that was good, but the bad thing was that I had to tweak a lot of HTML, obviously putting me off writing blog posts. But now things are changing!
+\#+end_description]]
 ![](/images/hugoblog.png)
 My [old blog](https:/jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
