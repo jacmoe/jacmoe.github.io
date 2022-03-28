@@ -15,7 +15,7 @@ I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress
 
 That was good.
 
-I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.
+I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing blog posts.
 
 I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to a git repository, and pushing it to a repository. I don't want to deal with a website like WordPress, to be honest.
 
