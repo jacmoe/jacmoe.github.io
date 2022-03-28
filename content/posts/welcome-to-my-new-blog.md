@@ -9,23 +9,23 @@ featured_image = "/images/hugoblog.png"
 +++
 
 ![](/images/hugoblog.png)
-My [old blog](https:/jacmoes.wordpress.com/) at Wordpress only has one single post in it.
+My [old blog](https:/jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
-I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.
+I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.
 
 That was good.
 
 I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.
 
-I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository. I don't want to deal with a website like Wordpress, to be honest.
+I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to a git repository, and pushing it to a repository. I don't want to deal with a website like WordPress, to be honest.
 
 
 ## Hugo and Emacs {#hugo-and-emacs}
 
 After hunting around, I stumbled over a good workflow using [Hugo ](https://gohugo.io/) and the excellent Emacs extension `ox-hugo`.
-All I have to do is write my blog posts in one org-file within Emacs, export to Hugo using the exporter, and let Hugo generate the output. Then I commit the changes to my git repository, pushes it to Github, and my homepage is updated.
+All I have to do is write my blog posts in one org-file within Emacs, export to Hugo using the exporter, and let Hugo generate the output. Then I commit the changes to my git repository, push it to GitHub, and my homepage is updated.
 
-I don't have to mess around with anything, like I did in Wordpress.
+I don't have to mess around with anything, like I did in WordPress.
 
 Since it's now going to be much easier to get a blog post up, I am sure I will actually blog a post or two now :)
 

@@ -31,6 +31,11 @@ name = 'jacmoe'
 url = 'https://github.com/jacmoe/'
 
 [[params.social]]
+id = 'reddit'
+name = 'jacmoe'
+url = 'https://www.reddit.com/user/jacmoe'
+
+[[params.social]]
 id = 'facebook'
 name = 'jacmoe'
 url = 'https://facebook.com/jacmoe/'

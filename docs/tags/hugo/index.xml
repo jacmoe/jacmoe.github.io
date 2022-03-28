@@ -18,11 +18,11 @@
       
       <guid>https://jacmoe.github.io/posts/welcome-to-my-new-blog/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://jacmoe.github.io/images/hugoblog.png&#34; alt=&#34;&#34;&gt;
-My &lt;a href=&#34;https:/jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at Wordpress only has one single post in it.&lt;/p&gt;
-&lt;p&gt;I wrote it using Org-mode in Emacs, and used an extension to put it on Wordpress.&lt;/p&gt;
+My &lt;a href=&#34;https:/jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at WordPress only has one single post in it.&lt;/p&gt;
+&lt;p&gt;I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.&lt;/p&gt;
 &lt;p&gt;That was good.&lt;/p&gt;
 &lt;p&gt;I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing a blog post.&lt;/p&gt;
-&lt;p&gt;I wanted something as easy as writing a blog post, committing the changes to a git repository, and pushing it to a repository. I don&amp;rsquo;t want to deal with a website like Wordpress, to be honest.&lt;/p&gt;
+&lt;p&gt;I wanted something as easy as writing a blog post in my favorite writing environment, committing the changes to a git repository, and pushing it to a repository. I don&amp;rsquo;t want to deal with a website like WordPress, to be honest.&lt;/p&gt;
 &lt;h2 id=&#34;hugo-and-emacs&#34; &gt;Hugo and Emacs
 &lt;span&gt;
     &lt;a href=&#34;#hugo-and-emacs&#34;&gt;
@@ -30,8 +30,8 @@ My &lt;a href=&#34;https:/jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at W
     &lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;&lt;p&gt;After hunting around, I stumbled over a good workflow using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo &lt;/a&gt; and the excellent Emacs extension &lt;code&gt;ox-hugo&lt;/code&gt;.
-All I have to do is write my blog posts in one org-file within Emacs, export to Hugo using the exporter, and let Hugo generate the output. Then I commit the changes to my git repository, pushes it to Github, and my homepage is updated.&lt;/p&gt;
-&lt;p&gt;I don&amp;rsquo;t have to mess around with anything, like I did in Wordpress.&lt;/p&gt;
+All I have to do is write my blog posts in one org-file within Emacs, export to Hugo using the exporter, and let Hugo generate the output. Then I commit the changes to my git repository, push it to GitHub, and my homepage is updated.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t have to mess around with anything, like I did in WordPress.&lt;/p&gt;
 &lt;p&gt;Since it&amp;rsquo;s now going to be much easier to get a blog post up, I am sure I will actually blog a post or two now :)&lt;/p&gt;
 &lt;p&gt;I have several ideas, and the good thing about it is, that I can have those posts in my org-file, as sub-trees, because the &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;Emacs Hugo exporter&lt;/a&gt; will only export the trees that are &lt;code&gt;DONE&lt;/code&gt;, not the ones marked with &lt;code&gt;TODO&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;It should be easy to blog, and I am most comfortable in Emacs. So, there&amp;rsquo;s that :)&lt;/p&gt;
