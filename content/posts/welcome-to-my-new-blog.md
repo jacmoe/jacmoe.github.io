@@ -1,7 +1,7 @@
 +++
 title = "Welcome to my new blog"
 author = ["jacmoe"]
-date = 2022-03-28T00:00:00+02:00
+date = 2022-03-29T00:00:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
 draft = false
@@ -9,7 +9,7 @@ featured_image = "/images/hugoblog.png"
 +++
 
 ![](/images/hugoblog.png)
-My [old blog](https:/jacmoes.wordpress.com/) at WordPress only has one single post in it.
+My [old blog](https://jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
 I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.
 

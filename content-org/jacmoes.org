@@ -2,7 +2,7 @@
 #+hugo_front_matter_key_replace: description>summary
 
 * DONE Welcome to my new blog :@announcement:hugo:emacs:blog:
-CLOSED: [2022-03-28 Mon]
+CLOSED: [2022-03-29 Tue]
 :PROPERTIES:
 :EXPORT_FILE_NAME: welcome-to-my-new-blog
 :export_hugo_custom_front_matter: :featured_image /images/hugoblog.png
