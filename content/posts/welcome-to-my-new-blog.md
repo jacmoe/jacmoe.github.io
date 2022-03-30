@@ -1,6 +1,7 @@
 +++
 title = "Welcome to my new blog"
 author = ["jacmoe"]
+description = "I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future."
 date = 2022-03-29T00:00:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]

@@ -1,5 +1,4 @@
 #+hugo_base_dir: ..
-#+hugo_front_matter_key_replace: description>summary
 
 * DONE Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue]
@@ -7,6 +6,9 @@ CLOSED: [2022-03-29 Tue]
 :EXPORT_FILE_NAME: welcome-to-my-new-blog
 :export_hugo_custom_front_matter: :featured_image /images/hugoblog.png
 :END:
+#+begin_description
+I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
+#+end_description
 [[/images/hugoblog.png]]
 My [[https://jacmoes.wordpress.com/][old blog]] at WordPress only has one single post in it.
 
