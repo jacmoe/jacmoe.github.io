@@ -1,7 +1,7 @@
 #+hugo_base_dir: ..
 
-* DONE Welcome to my new blog :@announcement:hugo:emacs:blog:
-CLOSED: [2022-03-29 Tue]
+* done Welcome to my new blog :@announcement:hugo:emacs:blog:
+CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: welcome-to-my-new-blog
 :export_hugo_custom_front_matter: :featured_image /images/hugoblog.png
