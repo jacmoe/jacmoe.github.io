@@ -34,4 +34,25 @@ I have several ideas, and the good thing about it is, that I can have those post
 
 It should be easy to blog, and I am most comfortable in Emacs. So, there's that :)
 
-#  LocalWords:  hugo dir TODO
+* todo Creatively Writing Longhand
+:PROPERTIES:
+:EXPORT_FILE_NAME: creatively-writing-longhand
+:END:
+#+begin_description
+#+end_description
+
+* todo Creatively Writing Shorthand
+:PROPERTIES:
+:EXPORT_FILE_NAME: creatively-writing-shorthand
+:END:
+#+begin_description
+#+end_description
+
+* todo I Am Autistic
+:PROPERTIES:
+:EXPORT_FILE_NAME: i-am-autistic
+:END:
+#+begin_description
+#+end_description
+
+#  LocalWords:  hugo dir TODO todo
