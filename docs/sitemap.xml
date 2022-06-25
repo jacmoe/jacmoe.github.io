@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jacmoe.github.io/posts/creatively-writing-longhand/</loc>
-    <lastmod>2022-05-23T19:15:00+02:00</lastmod>
-  </url><url>
-    <loc>https://jacmoe.github.io/</loc>
-    <lastmod>2022-05-23T19:15:00+02:00</lastmod>
-  </url><url>
-    <loc>https://jacmoe.github.io/posts/</loc>
-    <lastmod>2022-05-23T19:15:00+02:00</lastmod>
-  </url><url>
     <loc>https://jacmoe.github.io/categories/announcement/</loc>
     <lastmod>2022-03-29T00:50:00+02:00</lastmod>
   </url><url>
@@ -24,6 +15,12 @@
     <lastmod>2022-03-29T00:50:00+02:00</lastmod>
   </url><url>
     <loc>https://jacmoe.github.io/tags/hugo/</loc>
+    <lastmod>2022-03-29T00:50:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/</loc>
+    <lastmod>2022-03-29T00:50:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/posts/</loc>
     <lastmod>2022-03-29T00:50:00+02:00</lastmod>
   </url><url>
     <loc>https://jacmoe.github.io/tags/</loc>

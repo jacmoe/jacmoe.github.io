@@ -1,2 +1,2 @@
 #! /bin/bash
-hugo -t anubis
+snap run hugo -t anubis

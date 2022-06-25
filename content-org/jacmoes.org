@@ -1,7 +1,6 @@
 #+hugo_base_dir: ..
 
-* done Creatively Writing Longhand
-CLOSED: [2022-05-23 Mon 19:15]
+* todo Creatively Writing Longhand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
 :END:
