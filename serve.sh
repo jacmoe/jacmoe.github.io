@@ -1,2 +1,2 @@
 #! /bin/bash
-hugo serve -t anubis
+snap run hugo serve --disableFastRender -t anubis
