@@ -1,6 +1,6 @@
 #+hugo_base_dir: ..
 
-* todo Creatively Writing Longhand
+* draft Creatively Writing Longhand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
 :END:
@@ -67,14 +67,14 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
 
 # longhand/Palmer_Method_alphabet.jpg http://jacmoes.files.wordpress.com/2020/01/palmer_method_alphabet.jpg
 
-* todo Creatively Writing Shorthand
+* draft Creatively Writing Shorthand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-shorthand
 :END:
 #+begin_description
 #+end_description
 
-* todo I Am Autistic
+* draft I Am Autistic
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-am-autistic
 :END:
