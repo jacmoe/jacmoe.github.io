@@ -81,7 +81,8 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
 #+begin_description
 #+end_description
 
-#  LocalWords:  hugo dir TODO todo
+#  LocalWords:  hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian
+#  LocalWords:  IAMPETH
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
