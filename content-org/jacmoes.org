@@ -1,5 +1,16 @@
 #+hugo_base_dir: ..
-* draft Emacs - my Hotel California of writing
+* draft When rodents ate my internet connection
+:PROPERTIES:
+:EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
+:END:
+#+begin_description
+#+end_description
+* draft Emacs - my Hotel California of creative writing
+:PROPERTIES:
+:EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
+:END:
+#+begin_description
+#+end_description
 * draft Creatively Writing Longhand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
