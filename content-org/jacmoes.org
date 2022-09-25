@@ -1,5 +1,5 @@
 #+hugo_base_dir: ..
-
+* draft Emacs - my Hotel California of writing
 * draft Creatively Writing Longhand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
