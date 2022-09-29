@@ -3,18 +3,13 @@
   <channel>
     <title>Categories on Jacmoes Cyber Soapbox</title>
     <link>https://jacmoe.github.io/categories/</link>
-    <description>Recent content in Categories on Jacmoes Cyber Soapbox</description>
+    <description>Jacmoes Cyber Soapbox (Categories)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Mar 2022 00:50:00 +0200</lastBuildDate><atom:link href="https://jacmoe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>announcement</title>
-      <link>https://jacmoe.github.io/categories/announcement/</link>
-      <pubDate>Tue, 29 Mar 2022 00:50:00 +0200</pubDate>
-      
-      <guid>https://jacmoe.github.io/categories/announcement/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 29 Mar 2022 00:50:00 +0200</lastBuildDate>
+    
+    <atom:link href="https://jacmoe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
