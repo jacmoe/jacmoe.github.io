@@ -1,2 +1,2 @@
 #! /bin/bash
-rm -rf docs && snap run hugo -t anubis
+rm -rf docs && hugo -t anubis

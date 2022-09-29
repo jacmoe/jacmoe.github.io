@@ -1,2 +1,2 @@
 #! /bin/bash
-rm -rf docs && snap run hugo serve --disableFastRender -t anubis
+rm -rf docs && hugo serve --disableFastRender -t anubis
