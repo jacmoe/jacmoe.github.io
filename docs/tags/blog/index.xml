@@ -17,8 +17,13 @@
       <pubDate>Tue, 29 Mar 2022 00:50:00 +0200</pubDate>
       
       <guid>https://jacmoe.github.io/posts/welcome-to-my-new-blog/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jacmoe.github.io/images/hugoblog.png&#34; alt=&#34;&#34;&gt;
-My &lt;a href=&#34;https://jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at WordPress only has one single post in it.&lt;/p&gt;
+      <description>&lt;figure&gt;&lt;img src=&#34;https://jacmoe.github.io/images/hugoblog.png&#34;
+         alt=&#34;My new Emacs Hugo powered blog&#34; width=&#34;100%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;My new Emacs Hugo powered blog&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My &lt;a href=&#34;https://jacmoes.wordpress.com/&#34;&gt;old blog&lt;/a&gt; at WordPress only has one single post in it.&lt;/p&gt;
 &lt;p&gt;I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.&lt;/p&gt;
 &lt;p&gt;That was good.&lt;/p&gt;
 &lt;p&gt;I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing blog posts.&lt;/p&gt;

@@ -9,7 +9,8 @@ draft = false
 featured_image = "/images/hugoblog.png"
 +++
 
-![](/images/hugoblog.png)
+{{< figure src="/images/hugoblog.png" alt="My new Emacs Hugo powered blog" title="My new Emacs Hugo powered blog" width="100%" >}}
+
 My [old blog](https://jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
 I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.
