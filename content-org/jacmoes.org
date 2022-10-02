@@ -1,4 +1,7 @@
 #+hugo_base_dir: ..
+#+bibliography: ~/Dropbox/skriv/jacmoe.bib
+#+cite_export: csl
+
 * draft When rodents ate my internet connection
 :PROPERTIES:
 :EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
@@ -18,19 +21,19 @@
 #+begin_description
 #+end_description
 ** Preface
-Two years ago I wanted to start writing by hand.  I quickly realized, however, that I couldn't do it.  My handwriting was inefficient, inconsistent and unreadable.  My hand cramped up and I could not write for more than fifteen minutes at a time.
-    I have written journals by hand all my life, but with the advent of the computer I stopped writing in longhand.  And I forgot how to do it.  Since I wanted to go back to do creative writing by hand, I knew that I had to do something.
+Two years ago I wanted to start writing by hand. I quickly realized, however, that I couldn't do it. My handwriting was inefficient, inconsistent and unreadable. My hand cramped up and I could not write for more than fifteen minutes at a time.
+  I have written journals by hand all my life, but with the advent of the computer I stopped writing in longhand. And I forgot how to do it. Since I wanted to go back to do creative writing by hand, I knew that I had to do something.
 [[file:longhand/Palmer_Method_alphabet.jpg]]
 
 ** Notes
 *** Benefits of writing
 **** Increases learning comprehension
- Putting ink on paper stimulates a part of the brain called the Reticular Activating System, or the RAS.  It works by giving more importance to the things you are actively focusing on.
+ Putting ink on paper stimulates a part of the brain called the Reticular Activating System, or the RAS. It works by giving more importance to the things you are actively focusing on.
 
  A [[https://www.wsj.com/articles/SB10001424052748704631504575531932754922518][study from 2010]]
 
 **** Fully engages your brain
- Writing requires that you use more of your motor skills.  Reading circuit.  Activates more parts of your brain than typing.
+ Writing requires that you use more of your motor skills. Reading circuit. Activates more parts of your brain than typing.
 
 **** Calms the body and nerves
 
@@ -47,9 +50,9 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
 **** Makes you a better writer
 
 *** Spencerian script
- Spencerian Script is a script styled developed by Platt Rogers Spencer in 1840.  His script was based on already existing scripts, inspired by the shapes found in nature, resulting in a unique oval-based penmanship style that could be written very quickly and legibly.  For the first time you didn't have to lift your pen
+ Spencerian Script is a script styled developed by Platt Rogers Spencer in 1840. His script was based on already existing scripts, inspired by the shapes found in nature, resulting in a unique oval-based penmanship style that could be written very quickly and legibly. For the first time you didn't have to lift your pen
 
- From 1850 to 1925, Spencerian Script was the de facto writing style for business correspondence in the United States of America.  It was the first longhand where you didn't have to lift your hand in the middle of words and was both rapid and highly legible.  In the 1920's the growing popularity of the typewriter rendered it obsolete as the primary means of written communication in business.
+ From 1850 to 1925, Spencerian Script was the de facto writing style for business correspondence in the United States of America. It was the first longhand where you didn't have to lift your hand in the middle of words and was both rapid and highly legible. In the 1920s the growing popularity of the typewriter rendered it obsolete as the primary means of written communication in business.
 
 **** Variants
 ***** Spencerian Standard Hand
@@ -65,7 +68,7 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
 
 *** Resources
 **** Guideline generator
- This [[https://shipbrook.net/guidelines/][guideline generator]] can generate PDF guidelines especially for Spencerian writing.  I usually set all the lines to  "Non-photo blue" and print out a bunch to practice on.
+ This [[https://shipbrook.net/guidelines/][guideline generator]] can generate PDF guidelines especially for Spencerian writing. I usually set all the lines to "Non-photo blue" and print out a bunch to practice on.
 
 **** New Spencerian Compendium
  You can get the [[https://www.iampeth.com/pdf/new-spencerian-compendium/][New Spencerian Compendium]] from the IAMPETH (International Association of Master Penmen) website. That site also have a wealth of resources, so be sure to explore.
@@ -77,6 +80,9 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
  There is a website dedicated to the Palmer method of business writing: [[https://palmermethod.com/]] where you can find a series of self-teaching lessons.
 
 # longhand/Palmer_Method_alphabet.jpg http://jacmoes.files.wordpress.com/2020/01/palmer_method_alphabet.jpg
+
+#+print_bibliography:
+
 
 * draft Creatively Writing Shorthand
 :PROPERTIES:
@@ -92,8 +98,8 @@ Two years ago I wanted to start writing by hand.  I quickly realized, however, t
 #+begin_description
 #+end_description
 
-#  LocalWords:  hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian
-#  LocalWords:  IAMPETH
+# LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian
+# LocalWords: IAMPETH
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
