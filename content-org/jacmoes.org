@@ -2,12 +2,36 @@
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
 
-* draft Emacs - my Hotel California of creative writing
+* draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
 :END:
 #+begin_description
 #+end_description
+** Introduction
+** Emacs
+*** Doom-Emacs
+** Org-mode
+*** Official format
+*** It’s an out-liner
+*** Organizer
+*** Extendable
+*** One hundred percent pure text
+** Boon
+** Dictionaries et cetera
+** Tracking writing progress
+*** Track-Table
+*** Clocking time
+** Saving the work
+** Exporting
+*** HTML to E-book
+*** PDF via LaTeX
+*** Open Document Format
+** Org-roam
+** Other things
+*** Blogging
+*** Journaling
+** Conclusion
 * draft Creatively Writing Longhand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
