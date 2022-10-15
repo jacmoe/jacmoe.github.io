@@ -2,12 +2,6 @@
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
 
-* draft When rodents ate my internet connection
-:PROPERTIES:
-:EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
-:END:
-#+begin_description
-#+end_description
 * draft Emacs - my Hotel California of creative writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
@@ -83,7 +77,6 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 
 #+print_bibliography:
 
-
 * draft Creatively Writing Shorthand
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-shorthand
@@ -91,6 +84,12 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 #+begin_description
 #+end_description
 
+* draft When rodents ate my internet connection
+:PROPERTIES:
+:EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
+:END:
+#+begin_description
+#+end_description
 * draft I Am Autistic
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-am-autistic
