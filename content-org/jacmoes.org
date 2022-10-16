@@ -28,6 +28,7 @@ Your browser does not support the video tag.
 ** Tracking progress
 *** Track-table
 *** Clocking time
+** Saving the work
 ** Exporting
 *** HTML
 *** PDF
@@ -94,4 +95,3 @@ Since it's now going to be much easier to get a blog post up, I am sure I will a
 I have several ideas, and the good thing about it is, that I can have those posts in my org-file, as sub-trees, because the [[https://ox-hugo.scripter.co/][Emacs Hugo exporter]] will only export the trees that are =DONE=, not the ones marked with =TODO=.
 
 It should be easy to blog, and I am most comfortable in Emacs. So, there's that :)
-
