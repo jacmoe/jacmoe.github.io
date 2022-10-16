@@ -9,14 +9,16 @@
 #+begin_description
 #+end_description
 ** Introduction
+#+attr_html: :alt Emacs - my Hotel California blog :title Emacs - my Hotel California :width 100%
+[[/images/hotel-california/hotel-california.png]]
 ** Emacs
 *** Doom-Emacs
 ** Org-mode
 *** Official format
 *** Outliner
-#+attr_html: :width 100% :controls t
+#+attr_html: :alt Org-mode is an outliner :title Org-mode is an outliner :width 80% :controls t
 #+begin_video
-<source src="/videos/outliner.mp4" type="video/mp4">
+<source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
 Your browser does not support the video tag.
 #+end_video
 
@@ -25,6 +27,12 @@ Your browser does not support the video tag.
 *** One hundred percent pure text
 ** Boon
 ** Dictionaries et cetera
+*** Dictionary server
+*** Webster
+*** Proselint
+#+attr_html: :alt Proselint has checked the text and is not satisfied :title Proselint has checked the text and is not satisfied :width 100%
+[[/images/hotel-california/proselint.png]]
+*** Typopunct
 ** Tracking progress
 *** Track-table
 *** Clocking time

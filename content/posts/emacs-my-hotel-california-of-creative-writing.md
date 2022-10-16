@@ -8,6 +8,8 @@ draft = true
 
 ## Introduction {#introduction}
 
+{{< figure src="/images/hotel-california/hotel-california.png" alt="Emacs - my Hotel California blog" title="Emacs - my Hotel California" width="100%" >}}
+
 
 ## Emacs {#emacs}
 
@@ -23,7 +25,7 @@ draft = true
 
 ### Outliner {#outliner}
 
-<video width="100%" controls><source src="/videos/outliner.mp4" type="video/mp4">
+<video alt="Org-mode is an outliner" title="Org-mode is an outliner" width="80%" controls><source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
 Your browser does not support the video tag.</video>
 
 
@@ -42,6 +44,20 @@ Your browser does not support the video tag.</video>
 ## Dictionaries et cetera {#dictionaries-et-cetera}
 
 
+### Dictionary server {#dictionary-server}
+
+
+### Webster {#webster}
+
+
+### Proselint {#proselint}
+
+{{< figure src="/images/hotel-california/proselint.png" alt="Proselint has checked the text and is not satisfied" title="Proselint has checked the text and is not satisfied" width="100%" >}}
+
+
+### Typopunct {#typopunct}
+
+
 ## Tracking progress {#tracking-progress}
 
 
@@ -49,6 +65,9 @@ Your browser does not support the video tag.</video>
 
 
 ### Clocking time {#clocking-time}
+
+
+## Saving the work {#saving-the-work}
 
 
 ## Exporting {#exporting}
