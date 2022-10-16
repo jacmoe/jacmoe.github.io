@@ -21,7 +21,10 @@ draft = true
 ### Official format {#official-format}
 
 
-### It’s an out-liner {#it-s-an-out-liner}
+### Outliner {#outliner}
+
+<video width="100%" controls><source src="/videos/outliner.mp4" type="video/mp4">
+Your browser does not support the video tag.</video>
 
 
 ### Organizer {#organizer}
@@ -39,25 +42,22 @@ draft = true
 ## Dictionaries et cetera {#dictionaries-et-cetera}
 
 
-## Tracking writing progress {#tracking-writing-progress}
+## Tracking progress {#tracking-progress}
 
 
-### Track-Table {#track-table}
+### Track-table {#track-table}
 
 
 ### Clocking time {#clocking-time}
 
 
-## Saving the work {#saving-the-work}
-
-
 ## Exporting {#exporting}
 
 
-### HTML to E-book {#html-to-e-book}
+### HTML {#html}
 
 
-### PDF via LaTeX {#pdf-via-latex}
+### PDF {#pdf}
 
 
 ### Open Document Format {#open-document-format}
