@@ -32,6 +32,7 @@ Your browser does not support the video tag.
 #+attr_html: :alt Proselint has checked the text and is not satisfied :title Proselint has checked the text and is not satisfied :width 100%
 [[/images/hotel-california/proselint.png]]
 *** Typopunct
+*** Writegood-mode
 ** Tracking progress
 *** Track-table
 *** Clocking time
