@@ -50,6 +50,9 @@ Your browser does not support the video tag.</video>
 ### Webster {#webster}
 
 
+### Powerthesaurus {#powerthesaurus}
+
+
 ### Proselint {#proselint}
 
 {{< figure src="/images/hotel-california/proselint.png" alt="Proselint has checked the text and is not satisfied" title="Proselint has checked the text and is not satisfied" width="100%" >}}
@@ -67,22 +70,35 @@ Your browser does not support the video tag.</video>
 ### Clocking time {#clocking-time}
 
 
+### Words per heading {#words-per-heading}
+
+Using `org-wc`.
+
+{{< figure src="/images/hotel-california/org-wc.png" alt="Running M-x org-wc-display shows word count per heading" title="Running M-x org-wc-display shows word count per heading" width="100%" >}}
+
+
 ## Saving the work {#saving-the-work}
+
+
+### Magit {#magit}
 
 
 ## Exporting {#exporting}
 
 
-### HTML {#html}
+### HTML to E-book {#html-to-e-book}
 
 
-### PDF {#pdf}
+### PDF via LaTeX {#pdf-via-latex}
 
 
 ### Open Document Format {#open-document-format}
 
 
 ## Org-roam {#org-roam}
+
+
+### Org-roam UI {#org-roam-ui}
 
 
 ## Other things {#other-things}
@@ -94,4 +110,12 @@ Your browser does not support the video tag.</video>
 ### Journaling {#journaling}
 
 
+### Bibliography {#bibliography}
+
+
+### Snippets {#snippets}
+
+
 ## Conclusion {#conclusion}
+
+Write the conclusion here
