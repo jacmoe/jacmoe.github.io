@@ -36,10 +36,15 @@ Your browser does not support the video tag.
 ** Tracking progress
 *** Track-table
 *** Clocking time
+*** Org-habit streak count
 *** Words per heading
 Using =org-wc=.
 #+attr_html: :alt Running M-x org-wc-display shows word count per heading :title Running M-x org-wc-display shows word count per heading :width 100%
 [[/images/hotel-california/org-wc.png]]
+** Organize the writing
+*** Master outline
+*** Column view
+*** Capturing thoughts
 ** Saving the work
 *** Magit
 ** Exporting
@@ -49,8 +54,8 @@ Using =org-wc=.
 ** Org-roam
 *** Org-roam UI
 ** Other things
-*** Blogging
 *** Journaling
+*** Blogging
 *** Bibliography
 *** Snippets
 ** Conclusion
