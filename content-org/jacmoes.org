@@ -1,3 +1,4 @@
+#+STARTUP: fold
 #+hugo_base_dir: ..
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
@@ -33,8 +34,9 @@ Your browser does not support the video tag.
 *** Proselint
 #+attr_html: :alt Proselint has checked the text and is not satisfied :title Proselint has checked the text and is not satisfied :width 100%
 [[/images/hotel-california/proselint.png]]
-*** Typopunct
 *** Writegood-mode
+*** Typopunct
+*** Special characters
 ** Tracking progress
 *** Track-table
 *** Clocking time
@@ -63,7 +65,7 @@ Using =org-wc=.
 ** Conclusion
    Write the conclusion here
 
-* draft Creatively Writing Longhand
+* draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
 :END:
@@ -131,20 +133,20 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 
 #+print_bibliography:
 
-* draft Creatively Writing Shorthand
+* draft Creatively Writing Shorthand :@post:writing:shorthand:
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-shorthand
 :END:
 #+begin_description
 #+end_description
 
-* draft When rodents ate my internet connection
+* draft When rodents ate my internet connection :@post:creativity:
 :PROPERTIES:
 :EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
 :END:
 #+begin_description
 #+end_description
-* draft I Am Autistic
+* draft I Am Autistic :@post:autism:
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-am-autistic
 :END:
