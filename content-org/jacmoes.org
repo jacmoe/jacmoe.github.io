@@ -13,6 +13,7 @@
 ** Emacs
 I can make Emacs fit my workflow rather than the other way around.
 *** Doom-Emacs
+[[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalistic modern Emacs distribution that is light and fast.
 ** Org-mode
 *** Official format
 *** Outliner
