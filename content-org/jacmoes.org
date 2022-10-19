@@ -17,11 +17,11 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
 ** Emacs
 I can make Emacs fit my workflow rather than the other way around.
 *** Doom-Emacs
-[[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalistic modern Emacs distribution that is light and fast.
+[[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
 ** Org-mode
 *** Official format
-*** Outliner
-#+attr_html: :alt Org-mode is an outliner :title Org-mode is an outliner :width 80% :controls t
+*** Out-liner
+#+attr_html: :alt Org-mode is an out-liner :title Org-mode is an out-liner :width 80% :controls t
 #+begin_video
 <source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -38,12 +38,21 @@ Your browser does not support the video tag.
 #+attr_html: :alt Proselint has checked the text and is not satisfied :title Proselint has checked the text and is not satisfied :width 100%
 [[/images/hotel-california/proselint.png]]
 *** Writegood-mode
+~Writegood-mode~ is a minor mode which can be turned on/off by running ~M-x writegood-mode~.
+This mode will improve various aspects of writing. The text is searched and words are highlighted. Another benefit is the the finding of duplicates. Many duplicate words can even be found at the the end of sentences where line-breaks occur.
+#+attr_html: :alt Writegood-mode :title Writegood-mode :width 100%
+[[/images/hotel-california/writegood-mode.png]]
+The weasel words are highlighted in orange, passive voice indicated by cyan, and duplicate words by red squiggly lines.
+
+Additional weasel words can be added to writegood-mode by editing the ~my/weasel-words~ list in ~config.el~ in the Doom user directory.
 *** Typopunct
 ~Typopunct~ is a package that enables us to simply write regular ASCII single and double quotes and have them automatically be converted into typographical quotes.
 
-For example, typing 'quoted' will result in ‘quoted’, and "double-quoted" will result in “double-quoted”.
+For example, typing ~'quoted'~ will result in ‘quoted’, and ~"double-quoted"~ will result in “double-quoted”.
 
-If we want to actually write a regular ASCII single or double quote, we need to use ~quoted-insert~, which is bound to ~C-q~, like this: ~C-q "~ to insert an ASCII ".
+If we want to actually write a regular ASCII single or double quote, we need to use ~quoted-insert~, which is bound to ~C-q~, like this: ~C-q "~ to insert an ASCII ~"~.
+
+/Note: some exporters, like the Hugo exporter, will automatically convert regular ASCII quotes to typographical quotes, unless you wrap them in code tags (~)/.
 
 Additionally, ~typopunct~ also allows us to insert ~en-dash~ and ~em-dash~ by typing  ~--~ for – and ~---~ for —.
 *** Special characters
@@ -90,6 +99,8 @@ Emacs will ask you for the file on disk, and then open a diff buffer where you c
 *** Snippets
 ** Conclusion
    Write the conclusion here
+
+#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit
 
 * draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:
@@ -180,7 +191,7 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 #+end_description
 
 # LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian
-# LocalWords: IAMPETH
+# LocalWords: IAMPETH Writegood writegood Typopunct typopunct
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:

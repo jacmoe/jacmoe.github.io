@@ -20,7 +20,7 @@ I can make Emacs fit my workflow rather than the other way around.
 
 ### Doom-Emacs {#doom-emacs}
 
-[Doom-Emacs](https://github.com/hlissner/doom-emacs) is a minimalistic modern Emacs distribution that is light and fast.
+[Doom-Emacs](https://github.com/hlissner/doom-emacs) is a minimalist modern Emacs distribution that is light and fast.
 
 
 ## Org-mode {#org-mode}
@@ -29,9 +29,9 @@ I can make Emacs fit my workflow rather than the other way around.
 ### Official format {#official-format}
 
 
-### Outliner {#outliner}
+### Out-liner {#out-liner}
 
-<video alt="Org-mode is an outliner" title="Org-mode is an outliner" width="80%" controls><source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
+<video alt="Org-mode is an out-liner" title="Org-mode is an out-liner" width="80%" controls><source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
 Your browser does not support the video tag.</video>
 
 
@@ -66,8 +66,30 @@ Your browser does not support the video tag.</video>
 
 ### Writegood-mode {#writegood-mode}
 
+`Writegood-mode` is a minor mode which can be turned on/off by running `M-x writegood-mode`.
+This mode will improve various aspects of writing. The text is searched and words are highlighted. Another benefit is the the finding of duplicates. Many duplicate words can even be found at the the end of sentences where line-breaks occur.
+
+<div title="Writegood-mode">
+
+<img src="/images/hotel-california/writegood-mode.png" alt="Writegood-mode" title="Writegood-mode" width="100%" />
+The weasel words are highlighted in orange, passive voice indicated by cyan, and duplicate words by red squiggly lines.
+
+</div>
+
+Additional weasel words can be added to writegood-mode by editing the `my/weasel-words` list in `config.el` in the Doom user directory.
+
 
 ### Typopunct {#typopunct}
+
+`Typopunct` is a package that enables us to simply write regular ASCII single and double quotes and have them automatically be converted into typographical quotes.
+
+For example, typing `'quoted'` will result in ‘quoted’, and `"double-quoted"` will result in “double-quoted”.
+
+If we want to actually write a regular ASCII single or double quote, we need to use `quoted-insert`, which is bound to `C-q`, like this: `C-q "` to insert an ASCII `"`.
+
+_Note: some exporters, like the Hugo exporter, will automatically convert regular ASCII quotes to typographical quotes, unless you wrap them in code tags (~)_.
+
+Additionally, `typopunct` also allows us to insert `en-dash` and `em-dash` by typing  `--` for – and `---` for —.
 
 
 ### Special characters {#special-characters}
