@@ -1,10 +1,9 @@
 +++
 title = "Emacs - my Hotel California of creative writing"
 author = ["Jacob Moena"]
-date = 2022-10-19T18:32:00+02:00
 tags = ["emacs", "org-mode", "writing"]
 categories = ["post"]
-draft = false
+draft = true
 +++
 
 ## Introduction {#introduction}
