@@ -9,10 +9,10 @@
 #+begin_description
 #+end_description
 ** Introduction
-#+attr_html: :alt Emacs - my Hotel California blog :title Emacs - my Hotel California :width 100%
+#+attr_html: :alt Emacs - my Hotel California :title Emacs - my Hotel California :width 100%
 [[/images/hotel-california/hotel-california.png]]
 
-
+This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there---in my mind---is nothing out there that compares to it.
 
 ** Emacs
 I can make Emacs fit my workflow rather than the other way around.
