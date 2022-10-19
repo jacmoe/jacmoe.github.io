@@ -39,6 +39,13 @@ Your browser does not support the video tag.
 [[/images/hotel-california/proselint.png]]
 *** Writegood-mode
 *** Typopunct
+~Typopunct~ is a package that enables us to simply write regular ASCII single and double quotes and have them automatically be converted into typographical quotes.
+
+For example, typing 'quoted' will result in ‘quoted’, and "double-quoted" will result in “double-quoted”.
+
+If we want to actually write a regular ASCII single or double quote, we need to use ~quoted-insert~, which is bound to ~C-q~, like this: ~C-q "~ to insert an ASCII ".
+
+Additionally, ~typopunct~ also allows us to insert ~en-dash~ and ~em-dash~ by typing  ~--~ for – and ~---~ for —.
 *** Special characters
 ** Tracking progress
 *** Track-table
