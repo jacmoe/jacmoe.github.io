@@ -12,7 +12,7 @@
 #+attr_html: :alt Emacs - my Hotel California :title Emacs - my Hotel California :width 100%
 [[/images/hotel-california/hotel-california.png]]
 
-This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there---in my mind---is nothing out there that compares to it.
+This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
 ** Emacs
 I can make Emacs fit my workflow rather than the other way around.
@@ -55,10 +55,25 @@ Using ~org-wc~.
 ** Capturing thoughts
 ** Saving the work
 *** Magit
+*** Unsaved changes
+Sometimes you want to know what changes you have made to a buffer since your last save. Since you haven’t saved the file yet, Magit can’t help you, so you need something else. Fortunately, we can use Emacs’ ~diff-buffer-with-file~, mapped to ~C-d~.
+#+attr_html: :alt Using diff to see the difference between buffer and file :title Using diff to see the difference between buffer and file :width 100%
+[[/images/hotel-california/diff.png]]
+
+
+Emacs will ask you for the file on disk, and then open a diff buffer where you can examine the differences. Use ~x o~ (o for ‘other’) to go to the diff buffer, if you’re not already in it. Using movement commands, like ~i o k l~, etc. And then, when done, close the buffer by pressing ~x 0~ (zero), or ~x 1~ if you’re not in the diff buffer.
 ** Exporting
 *** HTML to E-book
 *** PDF via LaTeX
 *** Open Document Format
+** Looking good and being comfortable
+*** Themes and fonts
+*** Zen-mode and transparency
+#+attr_html: :alt Zen-mode with transparency turned on :title Zen-mode with transparency turned on :width 100%
+[[/images/hotel-california/zen-mode.png]]
+
+
+*** Scroll-center-cursor-mode
 ** Org-roam
 *** Org-roam UI
 ** Other things

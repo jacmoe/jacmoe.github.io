@@ -1,6 +1,8 @@
 +++
 title = "Creatively Writing Longhand"
 author = ["Jacob Moena"]
+tags = ["writing", "longhand"]
+categories = ["post"]
 draft = true
 +++
 
