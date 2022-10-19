@@ -11,6 +11,9 @@
 ** Introduction
 #+attr_html: :alt Emacs - my Hotel California blog :title Emacs - my Hotel California :width 100%
 [[/images/hotel-california/hotel-california.png]]
+
+
+
 ** Emacs
 I can make Emacs fit my workflow rather than the other way around.
 *** Doom-Emacs
