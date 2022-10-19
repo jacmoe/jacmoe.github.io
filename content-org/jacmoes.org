@@ -49,10 +49,10 @@ Using ~org-wc~.
 
 #+attr_html: :alt Running M-x org-wc-display shows word count per heading :title Running M-x org-wc-display shows word count per heading :width 100%
 [[/images/hotel-california/org-wc.png]]
+*** Column view
 ** Organize the writing
 *** Master outline
-*** Column view
-*** Capturing thoughts
+** Capturing thoughts
 ** Saving the work
 *** Magit
 ** Exporting
