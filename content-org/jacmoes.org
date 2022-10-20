@@ -38,11 +38,10 @@ Your browser does not support the video tag.
 #+attr_html: :alt Proselint has checked the text and is not satisfied :title Proselint has checked the text and is not satisfied :width 100%
 [[/images/hotel-california/proselint.png]]
 *** Writegood-mode
-~Writegood-mode~ is a minor mode which can be turned on/off by running ~M-x writegood-mode~.
-This mode will improve various aspects of writing. The text is searched and words are highlighted. Another benefit is the the finding of duplicates. Many duplicate words can even be found at the the end of sentences where line-breaks occur.
+~Writegood-mode~ is a minor mode that will highlight weasel words and passive voice.
 #+attr_html: :alt Writegood-mode :title Writegood-mode :width 100%
 [[/images/hotel-california/writegood-mode.png]]
-The weasel words are highlighted in orange, passive voice indicated by cyan, and duplicate words by red squiggly lines.
+The weasel words are highlighted in orange, passive voice in cyan.
 
 Additional weasel words can be added to writegood-mode by editing the ~my/weasel-words~ list in ~config.el~ in the Doom user directory.
 *** Typopunct
