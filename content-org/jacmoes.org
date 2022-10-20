@@ -100,10 +100,10 @@ Emacs will ask you for the file on disk, and then open a diff buffer where you c
 [[https://www.zotero.org/][Zotero]] is used to gather and store and export the citations/references, by the use of the ~Better-Bibtex~ plugin.
 #+attr_html: :alt Zotero :title Zotero :width 100%
 [[/images/hotel-california/zotero.png]]
-After installing Zotero itself, the plugin can be installed by following this guide: [[https://retorque.re/zotero-better-bibtex/installation/]]. When downloading using Firefox, I had to right-click and “save as” because otherwise Firefox thought I was trying to install a Firefox addon due to the fileextension being the same.
+After installing Zotero itself, the plugin can be installed by following this guide: [[https://retorque.re/zotero-better-bibtex/installation/]]. When downloading using Firefox, I had to right-click and “save as” because otherwise Firefox thought I was trying to install a Firefox add-on due to the file-extension being the same.
 #+attr_html: :alt BetterBibtex installed :title BetterBibtex installed :width 100%
 [[/images/hotel-california/zotero-plugins.png]]
-When the plugin has been succesfully installed, it can be set up to automatically export and keep updated the LaTeX formatted Bibtex file that we need in order to use it from Emacs.
+When the plugin has been successfully installed, it can be set up to automatically export and keep updated the LaTeX formatted Bibtex file that we need in order to use it from Emacs.
 #+attr_html: :alt Zotero export settings :title Zotero export settings :width 100%
 [[/images/hotel-california/zotero-export-settings.png]]
 Choose “file - Export Library”, and choose the ~Better BibLaTeX~ as the format, and make sure to check the “keep updated” box. When you click “OK” you will be asked where to save the export. For my configuration, I have it as =~/Dropbox/skriv/jacmoe.bib=.
@@ -128,7 +128,7 @@ It will be rendered as ~[cite:@citation]~ in the org-file, but will be rendered 
 ** Conclusion
    Write the conclusion here
 
-#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit
+#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
 
 * draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:
@@ -218,8 +218,9 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 #+begin_description
 #+end_description
 
-# LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian
-# LocalWords: IAMPETH Writegood writegood Typopunct typopunct
+# LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
+# LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
+#  LocalWords:  BetterBibtex CSL
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
