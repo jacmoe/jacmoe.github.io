@@ -66,6 +66,13 @@ Using ~org-wc~.
 #+attr_html: :alt Running M-x org-wc-display shows word count per heading :title Running M-x org-wc-display shows word count per heading :width 100%
 [[/images/hotel-california/org-wc.png]]
 *** Column view
+Column view is a good way to view properties of headers. While we can view todo status, categories, tags, time logged, and other standard properties, we can add our own, custom properties, and this is where it gets real interesting for creative writers.
+We can easily add properties to a heading by running the following command: ~C-c C-x p~.
+
+If in a ~:PROPERTIES:~ block, we can act on properties by running ~c c~:
+#+attr_html: :alt Running properties action :title Running properties action :width 100%
+[[/images/hotel-california/properties-actions.png]]
+
 ** Organize the writing
 *** Master outline
 ** Capturing thoughts
@@ -87,8 +94,6 @@ Emacs will ask you for the file on disk, and then open a diff buffer where you c
 *** Zen-mode and transparency
 #+attr_html: :alt Zen-mode with transparency turned on :title Zen-mode with transparency turned on :width 100%
 [[/images/hotel-california/zen-mode.png]]
-
-
 *** Scroll-center-cursor-mode
 ** Org-roam
 *** Org-roam UI
