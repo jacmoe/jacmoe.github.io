@@ -25,6 +25,8 @@ I can make Emacs fit my workflow rather than the other way around.
 
 ## Org-mode {#org-mode}
 
+{{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
+
 
 ### Official format {#official-format}
 

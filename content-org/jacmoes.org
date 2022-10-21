@@ -19,6 +19,9 @@ I can make Emacs fit my workflow rather than the other way around.
 *** Doom-Emacs
 [[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
 ** Org-mode
+#+begin_export hugo
+{{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
+#+end_export
 *** Official format
 *** Out-liner
 #+attr_html: :alt Org-mode is an out-liner :title Org-mode is an out-liner :width 80% :controls t
