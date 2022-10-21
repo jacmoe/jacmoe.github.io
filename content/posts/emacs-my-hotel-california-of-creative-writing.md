@@ -66,13 +66,12 @@ Your browser does not support the video tag.</video>
 
 ### Writegood-mode {#writegood-mode}
 
-`Writegood-mode` is a minor mode which can be turned on/off by running `M-x writegood-mode`.
-This mode will improve various aspects of writing. The text is searched and words are highlighted. Another benefit is the the finding of duplicates. Many duplicate words can even be found at the the end of sentences where line-breaks occur.
+`Writegood-mode` is a minor mode that will highlight weasel words and passive voice.
 
 <div title="Writegood-mode">
 
 <img src="/images/hotel-california/writegood-mode.png" alt="Writegood-mode" title="Writegood-mode" width="100%" />
-The weasel words are highlighted in orange, passive voice indicated by cyan, and duplicate words by red squiggly lines.
+The weasel words are highlighted in orange, passive voice in cyan.
 
 </div>
 
@@ -115,6 +114,17 @@ Using `org-wc`.
 
 
 ### Column view {#column-view}
+
+Column view is a good way to view properties of headers. While we can view todo status, categories, tags, time logged, and other standard properties, we can add our own, custom properties, and this is where it gets real interesting for creative writers.
+We can easily add properties to a heading by running the following command: `C-c C-x p`.
+
+If in a `:PROPERTIES:` block, we can act on properties by running `c c`:
+
+{{< figure src="/images/hotel-california/properties-actions.png" alt="Running properties action" title="Running properties action" width="100%" >}}
+
+{{< figure src="/images/hotel-california/columns.png" alt="Column view" title="Column view" width="100%" >}}
+
+{{< figure src="/images/hotel-california/columns-source.png" alt="Setting up columns with properties" title="Setting up columns with properties" width="100%" >}}
 
 
 ## Organize the writing {#organize-the-writing}
@@ -192,14 +202,14 @@ Emacs will ask you for the file on disk, and then open a diff buffer where you c
 <div title="Zotero">
 
 <img src="/images/hotel-california/zotero.png" alt="Zotero" title="Zotero" width="100%" />
-After installing Zotero itself, the plugin can be installed by following this guide: <https://retorque.re/zotero-better-bibtex/installation/>. When downloading using Firefox, I had to right-click and “save as” because otherwise Firefox thought I was trying to install a Firefox addon due to the fileextension being the same.
+After installing Zotero itself, the plugin can be installed by following this guide: <https://retorque.re/zotero-better-bibtex/installation/>. When downloading using Firefox, I had to right-click and “save as” because otherwise Firefox thought I was trying to install a Firefox add-on due to the file-extension being the same.
 
 </div>
 
 <div title="BetterBibtex installed">
 
 <img src="/images/hotel-california/zotero-plugins.png" alt="BetterBibtex installed" title="BetterBibtex installed" width="100%" />
-When the plugin has been succesfully installed, it can be set up to automatically export and keep updated the LaTeX formatted Bibtex file that we need in order to use it from Emacs.
+When the plugin has been successfully installed, it can be set up to automatically export and keep updated the LaTeX formatted Bibtex file that we need in order to use it from Emacs.
 
 </div>
 
