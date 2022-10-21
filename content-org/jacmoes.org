@@ -146,7 +146,14 @@ It will be rendered as ~[cite:@citation]~ in the org-file, but will be rendered 
 ** Conclusion
    Write the conclusion here
 
-#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
+** Links
+[[https://www.youtube.com/watch?v=SzA2YODtgK4][Getting Started With Org Mode - YouTube]]
+
+[[https://www.youtube.com/watch?v=JHKrTsiz4JU][OrgMode E05S05: Tables - YouTube]]
+
+[[https://emacsconf.org/2020/talks/03/][EmacsConf - 2020 - talks - Idea to Novel Superstructure: Emacs for Writing]]
+
+[[https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial][Emacs Editor Tutorial - An Absolute Beginners Reference - LinuxForDevices]]
 
 * draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:
@@ -239,6 +246,8 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 # LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
 # LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
 #  LocalWords:  BetterBibtex CSL
+#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
+
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
