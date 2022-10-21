@@ -72,6 +72,15 @@ If in a ~:PROPERTIES:~ block, we can act on properties by running ~c c~:
 #+attr_html: :alt Running properties action :title Running properties action :width 100%
 [[/images/hotel-california/properties-actions.png]]
 
+#+attr_html: :alt Column view :title Column view :width 100%
+[[/images/hotel-california/columns.png]]
+
+#+attr_html: :alt Setting up columns with properties :title Setting up columns with properties :width 100%
+[[/images/hotel-california/columns-source.png]]
+
+
+
+
 ** Organize the writing
 *** Master outline
 ** Capturing thoughts
