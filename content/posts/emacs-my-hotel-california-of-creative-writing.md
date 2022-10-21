@@ -116,15 +116,21 @@ Using `org-wc`.
 ### Column view {#column-view}
 
 Column view is a good way to view properties of headers. While we can view todo status, categories, tags, time logged, and other standard properties, we can add our own, custom properties, and this is where it gets real interesting for creative writers.
-We can easily add properties to a heading by running the following command: `C-c C-x p`.
+We can easily add properties to a heading by running `C-c C-x p`:
 
-If in a `:PROPERTIES:` block, we can act on properties by running `c c`:
+{{< figure src="/images/hotel-california/properties-actions.png" alt="Adding properties to a heading" title="Adding properties to a heading" width="100%" >}}
 
-{{< figure src="/images/hotel-california/properties-actions.png" alt="Running properties action" title="Running properties action" width="100%" >}}
+Now we can configure the `COLUMNS` special property, which will be inherited by child headings:
+
+{{< figure src="/images/hotel-california/columns-source.png" alt="Setting up columns with properties" title="Setting up columns with properties" width="100%" >}}
+
+See [Org column view tutorial](https://orgmode.org/worg/org-tutorials/org-column-view-tutorial.html) for details.
+
+Having set it all up, we can now run `org-columns` by pressing `c x c`:
 
 {{< figure src="/images/hotel-california/columns.png" alt="Column view" title="Column view" width="100%" >}}
 
-{{< figure src="/images/hotel-california/columns-source.png" alt="Setting up columns with properties" title="Setting up columns with properties" width="100%" >}}
+Pres `q` to exit.
 
 
 ## Organize the writing {#organize-the-writing}
