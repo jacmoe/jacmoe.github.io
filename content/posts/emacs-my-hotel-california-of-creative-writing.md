@@ -1,10 +1,9 @@
 +++
 title = "Emacs - my Hotel California of creative writing"
 author = ["Jacob Moena"]
-date = 2022-10-22T10:55:00+02:00
 tags = ["emacs", "org-mode", "writing"]
 categories = ["post"]
-draft = false
+draft = true
 +++
 
 ## Introduction {#introduction}
@@ -16,7 +15,13 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
 
 ## Emacs {#emacs}
 
+> “I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
+
+_-Neal Stephenson, 1998 ([In the Beginning... Was the Command Line - Wikipedia](https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line))_
+
 I can make Emacs fit my workflow rather than the other way around.
+
+Emacs is a LISP machine.
 
 
 ### Doom-Emacs {#doom-emacs}
@@ -28,20 +33,57 @@ I can make Emacs fit my workflow rather than the other way around.
 
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 
-
-### Official format {#official-format}
-
-
-### Out-liner {#out-liner}
-
-
-### Organizer {#organizer}
+-   Official format
+-   Out-liner
+-   Organizer
+-   Extendable
+-   One hundred percent pure text
 
 
-### Extendable {#extendable}
+### Standard markup {#standard-markup}
+
+-   `*bold*` **bold**
+-   `/italic/` _italic_
+-   `_underline_` <span class="underline">underline</span>
+-   `~code~`  `code`
+-   `=monospaced=` `monospaced`
+-   `* heading` level 1 heading
+-   `** heading` level 2 heading
+-   `*** heading` level 3 heading, and so on
+-   `* todo heading` a heading with a todo
+-   `* heading :tag:` heading with a tag
+-   `* heading :tag1:tag2:` heading with two tags
+-   `* heading :@category:` heading with a category
+-   `- list item` unnumbered list item
+-   `1 list item` numbered list item ()
+-   `- [ ] list item` list item with unchecked check box
+-   `- [X] list item` list item with checked check box
+-   `[[link][description]]` link with description (use `c l` to insert)
+-   `[[file:link_to_file]]` inline image is simply a file link **without** description
+-   `# comment` anything after a hash sign and a space will not be exported
+
+_Here is a nerdy blog post about why Org-mode is a great markup language: [Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text](https://karl-voit.at/2017/09/23/orgmode-as-markup-only/)_
 
 
-### One hundred percent pure text {#one-hundred-percent-pure-text}
+### Special blocks {#special-blocks}
+
+In addition to the standard markup, Org-mode has special blocks. Use `C-c C-,` to insert a block.
+
+<div title="Special blocks">
+
+<img src="/images/hotel-california/orgmode-blocks.png" alt="Special blocks" title="Special blocks" width="100%" />
+For example, choosing “comment” as a block type will result in the following being inserted in the document:
+
+</div>
+
+```nil
+#+begin_comment
+#+end_comment
+```
+
+The “verse” block is useful for when you want to have a piece of poetry and not have Emacs mess with the formatting.
+
+Special blocks is a good way to extend the markup, and—of course—you can define your own special blocks.
 
 
 ## Boon {#boon}
@@ -138,7 +180,7 @@ Pres `q` to exit.
 ## Organize the writing {#organize-the-writing}
 
 
-### Master outline {#master-outline}
+### Master document {#master-document}
 
 
 ## Capturing thoughts {#capturing-thoughts}
@@ -282,4 +324,6 @@ Write the conclusion here
 
 [EmacsConf - 2020 - talks - Idea to Novel Superstructure: Emacs for Writing](https://emacsconf.org/2020/talks/03/)
 
-[[<https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial>][Emacs
+[Emacs Editor Tutorial - An Absolute Beginners Reference - LinuxForDevices](https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial)
+
+[GNU Emacs - Guided Tour - GNU Project](https://www.gnu.org/software/emacs/tour/)

@@ -2,6 +2,7 @@
 #+hugo_base_dir: ..
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
+#+OPTIONS: ^:nil
 * draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
@@ -16,7 +17,7 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
 
 ** Emacs
 #+begin_quote
-I use emacs, which might be thought of as a thermonuclear word processor... If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.
+“I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
 #+end_quote
 /-Neal Stephenson, 1998 ([[https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line][In the Beginning... Was the Command Line - Wikipedia]])/
 
@@ -29,11 +30,46 @@ Emacs is a LISP machine.
 #+begin_export hugo
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 #+end_export
-*** Official format
-*** Out-liner
-*** Organizer
-*** Extendable
-*** One hundred percent pure text
+
+- Official format
+- Out-liner
+- Organizer
+- Extendable
+- One hundred percent pure text
+*** Standard markup
+- ~*bold*~ *bold*
+- ~/italic/~ /italic/
+- ~_underline_~ _underline_
+- ~~code~~  ~code~
+- ~=monospaced=~ =monospaced=
+- ~* heading~ level 1 heading
+- ~** heading~ level 2 heading
+- ~*** heading~ level 3 heading, and so on
+- ~* todo heading~ a heading with a todo
+- ~* heading :tag:~ heading with a tag
+- ~* heading :tag1:tag2:~ heading with two tags
+- ~* heading :@category:~ heading with a category
+- ~- list item~ unnumbered list item
+- ~1 list item~ numbered list item ()
+- ~- [ ] list item~ list item with unchecked check box
+- ~- [X] list item~ list item with checked check box
+- ~[[link][description]]~ link with description (use ~c l~ to insert)
+- ~[[file:link_to_file]]~ inline image is simply a file link *without* description
+- ~# comment~ anything after a hash sign and a space will not be exported
+
+/Here is a nerdy blog post about why Org-mode is a great markup language: [[https://karl-voit.at/2017/09/23/orgmode-as-markup-only/][Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text]]/
+*** Special blocks
+In addition to the standard markup, Org-mode has special blocks. Use ~C-c C-,~ to insert a block.
+#+attr_html: :alt Special blocks :title Special blocks :width 100%
+[[/images/hotel-california/orgmode-blocks.png]]
+For example, choosing “comment” as a block type will result in the following being inserted in the document:
+#+begin_src
+#+begin_comment
+#+end_comment
+#+end_src
+The “verse” block is useful for when you want to have a piece of poetry and not have Emacs mess with the formatting.
+
+Special blocks is a good way to extend the markup, and—of course—you can define your own special blocks.
 ** Boon
 #+attr_html: :alt The Hotel California layout :title The Hotel California layout :width 100%
 [[/images/hotel-california/keyboard-layout.png]]
@@ -91,7 +127,7 @@ Having set it all up, we can now run ~org-columns~ by pressing ~c x c~:
 Pres ~q~ to exit.
 
 ** Organize the writing
-*** Master outline
+*** Master document
 ** Capturing thoughts
 ** Saving the work
 *** Magit
@@ -256,7 +292,7 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 
 # LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
 # LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
-#  LocalWords:  BetterBibtex CSL
+#  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices
 #  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
 
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
