@@ -15,7 +15,14 @@
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
 ** Emacs
+#+begin_quote
+I use emacs, which might be thought of as a thermonuclear word processor... If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.
+#+end_quote
+/-Neal Stephenson, 1998 ([[https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line][In the Beginning... Was the Command Line - Wikipedia]])/
+
 I can make Emacs fit my workflow rather than the other way around.
+
+Emacs is a LISP machine.
 *** Doom-Emacs
 [[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
 ** Org-mode
@@ -156,6 +163,8 @@ It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—a
 [[https://emacsconf.org/2020/talks/03/][EmacsConf - 2020 - talks - Idea to Novel Superstructure: Emacs for Writing]]
 
 [[https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial][Emacs Editor Tutorial - An Absolute Beginners Reference - LinuxForDevices]]
+
+[[https://www.gnu.org/software/emacs/tour/][GNU Emacs - Guided Tour - GNU Project]]
 
 * draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:
