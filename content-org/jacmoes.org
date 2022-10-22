@@ -102,6 +102,10 @@ For example, choosing “comment” as a block type will result in the following
 The “verse” block is useful for when you want to have a piece of poetry and not have Emacs mess with the formatting.
 
 Special blocks is a good way to extend the markup, and—of course—you can define your own special blocks.
+*** Noexport tags
+The ~:noexport:~ tag tells Org-mode that the contents—including any children—of a section is not to be exported. Useful for when you keep your work in one single file, including sections for things like research, notes, and character studies.
+*** Ignore tags
+The ~:ignore:~ tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when you organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings.
 ** Boon
 #+attr_html: :alt The Hotel California layout :title The Hotel California layout :width 100%
 [[/images/hotel-california/keyboard-layout.png]]
