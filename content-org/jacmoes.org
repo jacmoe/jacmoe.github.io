@@ -33,6 +33,8 @@ Your browser does not support the video tag.
 *** Extendable
 *** One hundred percent pure text
 ** Boon
+#+attr_html: :alt The Hotel California layout :title The Hotel California layout :width 100%
+[[/images/hotel-california/keyboard-layout.png]]
 ** Dictionaries et cetera
 *** Dictionary server
 *** Webster
