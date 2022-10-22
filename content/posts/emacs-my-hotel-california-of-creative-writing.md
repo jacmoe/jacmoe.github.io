@@ -12,6 +12,63 @@ draft = true
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
+<div class="ox-hugo-toc toc">
+
+<div class="heading">Table of Contents</div>
+
+- [Introduction](#introduction)
+- [Emacs](#emacs)
+    - [Doom-Emacs](#doom-emacs)
+- [Org-mode](#org-mode)
+    - [Standard markup](#standard-markup)
+    - [Headings (structure)](#headings--structure)
+    - [Lists](#lists)
+    - [Document options](#document-options)
+    - [Miscellaneous](#miscellaneous)
+    - [Special blocks](#special-blocks)
+- [Boon](#boon)
+- [Dictionaries et cetera](#dictionaries-et-cetera)
+    - [Dictionary server](#dictionary-server)
+    - [Webster](#webster)
+    - [Powerthesaurus](#powerthesaurus)
+    - [Proselint](#proselint)
+    - [Writegood-mode](#writegood-mode)
+    - [Typopunct](#typopunct)
+    - [Special characters](#special-characters)
+- [Tracking progress](#tracking-progress)
+    - [Track-table](#track-table)
+    - [Clocking time](#clocking-time)
+    - [Org-habit streak count](#org-habit-streak-count)
+    - [Words per heading](#words-per-heading)
+    - [Column view](#column-view)
+- [Organize the writing](#organize-the-writing)
+    - [Master document](#master-document)
+- [Capturing thoughts](#capturing-thoughts)
+- [Saving the work](#saving-the-work)
+    - [Magit](#magit)
+    - [Unsaved changes](#unsaved-changes)
+- [Exporting](#exporting)
+    - [HTML to E-book](#html-to-e-book)
+    - [PDF via LaTeX](#pdf-via-latex)
+    - [Open Document Format](#open-document-format)
+- [Looking good and being comfortable](#looking-good-and-being-comfortable)
+    - [Themes and fonts](#themes-and-fonts)
+    - [Zen-mode and transparency](#zen-mode-and-transparency)
+    - [Scroll-center-cursor-mode](#scroll-center-cursor-mode)
+- [Org-roam](#org-roam)
+    - [Org-roam UI](#org-roam-ui)
+- [Other things](#other-things)
+    - [Journaling](#journaling)
+    - [Blogging](#blogging)
+    - [Bibliography](#bibliography)
+    - [Snippets](#snippets)
+    - [Miscellaneous](#miscellaneous)
+- [Conclusion](#conclusion)
+- [Links](#links)
+
+</div>
+<!--endtoc-->
+
 
 ## Emacs {#emacs}
 
@@ -33,6 +90,8 @@ Emacs is a LISP machine.
 
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 
+Here is a nerdy blog post about why Org-mode is a great markup language: [Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text](https://karl-voit.at/2017/09/23/orgmode-as-markup-only/)
+
 -   Official format
 -   Out-liner
 -   Organizer
@@ -47,6 +106,12 @@ Emacs is a LISP machine.
 -   `_underline_` <span class="underline">underline</span>
 -   `~code~`  `code`
 -   `=monospaced=` `monospaced`
+
+
+### Headings (structure) {#headings--structure}
+
+A heading is one or more asterisks followed by a space and some text.
+
 -   `* heading` level 1 heading
 -   `** heading` level 2 heading
 -   `*** heading` level 3 heading, and so on
@@ -54,15 +119,44 @@ Emacs is a LISP machine.
 -   `* heading :tag:` heading with a tag
 -   `* heading :tag1:tag2:` heading with two tags
 -   `* heading :@category:` heading with a category
+
+Press `C-<Enter>` to insert a new heading at the same level as the heading you’re in.
+
+`M-<up>` and `M-<down>` will move a heading up and down.
+
+`M-<left>` and `M-<right>` will demote/promote a heading.
+
+
+### Lists {#lists}
+
+A list item is a dash (-) followed by a space and some text.
+
 -   `- list item` unnumbered list item
 -   `1 list item` numbered list item ()
 -   `- [ ] list item` list item with unchecked check box
 -   `- [X] list item` list item with checked check box
--   `[[link][description]]` link with description (use `c l` to insert)
--   `[[file:link_to_file]]` inline image is simply a file link **without** description
--   `# comment` anything after a hash sign and a space will not be exported
 
-_Here is a nerdy blog post about why Org-mode is a great markup language: [Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text](https://karl-voit.at/2017/09/23/orgmode-as-markup-only/)_
+Press `C-<Enter>` to insert a new list item at the same level as the heading you’re in.
+
+`M-<up>` and `M-<down>` will move a list item up and down.
+
+`M-<left>` and `M-<right>` will demote/promote a list item.
+
+
+### Document options {#document-options}
+
+
+#### TOC {#toc}
+
+`#+OPTIONS: toc:nil` turns off the insertion of an auto-generated Table Of Contents (TOC) upon export.
+You can then use `#+toc: headlines 2` to manually insert a table of contents into the document.
+
+
+### Miscellaneous {#miscellaneous}
+
+-   `[[link][description]]` link with description (use `c l` to insert)
+-   `[[file:link_to_file]]` inline image is a file link **without** description
+-   `# comment` anything after a hash sign and a space will not be exported
 
 
 ### Special blocks {#special-blocks}

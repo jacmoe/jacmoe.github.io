@@ -15,6 +15,8 @@
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
+#+toc: headlines 2
+
 ** Emacs
 #+begin_quote
 “I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
@@ -31,17 +33,25 @@ Emacs is a LISP machine.
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 #+end_export
 
+Here is a nerdy blog post about why Org-mode is a great markup language: [[https://karl-voit.at/2017/09/23/orgmode-as-markup-only/][Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text]]
+
 - Official format
 - Out-liner
 - Organizer
 - Extendable
 - One hundred percent pure text
+
 *** Standard markup
+
 - ~*bold*~ *bold*
 - ~/italic/~ /italic/
 - ~_underline_~ _underline_
 - ~~code~~  ~code~
 - ~=monospaced=~ =monospaced=
+
+*** Headings (structure)
+A heading is one or more asterisks followed by a space and some text.
+
 - ~* heading~ level 1 heading
 - ~** heading~ level 2 heading
 - ~*** heading~ level 3 heading, and so on
@@ -49,15 +59,37 @@ Emacs is a LISP machine.
 - ~* heading :tag:~ heading with a tag
 - ~* heading :tag1:tag2:~ heading with two tags
 - ~* heading :@category:~ heading with a category
+
+Press ~C-<Enter>~ to insert a new heading at the same level as the heading you’re in.
+
+~M-<up>~ and ~M-<down>~ will move a heading up and down.
+
+~M-<left>~ and ~M-<right>~ will demote/promote a heading.
+
+*** Lists
+A list item is a dash (-) followed by a space and some text.
+
 - ~- list item~ unnumbered list item
 - ~1 list item~ numbered list item ()
 - ~- [ ] list item~ list item with unchecked check box
 - ~- [X] list item~ list item with checked check box
+
+Press ~C-<Enter>~ to insert a new list item at the same level as the heading you’re in.
+
+~M-<up>~ and ~M-<down>~ will move a list item up and down.
+
+~M-<left>~ and ~M-<right>~ will demote/promote a list item.
+
+*** Document options
+**** TOC
+~#+OPTIONS: toc:nil~ turns off the insertion of an auto-generated Table Of Contents (TOC) upon export.
+You can then use ~#+toc: headlines 2~ to manually insert a table of contents into the document.
+
+*** Miscellaneous
 - ~[[link][description]]~ link with description (use ~c l~ to insert)
-- ~[[file:link_to_file]]~ inline image is simply a file link *without* description
+- ~[[file:link_to_file]]~ inline image is a file link *without* description
 - ~# comment~ anything after a hash sign and a space will not be exported
 
-/Here is a nerdy blog post about why Org-mode is a great markup language: [[https://karl-voit.at/2017/09/23/orgmode-as-markup-only/][Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text]]/
 *** Special blocks
 In addition to the standard markup, Org-mode has special blocks. Use ~C-c C-,~ to insert a block.
 #+attr_html: :alt Special blocks :title Special blocks :width 100%
