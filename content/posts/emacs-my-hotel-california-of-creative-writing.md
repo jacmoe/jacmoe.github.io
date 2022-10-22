@@ -1,9 +1,10 @@
 +++
 title = "Emacs - my Hotel California of creative writing"
 author = ["Jacob Moena"]
+date = 2022-10-22T10:55:00+02:00
 tags = ["emacs", "org-mode", "writing"]
 categories = ["post"]
-draft = true
+draft = false
 +++
 
 ## Introduction {#introduction}
@@ -33,9 +34,6 @@ I can make Emacs fit my workflow rather than the other way around.
 
 ### Out-liner {#out-liner}
 
-<video alt="Org-mode is an out-liner" title="Org-mode is an out-liner" width="80%" controls><source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
-Your browser does not support the video tag.</video>
-
 
 ### Organizer {#organizer}
 
@@ -47,6 +45,8 @@ Your browser does not support the video tag.</video>
 
 
 ## Boon {#boon}
+
+{{< figure src="/images/hotel-california/keyboard-layout.png" alt="The Hotel California layout" title="The Hotel California layout" width="100%" >}}
 
 
 ## Dictionaries et cetera {#dictionaries-et-cetera}
@@ -260,6 +260,26 @@ It will be rendered as `[cite:@citation]` in the org-file, but will be rendered 
 ### Snippets {#snippets}
 
 
+### Miscellaneous {#miscellaneous}
+
+
+#### Grabbing links from the web browser {#grabbing-links-from-the-web-browser}
+
+By running `M-x grab-x-link` we can insert a link from an active web browser window.
+It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—and what format to use (plain, markdown or Org format). Much quicker than manually copying, pasting, and write the title manually. The links can be edited by `c l` , and opened by `c o`.
+
+
 ## Conclusion {#conclusion}
 
 Write the conclusion here
+
+
+## Links {#links}
+
+[Getting Started With Org Mode - YouTube](https://www.youtube.com/watch?v=SzA2YODtgK4)
+
+[OrgMode E05S05: Tables - YouTube](https://www.youtube.com/watch?v=JHKrTsiz4JU)
+
+[EmacsConf - 2020 - talks - Idea to Novel Superstructure: Emacs for Writing](https://emacsconf.org/2020/talks/03/)
+
+[[<https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial>][Emacs

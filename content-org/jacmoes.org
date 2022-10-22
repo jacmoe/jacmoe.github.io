@@ -24,11 +24,6 @@ I can make Emacs fit my workflow rather than the other way around.
 #+end_export
 *** Official format
 *** Out-liner
-#+attr_html: :alt Org-mode is an out-liner :title Org-mode is an out-liner :width 80% :controls t
-#+begin_video
-<source src="/videos/hotel-california/outliner.mp4" type="video/mp4">
-Your browser does not support the video tag.
-#+end_video
 *** Organizer
 *** Extendable
 *** One hundred percent pure text
