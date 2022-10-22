@@ -2,7 +2,7 @@
 #+hugo_base_dir: ..
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
-#+OPTIONS: ^:nil
+#+OPTIONS: ^:nil ‘:nil
 * draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
