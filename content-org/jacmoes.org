@@ -182,6 +182,47 @@ Additionally, ~typopunct~ also allows us to insert ~en-dash~ and ~em-dash~ by ty
 ** Tracking progress
 *** Track-table
 *** Clocking time
+~c x i~ to clock in. ~c x o~ to clock out. ~c x q~ to cancel a clock.
+There is also the option of starting a 20 minute Pomodoro session, by pressing ~B~.
+Clocking is tied to the heading you are working under, and will add a ~:LOGBOOK:~ section to it, like this:
+#+begin_src
+:LOGBOOK:
+CLOCK: [2017-04-10 Mon 15:18]
+CLOCK: [2017-04-10 Mon 15:16]--[2017-04-10 Mon 15:17] =>  0:01
+CLOCK: [2017-04-07 Fri 16:05]--[2017-04-07 Fri 16:35] =>  0:30
+CLOCK: [2017-04-05 Wed 16:42]--[2017-04-05 Wed 16:52] =>  0:10
+:END:
+#+end_src
+We can generate clock report table by executing ~C-c l c R~ or ~M-x org-clock-report~.
+The following will be inserted at point, depending on the logbooks in the current document:
+#+begin_src
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-10-23 søn 09:56]
+| Headline   | Time |
+|------------+------|
+| *Total time* | *0:41* |
+|------------+------|
+#+END:
+#+end_src
+A clocktable can be configured, for example, to show time clocked until now, like this:
+#+begin_src
+#+BEGIN: clocktable :maxlevel 3 :scope file :block untilnow
+#+end_src
+#+attr_html: :alt Time clocked in total :title Time clocked in total :width 100%
+[[/images/hotel-california/clocktable-master.png]]
+Time clocked today:
+#+begin_src
+#+BEGIN: clocktable :maxlevel 3 :scope file :block today
+#+end_src
+Time clocked yesterday:
+#+begin_src
+#+BEGIN: clocktable :maxlevel 3 :scope file :block yesterday
+#+end_src
+To update a clocktable, simply place the point somewhere in the ~BEGIN~ line, and press ~c c~.
+
+For more on clocking time, see [[https://writequit.org/denver-emacs/presentations/2017-04-11-time-clocking-with-org.html][Clocking time with Org-mode]].
+
+Often when writing, our progress can’t always be measured in words, so time spent is a good alternative.
 *** Org-habit streak count
 *** Words per heading
 Using ~org-wc~.
