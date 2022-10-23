@@ -118,7 +118,13 @@ The ~:noexport:~ tag tells Org-mode that the contents—including any children�
 *** Ignore tags
 The ~:ignore:~ tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the ~:ignore:~ tag allows us to keep the outline to ouselves.
 *** Tables
-[[https://www.youtube.com/watch?v=5vGGgfs0q3k][Using Emacs episode 54 - Org Tables - YouTube]]
+In Org-mode tables are made of ASCII characters, but it feels like magic in action.
+#+begin_export hugo
+{{< youtube id="5vGGgfs0q3k" title="Using Emacs episode 54 - Org Tables" >}}
+#+end_export
+See [[https://orgmode.org/manual/Tables.html][Tables (The Org Manual)]] for more details.
+
+We’ll see more of what Org-mode tables can do later on in this article, when discussing clock-tables and when discussing Org-tracktable.
 ** Boon
 [[https://github.com/jyp/boon][Boon]] is a modal editing package for Emacs which is ergonomic and designed to integrate well with existing Emacs infrastructure. That means that we can continue to use the standard Emacs keyboard shortcuts should we choose to do so, in addition to the features that Boon provides.
 #+begin_export html
