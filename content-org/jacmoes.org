@@ -159,6 +159,14 @@ We already covered the Boon commands in blue, so the following will not cover th
 *** Movement
 *** Editing
 *** Custom
+- w : shows how many words have been written today (Org-TrackTable)
+- E : go to last edit
+- s : toggles center-cursor-mode
+- G : grabs an URL from a running web browser and inserts it
+- B : begin a Pomodoro session
+- n : narrow to Org-mode heading
+- N : widen the view (un-narrow)
+
 ** Dictionaries et cetera
 *** Dictionary server
 *** Webster
