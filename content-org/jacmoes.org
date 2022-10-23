@@ -26,6 +26,12 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
 I can make Emacs fit my workflow rather than the other way around.
 
 Emacs is a LISP machine.
+*** Emacs basics
+**** Basic movement and editing
+#+begin_export hugo
+{{< youtube id="RuiBsWQeeTs" title="Emacs: Basic Movement and Editing" >}}
+#+end_export
+It’s highly recommended to run Emacs without any customization a couple of times to learn how the basic Emacs commands work. We can do that by running Emacs with the ~Q~ command-line argument, like this: ~emacs -Q~. If you want—again, highly recommended—you can run the Emacs Tutorial by running ~C-h t~. Do the tutorial until you feel confident. Also, experiment in the Scratch buffer, like in the video tutorial above.
 *** Doom-Emacs
 [[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
 ** Org-mode
