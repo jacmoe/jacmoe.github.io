@@ -26,7 +26,12 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
     - [Document options](#document-options)
     - [Miscellaneous](#miscellaneous)
     - [Special blocks](#special-blocks)
+    - [Noexport tags](#noexport-tags)
+    - [Ignore tags](#ignore-tags)
 - [Boon](#boon)
+    - [Movement](#movement)
+    - [Editing](#editing)
+    - [Custom](#custom)
 - [Dictionaries et cetera](#dictionaries-et-cetera)
     - [Dictionary server](#dictionary-server)
     - [Webster](#webster)
@@ -180,9 +185,65 @@ The “verse” block is useful for when you want to have a piece of poetry and 
 Special blocks is a good way to extend the markup, and—of course—you can define your own special blocks.
 
 
+### Noexport tags {#noexport-tags}
+
+The `:noexport:` tag tells Org-mode that the contents—including any children—of a section is not to be exported. Useful for when you keep your work in one single file, including sections for things like research, notes, and character studies.
+
+
+### Ignore tags {#ignore-tags}
+
+The `:ignore:` tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the `:ignore:` tag allows us to keep the outline to ouselves.
+
+
 ## Boon {#boon}
 
+[Boon](https://github.com/jyp/boon) is a modal editing package for Emacs which is ergonomic and designed to integrate well with existing Emacs infrastructure. That means that we can continue to use the standard Emacs keyboard shortcuts should we choose to do so, in addition to the features that Boon provides.
+
+<br/>
+
+Boon is designed so that the right hand takes care of movement, and the left hand do the actions. And great care is taken to ensure that the fingers never leave the home row. Important for touch typists!
+
+<br/>
+
+Boon is a modal editing system with two modes: Command mode and Insert mode. Command mode is the default mode, and where we perform movement and commands. Insert mode is the mode where the keyboard acts like we’re used to: inserting letters as we type them (as opposed to perform commands).
+
+<br/>
+
+When in Command mode, we can switch to Insert mode by pressing `v`. The cursor changes shape and color to indicate that we are indeed in Insert mode. For convenience, pressing `S-v` will insert a line below the current line and place the cursor in it, and `C-v` will insert a line above. That often saves us from a couple of keystrokes.
+
+<br/>
+
+In Insert mode, we can exit it by pressing `<Esc>` or `C-;`. The cursor changes back to normal shape and color to indicate that pressing keys will no longer insert letters but perform commands. I’ve bound `boon-quit` to `C-;` because `<Esc>` is **not** on the home row, even if we rebind it to `<Caps Lock>`, a fairly common thing to do. The combination of `v` and `C-;` means that we don’t have to move our fingers at all, even when switching between the two modes at speed. Ergonomics is important.
+
+<br/>
+
+`C-x` and `C-c` shortcuts are handled in Boon so that any command starting with `C-x` is simply `x`, and `C-c C-`  shortcuts are just `c`.
+
+<br/>
+
+Not all commands work as you would expect, however, so if we wanted to run `find-file` (`C-x C-f`) we will have to press `x C-f`, and not `x f` (`set-fill-column`). That’s because `set-fill-column` normally uses the shortcut `C-x f`, and there is no way to make a distinction between the two, `find-file` or `set-fill-column`. Luckily, there aren’t many exceptions like this.
+
+<br/>
+
+Here’s how the keyboard layout looks like for Command mode using Boon:
+
 {{< figure src="/images/hotel-california/keyboard-layout.png" alt="The Hotel California layout" title="The Hotel California layout" width="100%" >}}
+
+-   Blue is Boon commands
+-   Green is movement commands
+-   Yellow is edit commands
+-   Purple is custom commands
+
+We already covered the Boon commands in blue, so the following will not cover those.
+
+
+### Movement {#movement}
+
+
+### Editing {#editing}
+
+
+### Custom {#custom}
 
 
 ## Dictionaries et cetera {#dictionaries-et-cetera}
