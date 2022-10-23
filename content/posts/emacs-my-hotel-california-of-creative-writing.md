@@ -12,67 +12,32 @@ draft = true
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
+<div id="contents" style="position:fixed;width: 200px;right:0;top:0">
+
 <div class="ox-hugo-toc toc">
 
 <div class="heading">Table of Contents</div>
 
 - [Introduction](#introduction)
 - [Emacs](#emacs)
-    - [Doom-Emacs](#doom-emacs)
 - [Org-mode](#org-mode)
-    - [Standard markup](#standard-markup)
-    - [Headings (structure)](#headings--structure)
-    - [Lists](#lists)
-    - [Document options](#document-options)
-    - [Miscellaneous](#miscellaneous)
-    - [Special blocks](#special-blocks)
-    - [Noexport tags](#noexport-tags)
-    - [Ignore tags](#ignore-tags)
 - [Boon](#boon)
-    - [Movement](#movement)
-    - [Editing](#editing)
-    - [Custom](#custom)
 - [Dictionaries et cetera](#dictionaries-et-cetera)
-    - [Dictionary server](#dictionary-server)
-    - [Webster](#webster)
-    - [Powerthesaurus](#powerthesaurus)
-    - [Proselint](#proselint)
-    - [Writegood-mode](#writegood-mode)
-    - [Typopunct](#typopunct)
-    - [Special characters](#special-characters)
 - [Tracking progress](#tracking-progress)
-    - [Track-table](#track-table)
-    - [Clocking time](#clocking-time)
-    - [Org-habit streak count](#org-habit-streak-count)
-    - [Words per heading](#words-per-heading)
-    - [Column view](#column-view)
 - [Organize the writing](#organize-the-writing)
-    - [Master document](#master-document)
 - [Capturing thoughts](#capturing-thoughts)
 - [Saving the work](#saving-the-work)
-    - [Magit](#magit)
-    - [Unsaved changes](#unsaved-changes)
 - [Exporting](#exporting)
-    - [HTML to E-book](#html-to-e-book)
-    - [PDF via LaTeX](#pdf-via-latex)
-    - [Open Document Format](#open-document-format)
 - [Looking good and being comfortable](#looking-good-and-being-comfortable)
-    - [Themes and fonts](#themes-and-fonts)
-    - [Zen-mode and transparency](#zen-mode-and-transparency)
-    - [Scroll-center-cursor-mode](#scroll-center-cursor-mode)
 - [Org-roam](#org-roam)
-    - [Org-roam UI](#org-roam-ui)
 - [Other things](#other-things)
-    - [Journaling](#journaling)
-    - [Blogging](#blogging)
-    - [Bibliography](#bibliography)
-    - [Snippets](#snippets)
-    - [Miscellaneous](#miscellaneous)
 - [Conclusion](#conclusion)
 - [Links](#links)
 
 </div>
 <!--endtoc-->
+
+</div>
 
 
 ## Emacs {#emacs}
@@ -84,6 +49,16 @@ _-Neal Stephenson, 1998 ([In the Beginning... Was the Command Line - Wikipedia](
 I can make Emacs fit my workflow rather than the other way around.
 
 Emacs is a LISP machine.
+
+
+### Emacs basics {#emacs-basics}
+
+
+#### Basic movement and editing {#basic-movement-and-editing}
+
+{{< youtube id="RuiBsWQeeTs" title="Emacs: Basic Movement and Editing" >}}
+
+It’s highly recommended to run Emacs without any customization a couple of times to learn how the basic Emacs commands work. We can do that by running Emacs with the `Q` command-line argument, like this: `emacs -Q`. If you want—again, highly recommended—you can run the Emacs Tutorial by running `C-h t`. Do the tutorial until you feel confident. Also, experiment in the Scratch buffer, like in the video tutorial above.
 
 
 ### Doom-Emacs {#doom-emacs}
@@ -300,6 +275,61 @@ Additionally, `typopunct` also allows us to insert `en-dash` and `em-dash` by ty
 
 
 ### Clocking time {#clocking-time}
+
+`c x i` to clock in. `c x o` to clock out. `c x q` to cancel a clock.
+There is also the option of starting a 20 minute Pomodoro session, by pressing `B`.
+Clocking is tied to the heading you are working under, and will add a `:LOGBOOK:` section to it, like this:
+
+```nil
+:LOGBOOK:
+CLOCK: [2017-04-10 Mon 15:18]
+CLOCK: [2017-04-10 Mon 15:16]--[2017-04-10 Mon 15:17] =>  0:01
+CLOCK: [2017-04-07 Fri 16:05]--[2017-04-07 Fri 16:35] =>  0:30
+CLOCK: [2017-04-05 Wed 16:42]--[2017-04-05 Wed 16:52] =>  0:10
+:END:
+```
+
+We can generate clock report table by executing `C-c l c R` or `M-x org-clock-report`.
+The following will be inserted at point, depending on the logbooks in the current document:
+
+```nil
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-10-23 søn 09:56]
+| Headline   | Time |
+|------------+------|
+| *Total time* | *0:41* |
+|------------+------|
+#+END:
+```
+
+A clocktable can be configured, for example, to show time clocked until now, like this:
+
+```nil
+#+BEGIN: clocktable :maxlevel 3 :scope file :block untilnow
+```
+
+<div title="Time clocked in total">
+
+<img src="/images/hotel-california/clocktable-master.png" alt="Time clocked in total" title="Time clocked in total" width="100%" />
+Time clocked today:
+
+</div>
+
+```nil
+#+BEGIN: clocktable :maxlevel 3 :scope file :block today
+```
+
+Time clocked yesterday:
+
+```nil
+#+BEGIN: clocktable :maxlevel 3 :scope file :block yesterday
+```
+
+To update a clocktable, simply place the point somewhere in the `BEGIN` line, and press `c c`.
+
+For more on clocking time, see [Clocking time with Org-mode](https://writequit.org/denver-emacs/presentations/2017-04-11-time-clocking-with-org.html).
+
+Often when writing, our progress can’t always be measured in words, so time spent is a good alternative.
 
 
 ### Org-habit streak count {#org-habit-streak-count}

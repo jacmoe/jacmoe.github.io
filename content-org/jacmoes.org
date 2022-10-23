@@ -15,8 +15,13 @@
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
-#+toc: headlines 2
-
+#+begin_export html
+<div id="contents" style="position:fixed;width: 200px;right:0;top:0">
+#+end_export
+#+toc: headlines 1
+#+begin_export html
+</div>
+#+end_export
 ** Emacs
 #+begin_quote
 “I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
