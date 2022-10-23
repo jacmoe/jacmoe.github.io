@@ -138,7 +138,7 @@ Boon is a modal editing system with two modes: Command mode and Insert mode. Com
 #+begin_export html
 <br/>
 #+end_export
-When in Command mode, we can switch to Insert mode by pressing ~v~. The cursor changes shape and color to indicate that we are indeed in Insert mode. For convenience, pressing ~S-v~ will insert a line below the current line and place the cursor in it, and ~C-v~ will insert a line above. That often saves us from a couple of keystrokes.
+When in Command mode, we can switch to Insert mode by pressing ~v~. The cursor changes shape and color to indicate that we are indeed in Insert mode. For convenience, pressing ~S-v~ will insert a line above the current line and place the cursor in it, and ~C-v~ will insert a line below. That often saves us from a couple of keystrokes.
 #+begin_export html
 <br/>
 #+end_export
@@ -165,6 +165,7 @@ Here’s how the keyboard layout looks like for Command mode using Boon:
 We already covered the Boon commands in blue, so the following will not cover those.
 
 *** Movement
+
 *** Editing
 - ` : cycles between uppercase, titlecase, and lowercase
 - q : “quote”, insert a literal character
@@ -176,10 +177,11 @@ We already covered the Boon commands in blue, so the following will not cover th
 - D : “duplicate”, copies region to kill-ring
 
 *** Custom
-- w : shows how many words have been written today (Org-TrackTable)
+- w : show how many words have been written today (~org-tracktable-status~)
+- W : write to the track-table (~org-tracktable-write~)
 - E : go to last edit
-- s : toggles center-cursor-mode
-- G : grabs an URL from a running web browser and inserts it
+- s : toggle center-cursor-mode
+- G : grab an URL from a running web browser and inserts it
 - B : begin a Pomodoro session
 - n : narrow to Org-mode heading
 - N : widen the view (un-narrow)
