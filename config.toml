@@ -12,10 +12,10 @@ name = 'Jacob Moena'
 [params]
 author = 'Jacob Moena'
 description = 'Increasingly interesting'
-paginationSinglePost = true
-style = 'light'
+paginationSinglePost = false
+style = 'light-without-switcher'
 readMore = true
-readNextPosts = 2
+readNextPosts = 0
 copyCodeButton = true
 rssAsSocialIcon = true
 disableSummary = true

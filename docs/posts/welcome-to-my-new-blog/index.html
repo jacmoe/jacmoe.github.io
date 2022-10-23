@@ -105,6 +105,9 @@
 
 
 
+<style type = text/css>
+  .underline {text-decoration:underline}
+</style>
 
 
     
@@ -297,14 +300,6 @@ All I have to do is write my blog posts in one org-file within Emacs, export to 
     </article>
 
     
-        
-        
-    
-
-    
-        
-
-
 
     
 
@@ -355,14 +350,10 @@ All I have to do is write my blog posts in one org-file within Emacs, export to 
 
 
 
-    <button class="theme-switcher">
-        Switch theme (dark/light)
-    </button>
-
 
 <script>
 const STORAGE_KEY = 'user-color-scheme'
-const defaultTheme = "light"
+const defaultTheme = "light-without-switcher"
 
 let currentTheme
 let switchButton
@@ -433,8 +424,7 @@ function showContent() {
     document.body.style.visibility = 'visible';
     document.body.style.opacity = 1;
 }
-</script>
-   
+</script>   
     </div>
 
     <p class="h-card vcard">

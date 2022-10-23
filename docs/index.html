@@ -105,6 +105,9 @@
 
 
 
+<style type = text/css>
+  .underline {text-decoration:underline}
+</style>
 
 
     
@@ -307,14 +310,10 @@
 
 
 
-    <button class="theme-switcher">
-        Switch theme (dark/light)
-    </button>
-
 
 <script>
 const STORAGE_KEY = 'user-color-scheme'
-const defaultTheme = "light"
+const defaultTheme = "light-without-switcher"
 
 let currentTheme
 let switchButton
@@ -385,8 +384,7 @@ function showContent() {
     document.body.style.visibility = 'visible';
     document.body.style.opacity = 1;
 }
-</script>
-   
+</script>   
     </div>
 
     <p class="h-card vcard">

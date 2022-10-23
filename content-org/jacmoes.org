@@ -31,12 +31,24 @@ This blog post is a detailed explanation of why Emacs is my Hotel California of 
 I can make Emacs fit my workflow rather than the other way around.
 
 Emacs is a LISP machine.
+
 *** Emacs basics
-**** Basic movement and editing
 #+begin_export hugo
 {{< youtube id="RuiBsWQeeTs" title="Emacs: Basic Movement and Editing" >}}
 #+end_export
 It’s highly recommended to run Emacs without any customization a couple of times to learn how the basic Emacs commands work. We can do that by running Emacs with the ~Q~ command-line argument, like this: ~emacs -Q~. If you want—again, highly recommended—you can run the Emacs Tutorial by running ~C-h t~. Do the tutorial until you feel confident. Also, experiment in the Scratch buffer, like in the video tutorial above.
+#+begin_export html
+<br/>
+#+end_export
+To get out of trouble, use ~C-g~ (keyboard quit) to cancel whatever it is that Emacs is doing at the moment. Use ~C-x C-c~ to rage-quit if you need to (I admit that I have when I first started out). ~C-x u~ will undo, and ~C-?~ will redo. Use ~C-x C-s~ to save current buffer. If the current buffer is a horrible mess, you can run ~M-x revert-buffer~ to get back to whatever it was when you loaded it from disk (by doing a ~C-x C-f~). Also, sometimes you will want to toggle a file read-only. You can do that by pressing ~x C-q~.
+#+begin_export html
+<br/>
+#+end_export
+Press ~C-h~ to view a list of options to get help. Especially useful is ~C-h k~ when you want to know what a keyboard command does without running it first. For example, pressing ~C-h k <F4>~ will tell you that it runs the command ~kmacro-end-or-call-macro~. Press ~q~ to close the help window.
+#+begin_export html
+<br/>
+#+end_export
+If you want to read a comprehensive—very much so—guide to Emacs, the history, and the details of how it works, read my massive [[https://jacmoes.wordpress.com/2019/09/24/creative-writing-with-emacs/][Creative writing with Emacs]] blog post from 2019. It delves into the mechanics of Emacs in much more depth, leaving us free to explore Emacs as a writer’s toolbox. So, if you are completely blank with regard to Emacs, I highly recommend that you read at least the first part of it before continuing.
 *** Doom-Emacs
 [[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
 ** Org-mode
@@ -59,6 +71,7 @@ Here is a nerdy blog post about why Org-mode is a great markup language: [[https
 - ~_underline_~ _underline_
 - ~~code~~  ~code~
 - ~=monospaced=~ =monospaced=
+- ~# comment~ anything after a hash sign and a space will not be exported
 
 *** Headings (structure)
 A heading is one or more asterisks followed by a space and some text.
@@ -75,7 +88,15 @@ Press ~C-<Enter>~ to insert a new heading at the same level as the heading you�
 
 ~M-<up>~ and ~M-<down>~ will move a heading up and down.
 
-~M-<left>~ and ~M-<right>~ will demote/promote a heading.
+~M-<left>~ and ~M-<right>~ will promote/demote a heading.
+
+~c n~ and ~c p~ will navigate to next and previous heading, respectively.
+
+~c u~ navigates up to the parent heading, if any.
+
+~S-<right>~ and ~S-<left>~ cycles through todo states for a heading, ie from /draft/ to /revise/ to /done/.
+
+~c q~ can be used to set tags/categories for a heading. (~c c~ also works, when standing on the actual heading)
 
 *** Lists
 A list item is a dash (-) followed by a space and some text.
@@ -91,15 +112,20 @@ Press ~C-<Enter>~ to insert a new list item at the same level as the heading you
 
 ~M-<left>~ and ~M-<right>~ will demote/promote a list item.
 
+~S-<left>~ and ~S-<right>~ will cycle through different list styles, provided that the point is placed on the list item symbol (by default a ~-~))
+
 *** Document options
 **** TOC
 ~#+OPTIONS: toc:nil~ turns off the insertion of an auto-generated Table Of Contents (TOC) upon export.
 You can then use ~#+toc: headlines 2~ to manually insert a table of contents into the document.
 
-*** Miscellaneous
+*** Links
 - ~[[link][description]]~ link with description (use ~c l~ to insert)
 - ~[[file:link_to_file]]~ inline image is a file link *without* description
-- ~# comment~ anything after a hash sign and a space will not be exported
+
+Use ~c l~ to insert a link, or to edit a link. Use ~c o~ to open a link.
+
+If the link is a link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press ~c <TAB>~.
 
 *** Special blocks
 In addition to the standard markup, Org-mode has special blocks. Use ~C-c C-,~ to insert a block.
@@ -335,7 +361,13 @@ Then, we set a placeholder for where the generated bibliography list will be ren
 Now that we’re all set up, we can now insert citations into our document by running ~org-cite-insert~ (bound to ~C-c l @~)
 #+attr_html: :alt Inserting a citation in Emacs :title Inserting a citation in Emacs :width 100%
 [[/images/hotel-california/citation-insert.png]]
-It will be rendered as ~[cite:@citation]~ in the org-file, but will be rendered correctly after export.
+
+#+attr_html: :alt Bibliography source code :title Biblography source code :width 100%
+[[/images/hotel-california/bibliography-source.png]]
+
+#+attr_html: :alt Bibliography test rendering :title Bibliography test rendering :width 100%
+[[/images/hotel-california/bibliography-test.png]]
+
 *** Snippets
 *** Miscellaneous
 **** Grabbing links from the web browser
@@ -355,6 +387,8 @@ It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—a
 [[https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial][Emacs Editor Tutorial - An Absolute Beginners Reference - LinuxForDevices]]
 
 [[https://www.gnu.org/software/emacs/tour/][GNU Emacs - Guided Tour - GNU Project]]
+
+[[https://github.com/yjwen/org-reveal/][yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.]]
 
 * draft Creatively Writing Longhand :@post:writing:longhand:
 :PROPERTIES:

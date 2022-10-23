@@ -53,12 +53,21 @@ Emacs is a LISP machine.
 
 ### Emacs basics {#emacs-basics}
 
-
-#### Basic movement and editing {#basic-movement-and-editing}
-
 {{< youtube id="RuiBsWQeeTs" title="Emacs: Basic Movement and Editing" >}}
 
 It’s highly recommended to run Emacs without any customization a couple of times to learn how the basic Emacs commands work. We can do that by running Emacs with the `Q` command-line argument, like this: `emacs -Q`. If you want—again, highly recommended—you can run the Emacs Tutorial by running `C-h t`. Do the tutorial until you feel confident. Also, experiment in the Scratch buffer, like in the video tutorial above.
+
+<br/>
+
+To get out of trouble, use `C-g` (keyboard quit) to cancel whatever it is that Emacs is doing at the moment. Use `C-x C-c` to rage-quit if you need to (I admit that I have when I first started out). `C-x u` will undo, and `C-?` will redo. Use `C-x C-s` to save current buffer. If the current buffer is a horrible mess, you can run `M-x revert-buffer` to get back to whatever it was when you loaded it from disk (by doing a `C-x C-f`). Also, sometimes you will want to toggle a file read-only. You can do that by pressing `x C-q`.
+
+<br/>
+
+Press `C-h` to view a list of options to get help. Especially useful is `C-h k` when you want to know what a keyboard command does without running it first. For example, pressing `C-h k <F4>` will tell you that it runs the command `kmacro-end-or-call-macro`. Press `q` to close the help window.
+
+<br/>
+
+If you want to read a comprehensive—very much so—guide to Emacs, the history, and the details of how it works, read my massive [Creative writing with Emacs](https://jacmoes.wordpress.com/2019/09/24/creative-writing-with-emacs/) blog post from 2019. It delves into the mechanics of Emacs in much more depth, leaving us free to explore Emacs as a writer’s toolbox. So, if you are completely blank with regard to Emacs, I highly recommend that you read at least the first part of it before continuing.
 
 
 ### Doom-Emacs {#doom-emacs}
@@ -86,6 +95,7 @@ Here is a nerdy blog post about why Org-mode is a great markup language: [Org Mo
 -   `_underline_` <span class="underline">underline</span>
 -   `~code~`  `code`
 -   `=monospaced=` `monospaced`
+-   `# comment` anything after a hash sign and a space will not be exported
 
 
 ### Headings (structure) {#headings--structure}
@@ -104,7 +114,15 @@ Press `C-<Enter>` to insert a new heading at the same level as the heading you�
 
 `M-<up>` and `M-<down>` will move a heading up and down.
 
-`M-<left>` and `M-<right>` will demote/promote a heading.
+`M-<left>` and `M-<right>` will promote/demote a heading.
+
+`c n` and `c p` will navigate to next and previous heading, respectively.
+
+`c u` navigates up to the parent heading, if any.
+
+`S-<right>` and `S-<left>` cycles through todo states for a heading, ie from _draft_ to _revise_ to _done_.
+
+`c q` can be used to set tags/categories for a heading. (`c c` also works, when standing on the actual heading)
 
 
 ### Lists {#lists}
@@ -122,6 +140,8 @@ Press `C-<Enter>` to insert a new list item at the same level as the heading you
 
 `M-<left>` and `M-<right>` will demote/promote a list item.
 
+`S-<left>` and `S-<right>` will cycle through different list styles, provided that the point is placed on the list item symbol (by default a `-`))
+
 
 ### Document options {#document-options}
 
@@ -132,11 +152,14 @@ Press `C-<Enter>` to insert a new list item at the same level as the heading you
 You can then use `#+toc: headlines 2` to manually insert a table of contents into the document.
 
 
-### Miscellaneous {#miscellaneous}
+### Links {#links}
 
 -   `[[link][description]]` link with description (use `c l` to insert)
 -   `[[file:link_to_file]]` inline image is a file link **without** description
--   `# comment` anything after a hash sign and a space will not be exported
+
+Use `c l` to insert a link, or to edit a link. Use `c o` to open a link.
+
+If the link is a link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press `c <TAB>`.
 
 
 ### Special blocks {#special-blocks}
@@ -170,6 +193,17 @@ The `:noexport:` tag tells Org-mode that the contents—including any children�
 The `:ignore:` tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the `:ignore:` tag allows us to keep the outline to ouselves.
 
 
+### Tables {#tables}
+
+In Org-mode tables are made of ASCII characters, but it feels like magic in action.
+
+{{< youtube id="5vGGgfs0q3k" title="Using Emacs episode 54 - Org Tables" >}}
+
+See [Tables (The Org Manual)](https://orgmode.org/manual/Tables.html) for more details.
+
+We’ll see more of what Org-mode tables can do later on in this article, when discussing clock-tables and when discussing Org-tracktable.
+
+
 ## Boon {#boon}
 
 [Boon](https://github.com/jyp/boon) is a modal editing package for Emacs which is ergonomic and designed to integrate well with existing Emacs infrastructure. That means that we can continue to use the standard Emacs keyboard shortcuts should we choose to do so, in addition to the features that Boon provides.
@@ -184,7 +218,7 @@ Boon is a modal editing system with two modes: Command mode and Insert mode. Com
 
 <br/>
 
-When in Command mode, we can switch to Insert mode by pressing `v`. The cursor changes shape and color to indicate that we are indeed in Insert mode. For convenience, pressing `S-v` will insert a line below the current line and place the cursor in it, and `C-v` will insert a line above. That often saves us from a couple of keystrokes.
+When in Command mode, we can switch to Insert mode by pressing `v`. The cursor changes shape and color to indicate that we are indeed in Insert mode. For convenience, pressing `S-v` will insert a line above the current line and place the cursor in it, and `C-v` will insert a line below. That often saves us from a couple of keystrokes.
 
 <br/>
 
@@ -217,8 +251,26 @@ We already covered the Boon commands in blue, so the following will not cover th
 
 ### Editing {#editing}
 
+-   \` : cycles between uppercase, titlecase, and lowercase
+-   q : “quote”, insert a literal character
+-   r : “replace”, replaces a region, ie deletes and enters Insert mode
+-   t : “transform”, use to change the character at point
+-   y : “yank”, yank from the kill-ring (paste)
+-   Y : “yank-pop”, cycles the kill-ring / shows kill-ring
+-   d : “delete”, delete region
+-   D : “duplicate”, copies region to kill-ring
+
 
 ### Custom {#custom}
+
+-   w : show how many words have been written today (`org-tracktable-status`)
+-   W : write to the track-table (`org-tracktable-write`)
+-   E : go to last edit
+-   s : toggle center-cursor-mode
+-   G : grab an URL from a running web browser and inserts it
+-   B : begin a Pomodoro session
+-   n : narrow to Org-mode heading
+-   N : widen the view (un-narrow)
 
 
 ## Dictionaries et cetera {#dictionaries-et-cetera}
@@ -476,12 +528,11 @@ Then, we set a placeholder for where the generated bibliography list will be ren
 
 Now that we’re all set up, we can now insert citations into our document by running `org-cite-insert` (bound to `C-c l @`)
 
-<div title="Inserting a citation in Emacs">
+{{< figure src="/images/hotel-california/citation-insert.png" alt="Inserting a citation in Emacs" title="Inserting a citation in Emacs" width="100%" >}}
 
-<img src="/images/hotel-california/citation-insert.png" alt="Inserting a citation in Emacs" title="Inserting a citation in Emacs" width="100%" />
-It will be rendered as `[cite:@citation]` in the org-file, but will be rendered correctly after export.
+{{< figure src="/images/hotel-california/bibliography-source.png" alt="Bibliography source code" title="Biblography source code" width="100%" >}}
 
-</div>
+{{< figure src="/images/hotel-california/bibliography-test.png" alt="Bibliography test rendering" title="Bibliography test rendering" width="100%" >}}
 
 
 ### Snippets {#snippets}
@@ -512,3 +563,5 @@ Write the conclusion here
 [Emacs Editor Tutorial - An Absolute Beginners Reference - LinuxForDevices](https://www.linuxfordevices.com/tutorials/linux/emacs-editor-tutorial)
 
 [GNU Emacs - Guided Tour - GNU Project](https://www.gnu.org/software/emacs/tour/)
+
+[yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.](https://github.com/yjwen/org-reveal/)
