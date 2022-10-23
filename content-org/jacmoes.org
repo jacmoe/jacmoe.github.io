@@ -166,6 +166,15 @@ We already covered the Boon commands in blue, so the following will not cover th
 
 *** Movement
 *** Editing
+- ` : cycles between uppercase, titlecase, and lowercase
+- q : “quote”, insert a literal character
+- r : “replace”, replaces a region, ie deletes and enters Insert mode
+- t : “transform”, use to change the character at point
+- y : “yank”, yank from the kill-ring (paste)
+- Y : “yank-pop”, cycles the kill-ring / shows kill-ring
+- d : “delete”, delete region
+- D : “duplicate”, copies region to kill-ring
+
 *** Custom
 - w : shows how many words have been written today (Org-TrackTable)
 - E : go to last edit
