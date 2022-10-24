@@ -208,6 +208,7 @@ We already covered the Boon commands in blue, so the following will not cover th
 - E : go to last edit
 - s : toggle center-cursor-mode
 - G : grab an URL from a running web browser and inserts it
+- Z : toggle transparency (zee-through)
 - B : begin a Pomodoro session
 - n : narrow to Org-mode heading
 - N : widen the view (un-narrow)
