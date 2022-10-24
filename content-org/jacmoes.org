@@ -100,7 +100,8 @@ Now that you know a thing or two about Emacs, here’s another introductory vide
 #+begin_export html
 <br/>
 #+end_export
-I switched to Doom-Emacs after declaring Emacs Bankruptcy [fn:emacsbankruptcy: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”.], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
+I switched to Doom-Emacs after declaring Emacs Bankruptcy [fn:1], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
+[fn:1] When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”. [[https://www.emacswiki.org/emacs/DotEmacsBankruptcy][EmacsWiki: Dot Emacs Bankruptcy]]
 ** Org-mode
 #+attr_html: :alt Org-mode :title Org-mode :width 20%
 [[/images/hotel-california/org-mode-unicorn.svg]]
@@ -189,6 +190,12 @@ You can then use ~#+toc: headlines 2~ to manually insert a table of contents int
 Use ~c l~ to insert a link, or to edit a link. Use ~c o~ to open a link.
 
 If the link is a file link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press ~c <TAB>~.
+*** Footnote-links
+- ~[fn:1: this is an inline, numbered footnote]~
+- ~[fn:name: named, inline footnote]~
+- ~[fn:: anonymous, inline footnote]~
+
+For more information about footnotes, see [fn:footnotes: [[https://orgmode.org/manual/Creating-Footnotes.html][Creating Footnotes (The Org Manual)]]]
 
 *** Special blocks
 In addition to the standard markup, Org-mode has special blocks. Use ~C-c C-,~ to insert a block.
@@ -440,7 +447,7 @@ It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—a
 ** Conclusion
    Write the conclusion here
 
-** Links
+** Online Resources
 [[https://www.youtube.com/watch?v=SzA2YODtgK4][Getting Started With Org Mode - YouTube]]
 
 [[https://www.youtube.com/watch?v=JHKrTsiz4JU][OrgMode E05S05: Tables - YouTube]]

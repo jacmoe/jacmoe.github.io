@@ -42,7 +42,7 @@ It is my hope that, after reading this article, that  you start thinking of it a
 - [Org-roam](#org-roam)
 - [Other things](#other-things)
 - [Conclusion](#conclusion)
-- [Links](#links)
+- [Online Resources](#online-resources)
 
 </div>
 <!--endtoc-->
@@ -222,6 +222,15 @@ You can then use `#+toc: headlines 2` to manually insert a table of contents int
 Use `c l` to insert a link, or to edit a link. Use `c o` to open a link.
 
 If the link is a file link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press `c <TAB>`.
+
+
+### Footnote-links {#footnote-links}
+
+-   `[fn:1: this is an inline, numbered footnote]`
+-   `[fn:name: named, inline footnote]`
+-   `[fn:: anonymous, inline footnote]`
+
+For more information about footnotes, see&nbsp;[^fn:2]
 
 
 ### Special blocks {#special-blocks}
@@ -614,7 +623,7 @@ It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—a
 Write the conclusion here
 
 
-## Links {#links}
+## Online Resources {#online-resources}
 
 [Getting Started With Org Mode - YouTube](https://www.youtube.com/watch?v=SzA2YODtgK4)
 
@@ -628,4 +637,5 @@ Write the conclusion here
 
 [yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.](https://github.com/yjwen/org-reveal/)
 
-[^fn:1]: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”.
+[^fn:1]: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”. [EmacsWiki: Dot Emacs Bankruptcy](https://www.emacswiki.org/emacs/DotEmacsBankruptcy)
+[^fn:2]: [Creating Footnotes (The Org Manual)](https://orgmode.org/manual/Creating-Footnotes.html)
