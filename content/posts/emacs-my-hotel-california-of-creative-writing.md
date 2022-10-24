@@ -12,6 +12,16 @@ draft = true
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
 
+<br/>
+
+Perhaps when you think of Emacs, you think of it as a text editor and an Integrated Development Environment (IDE).
+
+<br/>
+
+It is my hope that, after reading this article, that  you start thinking of it as an Integrated Writing Environment (IWE) as well.
+
+<br/>
+
 <div id="contents" style="position:fixed;width: 200px;right:0;top:0">
 
 <div class="ox-hugo-toc toc">
@@ -59,6 +69,28 @@ It’s highly recommended to run Emacs without any customization a couple of tim
 
 <br/>
 
+Common Emacs commands:
+
+-   `C-x C-f` : `find-file`, allows you to open an existing file. If the file doesn’t exist, create a new file.
+-   `C-x C-s` : `save-buffer`, saves buffer to disk.
+-   `C-x b` : `ibuffer`, show a list of buffers in the minibuffer, and allows you to switch to a different buffer.
+-   `C-x C-b` : `ibuffer`, runs ibuffer in a new window (use `q` to quit).
+-   `C-x k` : kill (close) buffer.
+-   `C-x C-c` : quit Emacs.
+-   `C-o` : `org-open-line` : inserts new line below point.
+-   `C-x 2` : split window in two, one below another.
+-   `C-x 3` : split window in two, side-by-side windows.
+-   `C-x o` : switch to other window.
+-   `C-x 0` : close window.
+-   `C-x 1` : close other windows.
+-   `C-<space>` : toggle the mark.
+-   `C-w` : kill (cut) text between point and mark. _(‘w’ is for “wipe”)_.
+-   `M-w` : (copy) save region, but don’t kill it. _(‘w’ is for “wipe”)_
+-   `C-y` : yank (paste) first item from the kill-ring.
+-   `M-y` : display items in the kill-ring to yank (paste) into the buffer.
+
+<br/>
+
 To get out of trouble, use `C-g` (keyboard quit) to cancel whatever it is that Emacs is doing at the moment. Use `C-x C-c` to rage-quit if you need to (I admit that I have when I first started out). `C-x u` will undo, and `C-?` will redo. Use `C-x C-s` to save current buffer. If the current buffer is a horrible mess, you can run `M-x revert-buffer` to get back to whatever it was when you loaded it from disk (by doing a `C-x C-f`). Also, sometimes you will want to toggle a file read-only. You can do that by pressing `x C-q`.
 
 <br/>
@@ -69,13 +101,43 @@ Press `C-h` to view a list of options to get help. Especially useful is `C-h k` 
 
 If you want to read a comprehensive—very much so—guide to Emacs, the history, and the details of how it works, read my massive [Creative writing with Emacs](https://jacmoes.wordpress.com/2019/09/24/creative-writing-with-emacs/) blog post from 2019. It delves into the mechanics of Emacs in much more depth, leaving us free to explore Emacs as a writer’s toolbox. So, if you are completely blank with regard to Emacs, I highly recommend that you read at least the first part of it before continuing.
 
+<br/>
+
+And, before you ask, let me tell you my favorite Emacs command: `C-o` (_insert new line below_); I use it all the time!
+
+<br/>
+
+Now that you know a thing or two about Emacs, here’s another introductory video about Emacs as a text editor:
+
+{{< youtube id="jPkIaqSh3cA" title="The Basics of Emacs as a Text Editor" >}}
+
+_NB: He uses the `<Esc>` key as an alternative to `<Control>` like in `<Esc> y`. May I suggest that you use `C-y` instead. Using the Escape key that way will conflict with the modal editing package Boon mentioned below._
+
+<br/>
+
 
 ### Doom-Emacs {#doom-emacs}
 
-[Doom-Emacs](https://github.com/hlissner/doom-emacs) is a minimalist modern Emacs distribution that is light and fast.
+[Doom-Emacs](https://github.com/hlissner/doom-emacs) is a minimalist modern Emacs distribution that is light and fast. It provides a rock-solid and highly configurable infrastructure to base an Emacs configuration on.
+
+<br/>
+
+I switched to Doom-Emacs after declaring Emacs Bankruptcy&nbsp;[^fn:1], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
 
 
 ## Org-mode {#org-mode}
+
+{{< figure src="/images/hotel-california/org-mode-unicorn.svg" alt="Org-mode" title="Org-mode" width="20%" >}}
+
+> A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system.
+
+<br/>
+
+[Org-mode](https://orgmode.org/) is based on outline-mode which is again based on text-mode, and is both a markup language, an organizer (GTD), and an out-liner, and there are some people who live their entire lives in Org-mode.
+
+<br/>
+
+Here’s a small demo of Org-mode in action (_may I suggest that you turn off the sound for this one_):
 
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 
@@ -159,7 +221,7 @@ You can then use `#+toc: headlines 2` to manually insert a table of contents int
 
 Use `c l` to insert a link, or to edit a link. Use `c o` to open a link.
 
-If the link is a link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press `c <TAB>`.
+If the link is a file link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press `c <TAB>`.
 
 
 ### Special blocks {#special-blocks}
@@ -190,7 +252,7 @@ The `:noexport:` tag tells Org-mode that the contents—including any children�
 
 ### Ignore tags {#ignore-tags}
 
-The `:ignore:` tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the `:ignore:` tag allows us to keep the outline to ouselves.
+The `:ignore:` tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partitioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the `:ignore:` tag allows us to keep the outline to ourselves.
 
 
 ### Tables {#tables}
@@ -251,13 +313,12 @@ We already covered the Boon commands in blue, so the following will not cover th
 
 ### Editing {#editing}
 
--   \` : cycles between uppercase, titlecase, and lowercase
+-   \` : cycles between uppercase, title-case, and lowercase
 -   q : “quote”, insert a literal character
 -   r : “replace”, replaces a region, ie deletes and enters Insert mode
 -   t : “transform”, use to change the character at point
 -   y : “yank”, yank from the kill-ring (paste)
--   Y : “yank-pop”, cycles the kill-ring / shows kill-ring
--   d : “delete”, delete region
+-   d : “delete”, delete region (cut to kill-ring)
 -   D : “duplicate”, copies region to kill-ring
 
 
@@ -268,6 +329,7 @@ We already covered the Boon commands in blue, so the following will not cover th
 -   E : go to last edit
 -   s : toggle center-cursor-mode
 -   G : grab an URL from a running web browser and inserts it
+-   Z : toggle transparency (zee-through)
 -   B : begin a Pomodoro session
 -   n : narrow to Org-mode heading
 -   N : widen the view (un-narrow)
@@ -565,3 +627,5 @@ Write the conclusion here
 [GNU Emacs - Guided Tour - GNU Project](https://www.gnu.org/software/emacs/tour/)
 
 [yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.](https://github.com/yjwen/org-reveal/)
+
+[^fn:1]: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”.

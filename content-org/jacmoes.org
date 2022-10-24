@@ -14,7 +14,17 @@
 [[/images/hotel-california/hotel-california.png]]
 
 This blog post is a detailed explanation of why Emacs is my Hotel California of creative writing. It shows how I have created a writing environment exactly how I want it to be, and why there—in my mind—is nothing out there that compares to it.
-
+#+begin_export html
+<br/>
+#+end_export
+Perhaps when you think of Emacs, you think of it as a text editor and an Integrated Development Environment (IDE).
+#+begin_export html
+<br/>
+#+end_export
+It is my hope that, after reading this article, that  you start thinking of it as an Integrated Writing Environment (IWE) as well.
+#+begin_export html
+<br/>
+#+end_export
 #+begin_export html
 <div id="contents" style="position:fixed;width: 200px;right:0;top:0">
 #+end_export
@@ -45,6 +55,7 @@ Common Emacs commands:
 - ~C-x C-s~ : ~save-buffer~, saves buffer to disk.
 - ~C-x b~ : ~ibuffer~, show a list of buffers in the minibuffer, and allows you to switch to a different buffer.
 - ~C-x C-b~ : ~ibuffer~, runs ibuffer in a new window (use ~q~ to quit).
+- ~C-x k~ : kill (close) buffer.
 - ~C-x C-c~ : quit Emacs.
 - ~C-o~ : ~org-open-line~ : inserts new line below point.
 - ~C-x 2~ : split window in two, one below another.
@@ -52,6 +63,11 @@ Common Emacs commands:
 - ~C-x o~ : switch to other window.
 - ~C-x 0~ : close window.
 - ~C-x 1~ : close other windows.
+- ~C-<space>~ : toggle the mark.
+- ~C-w~ : kill (cut) text between point and mark. /(‘w’ is for “wipe”)/.
+- ~M-w~ : (copy) save region, but don’t kill it. /(‘w’ is for “wipe”)/
+- ~C-y~ : yank (paste) first item from the kill-ring.
+- ~M-y~ : display items in the kill-ring to yank (paste) into the buffer.
 #+begin_export html
 <br/>
 #+end_export
@@ -64,9 +80,41 @@ Press ~C-h~ to view a list of options to get help. Especially useful is ~C-h k~ 
 <br/>
 #+end_export
 If you want to read a comprehensive—very much so—guide to Emacs, the history, and the details of how it works, read my massive [[https://jacmoes.wordpress.com/2019/09/24/creative-writing-with-emacs/][Creative writing with Emacs]] blog post from 2019. It delves into the mechanics of Emacs in much more depth, leaving us free to explore Emacs as a writer’s toolbox. So, if you are completely blank with regard to Emacs, I highly recommend that you read at least the first part of it before continuing.
+#+begin_export html
+<br/>
+#+end_export
+And, before you ask, let me tell you my favorite Emacs command: ~C-o~ (/insert new line below/); I use it all the time!
+#+begin_export html
+<br/>
+#+end_export
+Now that you know a thing or two about Emacs, here’s another introductory video about Emacs as a text editor:
+#+begin_export hugo
+{{< youtube id="jPkIaqSh3cA" title="The Basics of Emacs as a Text Editor" >}}
+#+end_export
+/NB: He uses the ~<Esc>~ key as an alternative to ~<Control>~ like in ~<Esc> y~. May I suggest that you use ~C-y~ instead. Using the Escape key that way will conflict with the modal editing package Boon mentioned below./
+#+begin_export html
+<br/>
+#+end_export
 *** Doom-Emacs
-[[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast.
+[[https://github.com/hlissner/doom-emacs][Doom-Emacs]] is a minimalist modern Emacs distribution that is light and fast. It provides a rock-solid and highly configurable infrastructure to base an Emacs configuration on.
+#+begin_export html
+<br/>
+#+end_export
+I switched to Doom-Emacs after declaring Emacs Bankruptcy [fn:emacsbankruptcy: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”.], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
 ** Org-mode
+#+attr_html: :alt Org-mode :title Org-mode :width 20%
+[[/images/hotel-california/org-mode-unicorn.svg]]
+#+begin_quote
+A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system.
+#+end_quote
+#+begin_export html
+<br/>
+#+end_export
+[[https://orgmode.org/][Org-mode]] is based on outline-mode which is again based on text-mode, and is both a markup language, an organizer (GTD), and an out-liner, and there are some people who live their entire lives in Org-mode.
+#+begin_export html
+<br/>
+#+end_export
+Here’s a small demo of Org-mode in action (/may I suggest that you turn off the sound for this one/):
 #+begin_export hugo
 {{< youtube id="hnMntOQjs7Q" title="Emacs Org Mode Demo 2021" >}}
 #+end_export
@@ -140,7 +188,7 @@ You can then use ~#+toc: headlines 2~ to manually insert a table of contents int
 
 Use ~c l~ to insert a link, or to edit a link. Use ~c o~ to open a link.
 
-If the link is a link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press ~c <TAB>~.
+If the link is a file link to an image, and without a description, it is an inline image. To toggle the rendering of inline images, you can press ~c <TAB>~.
 
 *** Special blocks
 In addition to the standard markup, Org-mode has special blocks. Use ~C-c C-,~ to insert a block.
@@ -498,7 +546,7 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 #  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices emacs kmacro
 #  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
 #  LocalWords:  TOC Noexport youtube tracktable br clocktable Biblography yjwen
-#  LocalWords:  js
+#  LocalWords:  js ibuffer ie zee un
 
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
