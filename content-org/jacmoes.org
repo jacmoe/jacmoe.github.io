@@ -40,6 +40,21 @@ It’s highly recommended to run Emacs without any customization a couple of tim
 #+begin_export html
 <br/>
 #+end_export
+Common Emacs commands:
+- ~C-x C-f~ : ~find-file~, allows you to open an existing file. If the file doesn’t exist, create a new file.
+- ~C-x C-s~ : ~save-buffer~, saves buffer to disk.
+- ~C-x b~ : ~ibuffer~, show a list of buffers in the minibuffer, and allows you to switch to a different buffer.
+- ~C-x C-b~ : ~ibuffer~, runs ibuffer in a new window (use ~q~ to quit).
+- ~C-x C-c~ : quit Emacs.
+- ~C-o~ : ~org-open-line~ : inserts new line below point.
+- ~C-x 2~ : split window in two, one below another.
+- ~C-x 3~ : split window in two, side-by-side windows.
+- ~C-x o~ : switch to other window.
+- ~C-x 0~ : close window.
+- ~C-x 1~ : close other windows.
+#+begin_export html
+<br/>
+#+end_export
 To get out of trouble, use ~C-g~ (keyboard quit) to cancel whatever it is that Emacs is doing at the moment. Use ~C-x C-c~ to rage-quit if you need to (I admit that I have when I first started out). ~C-x u~ will undo, and ~C-?~ will redo. Use ~C-x C-s~ to save current buffer. If the current buffer is a horrible mess, you can run ~M-x revert-buffer~ to get back to whatever it was when you loaded it from disk (by doing a ~C-x C-f~). Also, sometimes you will want to toggle a file read-only. You can do that by pressing ~x C-q~.
 #+begin_export html
 <br/>
