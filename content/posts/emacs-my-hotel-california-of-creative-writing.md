@@ -41,7 +41,6 @@ It is my hope that, after reading this article, that  you start thinking of it a
 - [Looking good and being comfortable](#looking-good-and-being-comfortable)
 - [Org-roam](#org-roam)
 - [Other things](#other-things)
-- [Conclusion](#conclusion)
 - [Online Resources](#online-resources)
 
 </div>
@@ -123,6 +122,11 @@ _NB: He uses the `<Esc>` key as an alternative to `<Control>` like in `<Esc> y`.
 <br/>
 
 I switched to Doom-Emacs after declaring Emacs Bankruptcy&nbsp;[^fn:1], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
+
+
+### Note about the Hotel California configuration {#note-about-the-hotel-california-configuration}
+
+If you feel that you need to have at least a menu-bar, then you can turn it on/off by running this command: `M-x menu-bar-mode`. It can be useful sometimes, especially when learning the Emacs ropes.
 
 
 ## Org-mode {#org-mode}
@@ -618,16 +622,9 @@ By running `M-x grab-x-link` we can insert a link from an active web browser win
 It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—and what format to use (plain, markdown or Org format). Much quicker than manually copying, pasting, and write the title manually. The links can be edited by `c l` , and opened by `c o`.
 
 
-## Conclusion {#conclusion}
-
-Write the conclusion here
-
-
 ## Online Resources {#online-resources}
 
-[Getting Started With Org Mode - YouTube](https://www.youtube.com/watch?v=SzA2YODtgK4)
-
-[OrgMode E05S05: Tables - YouTube](https://www.youtube.com/watch?v=JHKrTsiz4JU)
+[Emacs For Writers - YouTube](https://www.youtube.com/watch?v=FtieBc3KptU)
 
 [EmacsConf - 2020 - talks - Idea to Novel Superstructure: Emacs for Writing](https://emacsconf.org/2020/talks/03/)
 
@@ -635,7 +632,9 @@ Write the conclusion here
 
 [GNU Emacs - Guided Tour - GNU Project](https://www.gnu.org/software/emacs/tour/)
 
-[yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.](https://github.com/yjwen/org-reveal/)
+[Getting Started With Org Mode - YouTube](https://www.youtube.com/watch?v=SzA2YODtgK4)
+
+[[<https://github.com/yjwen/org-reveal/>][yjwen/org-reveal
 
 [^fn:1]: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”. [EmacsWiki: Dot Emacs Bankruptcy](https://www.emacswiki.org/emacs/DotEmacsBankruptcy)
 [^fn:2]: [Creating Footnotes (The Org Manual)](https://orgmode.org/manual/Creating-Footnotes.html)
