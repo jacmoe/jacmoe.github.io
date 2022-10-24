@@ -142,7 +142,7 @@ Special blocks is a good way to extend the markup, and—of course—you can def
 *** Noexport tags
 The ~:noexport:~ tag tells Org-mode that the contents—including any children—of a section is not to be exported. Useful for when you keep your work in one single file, including sections for things like research, notes, and character studies.
 *** Ignore tags
-The ~:ignore:~ tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the ~:ignore:~ tag allows us to keep the outline to ouselves.
+The ~:ignore:~ tag instructs Org-mode to export the contents of a heading section, but not the heading itself. That’s useful when we organize your outline/document in chapters and scenes, but don’t want the exported text to be partitioned with scene headings. Having the text partitioned using headings allows us to rearrange those sections of the document—promoting, demoting, moving up and down—and we wouldn’t be able to do that if the text was not organized in an outline. Or, put another way: the ~:ignore:~ tag allows us to keep the outline to ourselves.
 *** Tables
 In Org-mode tables are made of ASCII characters, but it feels like magic in action.
 #+begin_export hugo
@@ -193,13 +193,12 @@ We already covered the Boon commands in blue, so the following will not cover th
 *** Movement
 
 *** Editing
-- ` : cycles between uppercase, titlecase, and lowercase
+- ` : cycles between uppercase, title-case, and lowercase
 - q : “quote”, insert a literal character
 - r : “replace”, replaces a region, ie deletes and enters Insert mode
 - t : “transform”, use to change the character at point
 - y : “yank”, yank from the kill-ring (paste)
-- Y : “yank-pop”, cycles the kill-ring / shows kill-ring
-- d : “delete”, delete region
+- d : “delete”, delete region (cut to kill-ring)
 - D : “duplicate”, copies region to kill-ring
 
 *** Custom
@@ -481,8 +480,10 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 
 # LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
 # LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
-#  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices
+#  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices emacs kmacro
 #  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
+#  LocalWords:  TOC Noexport youtube tracktable br clocktable Biblography yjwen
+#  LocalWords:  js
 
 * done Welcome to my new blog :@announcement:hugo:emacs:blog:
 CLOSED: [2022-03-29 Tue 00:50]
