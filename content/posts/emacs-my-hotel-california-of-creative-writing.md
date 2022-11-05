@@ -42,6 +42,7 @@ It is my hope that, after reading this article, that  you start thinking of it a
 - [Org-roam](#org-roam)
 - [Other things](#other-things)
 - [Online Resources](#online-resources)
+- [Conclusion](#conclusion)
 
 </div>
 <!--endtoc-->
@@ -53,9 +54,23 @@ It is my hope that, after reading this article, that  you start thinking of it a
 
 > “I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
 
-_-Neal Stephenson, 1998 ([In the Beginning... Was the Command Line - Wikipedia](https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line))_
+<div style="font-size:0.7em;font-style:italic;padding-left:30px;padding-bottom:40px;">
+
+-Neal Stephenson, 1998 ([In the Beginning... Was the Command Line - Wikipedia](https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line))
+
+</div>
+
+> “I use emacs, which might be thought of as a thermonuclear word processor... the engineer-hours that, in the case of Microsoft Word, were devoted to features like mail merge, and the ability to embed feature-length motion pictures in corporate memoranda, were, in the case of emacs, focused with maniacal intensity on the deceptively simple-seeming problem of editing text. If you are a professional writer... emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish.”
+
+<div style="font-size:0.7em;font-style:italic;padding-left:30px;padding-bottom:40px;">
+
+-Neal Stephenson, 1998 ([In the Beginning... Was the Command Line - Wikipedia](https://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line))
+
+</div>
 
 I can make Emacs fit my workflow rather than the other way around.
+
+{{< figure src="/images/hotel-california/hackerman1.jpg" alt="Hackerman" title="Hackerman" width="40%" >}}
 
 Emacs is a LISP machine.
 
@@ -121,10 +136,10 @@ _NB: He uses the `<Esc>` key as an alternative to `<Control>` like in `<Esc> y`.
 
 <br/>
 
-I switched to Doom-Emacs after declaring Emacs Bankruptcy&nbsp;[^fn:1], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent.
+I switched to Doom-Emacs after declaring Emacs Bankruptcy&nbsp;[^fn:1], and I haven’t regretted it. It uses every trick in the book to optimize, and the install/upgrade/maintenance scripts are excellent. It provides infrastructure and a well thought out framework for creating your own, speedy Emacs configuration.
 
 
-### Note about the Hotel California configuration {#note-about-the-hotel-california-configuration}
+### Notes about the Hotel California configuration {#notes-about-the-hotel-california-configuration}
 
 If you feel that you need to have at least a menu-bar, then you can turn it on/off by running this command: `M-x menu-bar-mode`. It can be useful sometimes, especially when learning the Emacs ropes.
 
@@ -409,7 +424,6 @@ Clocking is tied to the heading you are working under, and will add a `:LOGBOOK:
 
 ```nil
 :LOGBOOK:
-CLOCK: [2017-04-10 Mon 15:18]
 CLOCK: [2017-04-10 Mon 15:16]--[2017-04-10 Mon 15:17] =>  0:01
 CLOCK: [2017-04-07 Fri 16:05]--[2017-04-07 Fri 16:35] =>  0:30
 CLOCK: [2017-04-05 Wed 16:42]--[2017-04-05 Wed 16:52] =>  0:10
@@ -634,7 +648,12 @@ It will ask you to choose your browser—Chromium, Chrome, Firefox, or Brave—a
 
 [Getting Started With Org Mode - YouTube](https://www.youtube.com/watch?v=SzA2YODtgK4)
 
-[[<https://github.com/yjwen/org-reveal/>][yjwen/org-reveal
+[yjwen/org-reveal: Exports Org-mode contents to Reveal.js HTML presentation.](https://github.com/yjwen/org-reveal/)
+
+
+## Conclusion {#conclusion}
+
+Write the conclusion here
 
 [^fn:1]: When your InitFile gets so large that you really need to start over, then you have declared “.emacs bankruptcy”. [EmacsWiki: Dot Emacs Bankruptcy](https://www.emacswiki.org/emacs/DotEmacsBankruptcy)
 [^fn:2]: [Creating Footnotes (The Org Manual)](https://orgmode.org/manual/Creating-Footnotes.html)
