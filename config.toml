@@ -26,9 +26,9 @@ GiscusCategory = 'Announcements'
 GiscusCategoryId = 'DIC_kwDOHEtFBs4COT4Z'
 
 [[params.social]]
-id = 'twitter'
+id = 'mastodon'
 name = 'jacmoe'
-url = 'https://twitter.com/jacmoe/'
+url = 'https://writing.exchange/@jacmoe'
 
 [[params.social]]
 id = 'github'
@@ -44,6 +44,11 @@ url = 'https://www.reddit.com/user/jacmoe'
 id = 'facebook'
 name = 'jacmoe'
 url = 'https://facebook.com/jacmoe/'
+
+[[params.social]]
+id = 'twitter'
+name = 'jacmoe'
+url = 'https://twitter.com/jacmoe/'
 
 [markup.goldmark.renderer]
 unsafe = true
