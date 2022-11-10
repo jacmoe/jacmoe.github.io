@@ -45,10 +45,5 @@ id = 'facebook'
 name = 'jacmoe'
 url = 'https://facebook.com/jacmoe/'
 
-[[params.social]]
-id = 'twitter'
-name = 'jacmoe'
-url = 'https://twitter.com/jacmoe/'
-
 [markup.goldmark.renderer]
 unsafe = true
