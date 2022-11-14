@@ -6,7 +6,10 @@ date = 2022-03-29T00:50:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
 draft = false
-featured_image = "/images/hugoblog.png"
+[comments]
+  host = "writing.exchange"
+  username = "jacmoe"
+  id = 109342914182848028
 +++
 
 {{< figure src="/images/hugoblog.png" alt="My new Emacs Hugo powered blog" title="My new Emacs Hugo powered blog" width="100%" >}}
