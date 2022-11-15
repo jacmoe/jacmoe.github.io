@@ -31,11 +31,6 @@ name = 'jacmoe'
 url = 'https://writing.exchange/@jacmoe'
 
 [[params.social]]
-id = 'pixelfed'
-name = 'jacmoe'
-url = 'https://pixelfed.de/i/web/profile/496860188946535376'
-
-[[params.social]]
 id = 'github'
 name = 'jacmoe'
 url = 'https://github.com/jacmoe/'
