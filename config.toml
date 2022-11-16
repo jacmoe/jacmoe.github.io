@@ -9,6 +9,20 @@ paginate = 3
 [author]
 name = 'Jacob Moena'
 
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/posts/"
+weight = 2
+
 [params]
 author = 'Jacob Moena'
 description = 'Increasingly interesting'

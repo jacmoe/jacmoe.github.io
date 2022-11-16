@@ -1,2 +1,2 @@
 #! /bin/bash
-rm -rf docs && hugo serve --disableFastRender -t anubis
+rm -rf docs && hugo serve --buildDrafts --disableFastRender -t anubis
