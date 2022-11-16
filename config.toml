@@ -20,10 +20,6 @@ copyCodeButton = true
 rssAsSocialIcon = true
 disableSummary = true
 utterancesRepo = 'stuff'
-GiscusRepo = 'jacmoe.github.io'
-GiscusRepoId = 'R_kgDOHEtFBg'
-GiscusCategory = 'Announcements'
-GiscusCategoryId = 'DIC_kwDOHEtFBs4COT4Z'
 
 [[params.social]]
 id = 'mastodon'
