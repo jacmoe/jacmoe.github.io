@@ -106,8 +106,10 @@
 
 <style type = text/css>
   .underline {text-decoration:underline}
+  .caption { position: relative; bottom: 20px; height: 0; color: white }
 </style>
 <link rel="stylesheet" type="text/css" href="https://jacmoe.github.io/css/article.css" />
+<link rel="stylesheet" href="https://jacmoe.github.io//css/swipebox.min.css">
 
 
     
@@ -300,6 +302,13 @@
             Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
             
 <link rel="me" value="https://writing.exchange/@jacmoe" />
+<script src="https://jacmoe.github.io//js/jquery-3.5.1.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $( '.swipebox' ).swipebox();
+} );
+</script>
 
             </p>  
         </div> 
