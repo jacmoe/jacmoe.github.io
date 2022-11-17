@@ -18,51 +18,51 @@ Image gallery
 
 <div>
     <a href="/gallery/hoca/1splash.png" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/1splash.png"/>
+        <img alt="caption for image 1" src="/gallery/hocasmall/1splash.png"/>
     </a>
-    <a href="/gallery/hoca/2zen.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/2zen.png"/>
+    <a href="/gallery/hoca/2zen.png" class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/2zen.png"/>
     </a>
-    <a href="/gallery/hoca/3tracktable.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/3tracktable.png"/>
+    <a href="/gallery/hoca/3tracktable.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/3tracktable.png"/>
     </a>
-    <a href="/gallery/hoca/4dictionary.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/4dictionary.png"/>
+    <a href="/gallery/hoca/4dictionary.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/4dictionary.png"/>
     </a>
-    <a href="/gallery/hoca/5webster.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/5webster.png"/>
+    <a href="/gallery/hoca/5webster.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/5webster.png"/>
     </a>
-    <a href="/gallery/hoca/6synonyms.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/6synonyms.png"/>
+    <a href="/gallery/hoca/6synonyms.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/6synonyms.png"/>
     </a>
-    <a href="/gallery/hoca/7definitions.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/7definitions.png"/>
+    <a href="/gallery/hoca/7definitions.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/7definitions.png"/>
     </a>
-    <a href="/gallery/hoca/8sentences.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/8sentences.png"/>
+    <a href="/gallery/hoca/8sentences.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/8sentences.png"/>
     </a>
-    <a href="/gallery/hoca/9clocktable.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/9clocktable.png"/>
+    <a href="/gallery/hoca/9clocktable.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/9clocktable.png"/>
     </a>
-    <a href="/gallery/hoca/10pomodoro.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/10pomodoro.png"/>
+    <a href="/gallery/hoca/10pomodoro.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/10pomodoro.png"/>
     </a>
-    <a href="/gallery/hoca/11pomodoro_light.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/11pomodoro_light.png"/>
+    <a href="/gallery/hoca/11pomodoro_light.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/11pomodoro_light.png"/>
     </a>
-    <a href="/gallery/hoca/12columns.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/12columns.png"/>
+    <a href="/gallery/hoca/12columns.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/12columns.png"/>
     </a>
-    <a href="/gallery/hoca/13orgwc.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/13orgwc.png"/>
+    <a href="/gallery/hoca/13orgwc.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/13orgwc.png"/>
     </a>
-    <a href="/gallery/hoca/14writegoodmode.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/14writegoodmode.png"/>
+    <a href="/gallery/hoca/14writegoodmode.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/14writegoodmode.png"/>
     </a>
-    <a href="/gallery/hoca/15proselint.png" data-featherlight="image" alt="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hoca/15proselint.png"/>
+    <a href="/gallery/hoca/15proselint.png"  class="swipebox" title="caption for image 1">
+        <img alt="caption for image 1" src="/gallery/hocasmall/15proselint.png"/>
     </a>
-    <a href="/gallery/hoca/16diff.png" data-featherlight="image" alt="caption for image 1">
-        <img title="caption for image 1" alt="caption for image 1" src="/gallery/hoca/16diff.png"/>
+    <a href="/gallery/hoca/16diff.png"  class="swipebox" title="caption for image 1">
+        <img title="caption for image 1" src="/gallery/hocasmall/16diff.png"/>
     </a>
 </div>
