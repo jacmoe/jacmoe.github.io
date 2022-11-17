@@ -1,7 +1,18 @@
 <!--for overriding-->
 <style type = text/css>
   .underline {text-decoration:underline}
-  .caption { position: relative; bottom: 20px; height: 0; color: white }
+
+ .gallery {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+ }
+
+.galleryimg {
+padding:0 10px 10px;
+}
 </style>
 <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/article.css" />
 <link rel="stylesheet" href="{{.Site.BaseURL}}/css/swipebox.min.css">

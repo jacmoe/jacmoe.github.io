@@ -12,7 +12,9 @@ draft = false
   id = 109342914182848028
 +++
 
-{{< figure src="/images/hugoblog.png" alt="My new Emacs Hugo powered blog" title="My new Emacs Hugo powered blog" width="100%" >}}
+<a href="/images/hugoblog.png" rel="hugoblog" class="swipebox" title="My new Emacs Hugo powered blog">
+    <img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>
+</a>
 
 My [old blog](https://jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
