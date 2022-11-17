@@ -34,6 +34,7 @@ copyCodeButton = true
 rssAsSocialIcon = true
 disableSummary = true
 utterancesRepo = 'stuff'
+dateFormat = "Monday, Jan 2, 2006"
 
 [[params.social]]
 id = 'mastodon'
