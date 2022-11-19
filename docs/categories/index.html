@@ -120,6 +120,7 @@ padding:0 10px 10px;
 }
 </style>
 <link rel="stylesheet" type="text/css" href="https://jacmoe.github.io/css/article.css" />
+<link rel="stylesheet" href="https://jacmoe.github.io//css/justifiedGallery.min.css">
 <link rel="stylesheet" href="https://jacmoe.github.io//css/swipebox.min.css">
 
 
@@ -274,10 +275,13 @@ padding:0 10px 10px;
             
 <link rel="me" value="https://writing.exchange/@jacmoe" />
 <script src="https://jacmoe.github.io//js/jquery-3.5.1.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.justifiedGallery.min.js"></script>
 <script src="https://jacmoe.github.io//js/jquery.swipebox.min.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-    $( '.swipebox' ).swipebox();
+    $("#gallery").justifiedGallery().on('jg.complete', function () {
+        $( '.swipebox' ).swipebox();
+});
 } );
 </script>
 
