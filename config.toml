@@ -1,60 +1,65 @@
-baseURL = 'https://jacmoe.github.io/'
-languageCode = 'en-us'
-title = 'Jacmoes Cyber Soapbox'
+baseURL = "https://jacmoe.github.io/"
+languageCode = "en-us"
+title = "Jacmoes's Cyber Soapbox"
 publishDir = 'docs'
-theme = 'anubis'
+theme = "hugo-ficurinia"
 
-paginate = 3
+author = "Jacob Moena"
+copyright = "Jacob Moena - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
-[author]
-name = 'Jacob Moena'
-
-[menu]
-
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "archive"
-name = "Archive"
-url = "/posts/"
-weight = 2
+paginate = 5
+summaryLength = 30
 
 [params]
-author = 'Jacob Moena'
-description = 'Increasingly interesting'
-paginationSinglePost = false
-style = 'light-without-switcher'
-readMore = true
-readNextPosts = 0
-copyCodeButton = true
-rssAsSocialIcon = true
-disableSummary = true
-utterancesRepo = 'stuff'
-dateFormat = "Monday, Jan 2, 2006"
+    description = "Jacmoe's Cyber Soapbox"
+    author = "Jacob Moena"
+    logo = "/android-chrome-512x512.png"
+    favicon = "/favicon.png"
+    faviconIco = "/favicon.ico"
+    appletouch = "/apple-touch-icon.png"
+    svgicon = "/android-chrome-512x512.png"
+    icon512 = "/android-chrome-512x512.png"
+    cactusCommentsSiteName = "jacmoe.github.io"
+    cactusCommentsServerName = "cactus.chat"
+    cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
+    
+    imageInArticlePreview = true
 
-[[params.social]]
-id = 'mastodon'
-name = 'jacmoe'
-url = 'https://writing.exchange/@jacmoe'
+    enableShareOnFediverse = true
 
-[[params.social]]
-id = 'github'
-name = 'jacmoe'
-url = 'https://github.com/jacmoe/'
+    enableRelatedArticles = true
+    relatedArticlesNum = 2 
+    forceRedirect = true
 
-[[params.social]]
-id = 'reddit'
-name = 'jacmoe'
-url = 'https://www.reddit.com/user/jacmoe'
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        lineNumbersInTable = false
+        tabWidth = 4
+        style = "dracula"
+    [markup.tableOfContents]
+        endLevel = 5
+        ordered = false
+        startLevel = 1
 
-[[params.social]]
-id = 'facebook'
-name = 'jacmoe'
-url = 'https://facebook.com/jacmoe/'
+[menu]
+    [[menu.icons]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/jacmoe"
+        weight = 10
+    [[menu.icons]]
+        identifier = "facebook"
+        name = "Facebook"
+        url = "https://facebook.com/jacmoe/"
+        weight = 30
+    [[menu.icons]]
+        identifier = "mastodon"
+        name = "Mastodon"
+        url = "https://writing.exchange/@jacmoe"
+        weight = 40
 
 [markup.goldmark.renderer]
 unsafe = true
