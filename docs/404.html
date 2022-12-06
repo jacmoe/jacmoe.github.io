@@ -45,6 +45,23 @@
     
     
     <link type="text/css" rel="stylesheet" href=https://jacmoe.github.io/css/styles.abbd6311bb4b6ca58f8e7398140529245ae0f6428b759fcd830742eee2619eabb900ba9914a9affb82aa9a16a9b9ea727bb315315a976a0db0e7513a5f12c504.css integrity="sha512-q71jEbtLbKWPjnOYFAUpJFrg9kKLdZ/NgwdC7uJhnqu5ALqZFKmv&#43;4Kqmhapuepye7MVMVqXag2w51E6XxLFBA==" />
+<style type = text/css>
+  .underline {text-decoration:underline}
+
+ .gallery {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+ }
+
+.galleryimg {
+padding:0 10px 10px;
+}
+</style>
+<link rel="stylesheet" href="https://jacmoe.github.io//css/justifiedGallery.min.css">
+<link rel="stylesheet" href="https://jacmoe.github.io//css/swipebox.min.css">
 <meta name="author" content="Jacob Moena" />
 
     
@@ -115,24 +132,14 @@
             <li><a href="/tags">Tags</a></li>
         
         
+            <li><a href="/search">Search</a></li>
+        
     </ul>
 </nav>
 </div>
             </div>
         </div>
-        <div class="search">
-    <input id="searchbar" type="text" placeholder='Search' />
-    <a class="nerdlink" onclick="newSearch();">&#xf002;</a>
-</div>
-<script>
-    function newSearch() {
-        let term = searchbar.value.trim();
-        if (!term) return;
-        location.href = `/search?q=${term}`;
-    }
-    searchbar.onkeyup = (ev) => {if (ev.keyCode == 13) newSearch()};
-</script>
-
+        
     </div>
     <div id="links">
         <a
@@ -226,5 +233,17 @@
         </div>
 
 
+<link rel="me" value="https://writing.exchange/@jacmoe" />
+<script src="https://jacmoe.github.io//js/jquery-3.5.1.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.justifiedGallery.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $("#gallery").justifiedGallery().on('jg.complete', function () {
+        $( '.swipebox' ).swipebox();
+});
+    $( '.swipebox' ).swipebox();
+} );
+</script>
 </body>
 </html>

@@ -11,6 +11,7 @@ paginate = 5
 summaryLength = 30
 
 [params]
+    dateFormat = "Monday, Jan 2, 2006"
     description = "Jacmoe's Cyber Soapbox"
     author = "Jacob Moena"
     logo = "/android-chrome-512x512.png"
@@ -22,12 +23,21 @@ summaryLength = 30
     cactusCommentsSiteName = "jacmoe.github.io"
     cactusCommentsServerName = "cactus.chat"
     cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
-    
+
+
     imageInArticlePreview = true
+
+    enableSearch = true  # enable search page
+    searchbarEverywhere = false  # if the searchbar should be shown in every page; requires enableSearch
+    searchMenuLink = true  # add a search link to the navigation menu; requires enableSearch
+    mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
+
+    enableSidebarLayout = false
+    tocInSidebar = true  # if the sidebar is enbabled, show the TOC in the sidebar
 
     enableShareOnFediverse = true
 
-    enableRelatedArticles = true
+    enableRelatedArticles = false
     relatedArticlesNum = 2 
     forceRedirect = true
 
