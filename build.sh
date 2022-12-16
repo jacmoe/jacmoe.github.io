@@ -1,2 +1,2 @@
 #! /bin/bash
-rm -rf docs && hugo -t hugo-ficurinia
+rm -rf docs && hugo -t hugo-ficurinia-modified

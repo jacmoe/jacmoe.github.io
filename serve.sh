@@ -1,2 +1,2 @@
 #! /bin/bash
-rm -rf docs && hugo serve --buildDrafts --disableFastRender -t hugo-ficurinia
+rm -rf docs && hugo serve --buildDrafts --disableFastRender -t hugo-ficurinia-modified
