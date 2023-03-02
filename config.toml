@@ -2,7 +2,7 @@ baseURL = "https://jacmoe.github.io/"
 languageCode = "en-us"
 title = "Jacmoes's Cyber Soapbox"
 publishDir = 'docs'
-theme = "hugo-ficurinia-modified"
+theme = "hugo-ficurinia"
 
 author = "Jacob Moena"
 copyright = "Jacob Moena - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
@@ -32,7 +32,7 @@ summaryLength = 30
     searchMenuLink = true  # add a search link to the navigation menu; requires enableSearch
     mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
 
-    enableSidebarLayout = false
+    enableSidebarLayout = true
     tocInSidebar = true  # if the sidebar is enbabled, show the TOC in the sidebar
 
     enableShareOnFediverse = true
