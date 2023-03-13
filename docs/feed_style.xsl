@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
         
-        <link type="text/css" rel="stylesheet" href="https://jacmoe.github.io/css/styles.d06e6ce7aa4829562b182fcf3bc1a64729d86fc5710388d094d776e6ab88f465ea029001c3d799557ffbb3d297974a4fc3de795de69ed23fea6257899e0bd76e.css" integrity="sha512-0G5s56pIKVYrGC/PO8GmRynYb8VxA4jQlNd25quI9GXqApABw9eZVX/7s9KXl0pPw955Xeae0j/qYleJngvXbg==" />
+        <link type="text/css" rel="stylesheet" href="https://jacmoe.github.io/css/styles.970acee2c932530c4efc742c2824e28fbb2ee420a4eed1662c6361e2317f142d7a545214cf82396dbe22df30f76829a69836350fc3a622c370f74dc039341fce.css" integrity="sha512-lwrO4skyUwxO/HQsKCTij7su5CCk7tFmLGNh4jF/FC16VFIUz4I5bb4i3zD3aCmmmDY1D8OmIsNw903AOTQfzg==" />
         <style>
           .aboutfeeds {
             margin: 24px 0; padding: 12px;
