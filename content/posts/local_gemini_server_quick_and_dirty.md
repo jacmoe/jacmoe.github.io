@@ -1,7 +1,7 @@
 +++
 title = "Local Gemini Server - Quick and Dirty"
 author = ["Jacob Moena"]
-description = "This is a quick guide to get a local Gemini server up and running. Useful when you are authoring a Gemini capsule and want to test it before pushing it to a server accessible by the world."
+description = "This is a quick guide to get a local Gemini server up and running. Useful when you are authoring a Gemini capsule and want to test it before pushing it to a server accessible to the world."
 date = 2023-03-14T14:22:00+01:00
 tags = ["gemini"]
 categories = ["post"]

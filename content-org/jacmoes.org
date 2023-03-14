@@ -9,7 +9,7 @@ CLOSED: [2023-03-14 tir 14:22]
 :EXPORT_FILE_NAME: local_gemini_server_quick_and_dirty
 :END:
 #+begin_description
-This is a quick guide to get a local Gemini server up and running. Useful when you are authoring a Gemini capsule and want to test it before pushing it to a server accessible by the world.
+This is a quick guide to get a local Gemini server up and running. Useful when you are authoring a Gemini capsule and want to test it before pushing it to a server accessible to the world.
 #+end_description
 
 If you, like me, are excited about [[https://gemini.circumlunar.space/][Project Gemini]] and want to create your own capsule (Gemini site), you will probably wonder how you would test your capsule on your local machine before putting it out there.
