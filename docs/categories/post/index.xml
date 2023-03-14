@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jacmoes&#39;s Cyber Soapbox</title>
-    <link>https://jacmoe.github.io/posts/</link>
-    <description>Recent content in Posts on Jacmoes&#39;s Cyber Soapbox</description>
+    <title>post on Jacmoes&#39;s Cyber Soapbox</title>
+    <link>https://jacmoe.github.io/categories/post/</link>
+    <description>Recent content in post on Jacmoes&#39;s Cyber Soapbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Jacob Moena - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 14:22:00 +0100</lastBuildDate><atom:link href="https://jacmoe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 14:22:00 +0100</lastBuildDate><atom:link href="https://jacmoe.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local Gemini Server - Quick and Dirty</title>
       <link>https://jacmoe.github.io/posts/local_gemini_server_quick_and_dirty/</link>
@@ -15,17 +15,6 @@
       
       <guid>https://jacmoe.github.io/posts/local_gemini_server_quick_and_dirty/</guid>
       <description>If you, like me, are excited about Project Gemini and want to create your own capsule (Gemini site), you will probably wonder how you would test your capsule on your local machine before putting it out there.</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my new blog</title>
-      <link>https://jacmoe.github.io/posts/welcome-to-my-new-blog/</link>
-      <pubDate>Tue, 29 Mar 2022 00:50:00 +0200</pubDate>
-      
-      <guid>https://jacmoe.github.io/posts/welcome-to-my-new-blog/</guid>
-      <description>My old blog at WordPress only has one single post in it.
-I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.
-That was good.</description>
     </item>
     
   </channel>
