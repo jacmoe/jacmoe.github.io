@@ -70,6 +70,12 @@ summaryLength = 30
         name = "Mastodon"
         url = "https://writing.exchange/@jacmoe"
         weight = 40
+    [[menu.icons]]
+        identifier = "gemini"
+        name = "Gemini"
+        url = "gemini://jacmoe.pollux.casa"
+        weight = 50
+
 
 [markup.goldmark.renderer]
 unsafe = true
