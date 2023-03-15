@@ -56,6 +56,9 @@ I am excited about the whole idea of the small internet, and the syntax for the 
 
 I will probably be writing more about Gemini in the future ☺
 
+
+/PS: you might have to open port 1965 if you are running a firewall./
+
 * draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
