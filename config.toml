@@ -71,10 +71,15 @@ summaryLength = 30
         url = "https://writing.exchange/@jacmoe"
         weight = 40
     [[menu.icons]]
+        identifier = "gemini_http"
+        name = "Gemini (http mirror)"
+        url = "https://jacmoe.pollux.casa/index.gmi"
+        weight = 50
+    [[menu.icons]]
         identifier = "gemini"
         name = "Gemini"
         url = "gemini://jacmoe.pollux.casa"
-        weight = 50
+        weight = 60
 
 
 [markup.goldmark.renderer]
