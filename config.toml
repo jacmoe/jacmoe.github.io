@@ -1,6 +1,6 @@
 baseURL = "https://jacmoe.github.io/"
 languageCode = "en-us"
-title = "Jacmoes's Cyber Soapbox"
+title = "Jacmoe's Cyber Soapbox"
 publishDir = 'docs'
 theme = "hugo-ficurinia"
 
