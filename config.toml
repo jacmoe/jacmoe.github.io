@@ -25,7 +25,7 @@ summaryLength = 30
     cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
 
 
-    imageInArticlePreview = true
+    imageInArticlePreview = false
 
     enableSearch = true  # enable search page
     searchbarEverywhere = false  # if the searchbar should be shown in every page; requires enableSearch
