@@ -3,6 +3,27 @@
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
 #+OPTIONS: ^:nil ‘:nil
+* done First Entry in my new Gemini Log :@post:gemini:gemlog:
+CLOSED: [2023-03-17 fre 17:15]
+:PROPERTIES:
+:EXPORT_FILE_NAME: first_entry_in_my_new_gemini_log
+:END:
+#+begin_description
+Announcing the first entry in my sparklingly new Gemini log!
+#+end_description
+#+begin_export html
+<a href="/images/gemtext.png" rel="gemlog" class="swipebox" title="First enty in my new Gemlog">
+    <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
+</a>
+#+end_export
+The first entry of my [[https://gemini.circumlunar.space/][Gemini]] Log (Gemlog) is up: [[https://jacmoe.pollux.casa/gemlog/2023-03-17_hello_universe.gmi][2023-03-17 - Hello, Universe!]]
+
+I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
+
+Much simpler to put something up on Gemini: simply write a simple text, and put it on the server.
+
+Here’s to many more entries in the Gemlog! 🚀
+
 * done Local Gemini Server - Quick and Dirty :@post:gemini:
 CLOSED: [2023-03-14 tir 14:22]
 :PROPERTIES:

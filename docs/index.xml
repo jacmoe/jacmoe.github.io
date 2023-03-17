@@ -6,7 +6,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Jacob Moena - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</copyright>
-    <lastBuildDate>Tue, 14 Mar 2023 14:22:00 +0100</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" /><icon>https://jacmoe.github.io/android-chrome-512x512.png</icon>
+    <lastBuildDate>Fri, 17 Mar 2023 17:15:00 +0100</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" /><icon>https://jacmoe.github.io/android-chrome-512x512.png</icon>
+    
+    
+    <item>
+      <title>First Entry in my new Gemini Log</title>
+      <link>https://jacmoe.github.io/posts/first_entry_in_my_new_gemini_log/</link>
+      <pubDate>Fri, 17 Mar 2023 17:15:00 +0100</pubDate>
+      
+      <guid>https://jacmoe.github.io/posts/first_entry_in_my_new_gemini_log/</guid>
+      <description><![CDATA[<a href="/images/gemtext.png" rel="gemlog" class="swipebox" title="First enty in my new Gemlog">
+    <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
+</a>
+<p>The first entry of my <a href="https://gemini.circumlunar.space/">Gemini</a> Log (Gemlog) is up: <a href="https://jacmoe.pollux.casa/gemlog/2023-03-17_hello_universe.gmi">2023-03-17 - Hello, Universe!</a></p>
+<p>I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.</p>
+<p>Much simpler to put something up on Gemini: simply write a simple text, and put it on the server.</p>
+<p>Here’s to many more entries in the Gemlog! 🚀</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
