@@ -6,6 +6,7 @@ date = 2023-03-17T17:15:00+01:00
 tags = ["gemini", "gemlog"]
 categories = ["post"]
 draft = false
+image = "/images/gemtext_small.png"
 +++
 
 <a href="/images/gemtext.png" rel="gemlog" class="swipebox" title="First enty in my new Gemlog">

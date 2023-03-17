@@ -106,7 +106,7 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 CLOSED: [2023-03-17 fre 17:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: first_entry_in_my_new_gemini_log
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image "images/gemtext_small.png"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image "/images/gemtext_small.png"
 :END:
 #+begin_description
 Announcing the first entry in my sparklingly new Gemini log!
