@@ -84,3 +84,7 @@ summaryLength = 30
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[security]
+[security.gotemplates]
+allowActionJSTmpl = true

@@ -297,7 +297,7 @@ padding:0 10px 10px;
         if (tags.length <= 0) return '';
         let res = `| <span title='Tags'> </span>`;
         for (let tag of tags) {
-            //                                        regular space
+            
             res += `<a href="/tags/${tag}">#${tag}</a>&#32;`;
         }
         return res;
