@@ -81,6 +81,11 @@ summaryLength = 30
         url = "https://writing.exchange/@jacmoe"
         weight = 40
     [[menu.icons]]
+        identifier = "reddit"
+        name = "Reddit"
+        url = "https://www.reddit.com/user/jacmoe"
+        weight = 45
+    [[menu.icons]]
         identifier = "gemini_http"
         name = "Gemini (http mirror)"
         url = "https://jacmoe.pollux.casa/index.gmi"
