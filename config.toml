@@ -61,6 +61,16 @@ summaryLength = 30
         url = "https://github.com/jacmoe"
         weight = 10
     [[menu.icons]]
+        identifier = "x-twitter"
+        name = "X"
+        url = "https://x.com/JacmoeDK/"
+        weight = 15
+    [[menu.icons]]
+        identifier = "bluesky"
+        name = "BlueSky"
+        url = "https://bsky.app/profile/jacmoe.bsky.social"
+        weight = 20
+    [[menu.icons]]
         identifier = "facebook"
         name = "Facebook"
         url = "https://facebook.com/jacmoe/"
@@ -75,11 +85,6 @@ summaryLength = 30
         name = "Gemini (http mirror)"
         url = "https://jacmoe.pollux.casa/index.gmi"
         weight = 50
-    [[menu.icons]]
-        identifier = "gemini"
-        name = "Gemini"
-        url = "gemini://jacmoe.pollux.casa"
-        weight = 60
 
 
 [markup.goldmark.renderer]
