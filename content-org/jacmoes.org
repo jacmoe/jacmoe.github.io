@@ -116,7 +116,7 @@ Announcing the first entry in my sparklingly new Gemini log!
     <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
 </a>
 #+end_export
-The first entry of my [[https://gemini.circumlunar.space/][Gemini]] Log (Gemlog) is up: [[https://jacmoe.pollux.casa/gemlog/2023-03-17_hello_universe.gmi][2023-03-17 - Hello, Universe!]]
+The first entry of my [[https://gemini.circumlunar.space/][Gemini]] Log (Gemlog) is up: [[https://tilde.team/~jacmoe/gemfeed/2023-03-17-hello-universe.html][2023-03-17 - Hello, Universe!]]
 
 I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
 
