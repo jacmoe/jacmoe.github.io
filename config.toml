@@ -88,7 +88,7 @@ summaryLength = 30
     [[menu.icons]]
         identifier = "gemini"
         name = "Gemini (HTML mirror)"
-        url = "https://jacmoe.tilde.team/"
+        url = "https://tilde.team/~jacmoe"
         weight = 50
 
 

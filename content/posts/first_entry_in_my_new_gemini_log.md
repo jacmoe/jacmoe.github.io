@@ -13,7 +13,7 @@ image = "/images/gemtext_small.png"
     <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
 </a>
 
-The first entry of my [Gemini](https://gemini.circumlunar.space/) Log (Gemlog) is up: [2023-03-17 - Hello, Universe!](https://jacmoe.tilde.team/gemfeed/2023-03-17-hello-universe.html)
+The first entry of my [Gemini](https://gemini.circumlunar.space/) Log (Gemlog) is up: [2023-03-17 - Hello, Universe!](https://tilde.team/~jacmoe/gemfeed/2023-03-17-hello-universe.html)
 
 I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
 
