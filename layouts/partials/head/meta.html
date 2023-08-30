@@ -27,10 +27,10 @@
 {{ $og_image := .Resources.Get .Params.image }}
 {{ if not ( $og_image ) }}
   {{ $og_image_path := "" }}
-  {{ if .Site.Params.og_image }}
-    {{ $og_image_path = .Site.Params.og_image }}
-  {{ else if .Params.image }}
+  {{if .Params.image }}
     {{ $og_image_path = .Params.image }}
+  {{ else if .Site.Params.og_image }}
+    {{ $og_image_path = .Site.Params.og_image }}
   {{ else }}
     {{ $og_image_path = .Site.Params.brand_image }}
   {{ end }}
