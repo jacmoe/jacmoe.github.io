@@ -123,8 +123,8 @@
 <meta property="article:published_time" content={{ .Date.Format "2001-02-03T14:05:06Z0700" | safeHTML }} />
 
 {{ with.Params.author }}
-  <meta property="og:article:author" content="{{index . }}" />
-  <meta property="article:author" content="{{index . }}" />
+  <meta property="og:article:author" content="{{.}}" />
+  <meta property="article:author" content="{{.}}" />
   <meta name="author" content="{{index . }}" />
 {{ end }}
 
