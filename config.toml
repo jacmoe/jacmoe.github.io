@@ -52,7 +52,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     moon_sun_background_color = "#515151"   # default is #515151
 
     # Hex colors for your content in light mode.
-    text_color = "#222"             # default is #222
+    text_color = "#000"             # default is #222
     content_bg_color = "#FAF9F6"    # default is #FAF9F6
     post_title_color = "#303030"    # default is #303030
     list_color = "#5a5a5a"          # default is #5a5a5a
