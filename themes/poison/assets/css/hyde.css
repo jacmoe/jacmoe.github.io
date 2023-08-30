@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Comic Neue", sans-serif;
+  font-family: "Fira Sans", sans-serif;
     font-weight:300;
 
 }
@@ -111,7 +111,7 @@ pre {
   margin-top: 0;
   font-weight:300;
   font-size: 1.5em;
-  font-family: "Comic Neue", serif;
+  font-family: "Abril Fatface", serif;
 }
 
 /* Sidebar nav */
