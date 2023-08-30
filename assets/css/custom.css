@@ -4,3 +4,7 @@ html {
 .sidebar-about h1 {
   font-family: "Comic Neue", serif;
 }
+@media (min-width: 48em) {
+  .sidebar {
+    width: 20rem;
+  }
