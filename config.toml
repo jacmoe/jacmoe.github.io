@@ -2,94 +2,91 @@ baseURL = "https://jacmoe.github.io/"
 languageCode = "en-us"
 title = "Jacmoe's Cyber Soapbox"
 publishDir = 'docs'
-theme = "hugo-ficurinia"
+theme = "poison"
+paginate = 3
+pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-author = "Jacob Moena"
-copyright = "Jacob Moena - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
-
-paginate = 5
-summaryLength = 30
+# NOTE: If using Disqus as commenting engine, uncomment and configure this line
+# disqusShortname = "yourDisqusShortname"
 
 [params]
-    dateFormat = "Monday, Jan 2, 2006"
-    description = "Jacmoe's Cyber Soapbox"
-    author = "Jacob Moena"
-    logo = "/android-chrome-512x512.png"
-    favicon = "/favicon.png"
-    faviconIco = "/favicon.ico"
-    appletouch = "/apple-touch-icon.png"
-    svgicon = "/android-chrome-512x512.png"
-    icon512 = "/android-chrome-512x512.png"
-    cactusCommentsSiteName = "jacmoe.github.io"
-    cactusCommentsServerName = "cactus.chat"
-    cactusCommentsHomeserver = "https://matrix.cactus.chat:8448"
+    brand = "Jacmoe's Cyber Soapbox"                      # name of your site - appears in the sidebar
+    brand_image = "/profile.jpg"    # path to the image shown in the sidebar
+    description = "Too many projects; too much time" # Used as default meta description if not specified in front matter
+    dark_mode = true                      # optional - defaults to false
+    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
 
-    imageInArticlePreview = false
+    # Links to your socials.  Comment or delete any you don't need/use. 
+    github_url = "https://github.com/jacmoe"
+    x_url = "https://x.com/JacmoeDK/"
+    bluesky_url = "https://bsky.app/profile/jacmoe.bsky.social"
+    facebook_url = "https://facebook.com/jacmoe/"
+    mastodon_url = "https://writing.exchange/@jacmoe"
+    reddit_url = "https://www.reddit.com/user/jacmoe"
+    gemini_url = "https://tilde.team/~jacmoe"
 
-    enableSearch = true  # enable search page
-    searchbarEverywhere = false  # if the searchbar should be shown in every page; requires enableSearch
-    searchMenuLink = true  # add a search link to the navigation menu; requires enableSearch
-    mobileHamburgerNav = false  # alternative hamburger menu layout for the main nav menu when screen is small
+    # NOTE: If you don't want to use RSS, comment or delete the following lines
+    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
+    rss_icon = true
+    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
+    rss_section = "posts"
 
-    enableSidebarLayout = true
-    tocInSidebar = true  # if the sidebar is enbabled, show the TOC in the sidebar
+    # Hex colors for your sidebar.
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_socials_color = "#FFF"          # default is #FFF
+    moon_sun_color = "#FFF"                 # default is #FFF
+    moon_sun_background_color = "#515151"   # default is #515151
 
-    enableShareOnFediverse = true
+    # Hex colors for your content in light mode.
+    text_color = "#222"             # default is #222
+    content_bg_color = "#FAF9F6"    # default is #FAF9F6
+    post_title_color = "#303030"    # default is #303030
+    list_color = "#5a5a5a"          # default is #5a5a5a
+    link_color = "#268bd2"          # default is #268bd2
+    date_color = "#515151"          # default is #515151
+    table_border_color = "#E5E5E5"  # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"  # default is #F9F9F9
 
-    enableRelatedArticles = false
-    relatedArticlesNum = 2 
-    forceRedirect = true
+    # Hex colors for your content in dark mode
+    text_color_dark = "#eee"                # default is #eee
+    content_bg_color_dark = "#121212"       # default is #121212
+    post_title_color_dark = "#DBE2E9"       # default is #DBE2E9
+    list_color_dark = "#9d9d9d"             # default is #9d9d9d
+    link_color_dark = "#268bd2"             # default is #268bd2
+    date_color_dark = "#9a9a9a"             # default is #9a9a9a
+    table_border_color_dark = "#515151"     # default is #515151
+    table_stripe_color_dark = "#202020"     # default is #202020
+    code_color = "#bf616a"                  # default is #bf616a
+    code_background_color = "#E5E5E5"       # default is #E5E5E5
+    code_color_dark = "#ff7f7f"             # default is #ff7f7f
+    code_background_color_dark = "#393D47"  # default is #393D47
 
-[markup]
-    [markup.highlight]
-        codeFences = true
-        guessSyntax = true
-        lineNos = false
-        lineNumbersInTable = false
-        tabWidth = 4
-        style = "dracula"
-    [markup.tableOfContents]
-        endLevel = 5
-        ordered = false
-        startLevel = 1
+    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
+    # remark42 = true
+    # remark42_host = "https://yourhost.com"
+    # remark42_site_id = "your_site_id"
+    
+    # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
+    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
+                                          # this is also used in the schema output as well. Image is resized to max 1200x630
+                                          # For this to work though og_image and brand_url must be a path inside the assets directory
+                                          # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
+    # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
 
-[menu]
-    [[menu.icons]]
-        identifier = "github"
-        name = "Github"
-        url = "https://github.com/jacmoe"
-        weight = 10
-    [[menu.icons]]
-        identifier = "x-twitter"
-        name = "X"
-        url = "https://x.com/JacmoeDK/"
-        weight = 15
-    [[menu.icons]]
-        identifier = "bluesky"
-        name = "BlueSky"
-        url = "https://bsky.app/profile/jacmoe.bsky.social"
-        weight = 20
-    [[menu.icons]]
-        identifier = "facebook"
-        name = "Facebook"
-        url = "https://facebook.com/jacmoe/"
-        weight = 30
-    [[menu.icons]]
-        identifier = "mastodon"
-        name = "Mastodon"
-        url = "https://writing.exchange/@jacmoe"
-        weight = 40
-    [[menu.icons]]
-        identifier = "reddit"
-        name = "Reddit"
-        url = "https://www.reddit.com/user/jacmoe"
-        weight = 45
-    [[menu.icons]]
-        identifier = "gemini"
-        name = "Gemini (HTML mirror)"
-        url = "https://tilde.team/~jacmoe"
-        weight = 50
 
 
 [markup.goldmark.renderer]
