@@ -8,12 +8,15 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
+[author]
+	name = "Jacob Moena"
 
 [params]
     brand = "Jacmoe's Cyber Soapbox"                      # name of your site - appears in the sidebar
     brand_image = "/profile.jpg"    # path to the image shown in the sidebar
     description = "Too many projects; too much time" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
+	author_name = "Jacob Moena"
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
     # MENU PLACEHOLDER
@@ -81,7 +84,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # remark42_site_id = "your_site_id"
     
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
-    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
+    og_image = "/profile.jpg"                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
                                           # this is also used in the schema output as well. Image is resized to max 1200x630
                                           # For this to work though og_image and brand_url must be a path inside the assets directory
                                           # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
