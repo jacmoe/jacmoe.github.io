@@ -425,5 +425,16 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
             </main>
             
         </div>
+<script src="https://jacmoe.github.io//js/jquery-3.5.1.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.justifiedGallery.min.js"></script>
+<script src="https://jacmoe.github.io//js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $("#gallery").justifiedGallery().on('jg.complete', function () {
+        $( '.swipebox' ).swipebox();
+});
+    $( '.swipebox' ).swipebox();
+} );
+</script>
     </body>
 </html>
