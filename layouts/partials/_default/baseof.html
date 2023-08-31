@@ -1,0 +1,22 @@
+{{ partial "head/head.html" . }}
+    <body class="{{if .Site.Params.layoutReverse}}layout-reverse {{end}}{{if .Site.Params.dark_mode}}dark-theme{{end}}">
+        <div class="wrapper">
+            {{ partial "sidebar/sidebar.html" . }}
+            <main class="content container">
+                {{ block "main" . -}}{{- end }}
+            </main>
+            {{ block "sidebar" . }}{{ end }}
+        </div>
+<script src="{{.Site.BaseURL}}/js/jquery-3.5.1.min.js"></script>
+<script src="{{.Site.BaseURL}}/js/jquery.justifiedGallery.min.js"></script>
+<script src="{{.Site.BaseURL}}/js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $("#gallery").justifiedGallery().on('jg.complete', function () {
+        $( '.swipebox' ).swipebox();
+});
+    $( '.swipebox' ).swipebox();
+} );
+</script>
+    </body>
+</html>
