@@ -6,7 +6,7 @@ date = 2022-03-29T00:50:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
 draft = false
-image = "“/images/hugoblog.png”"
+image = "/images/hugoblog.png"
 +++
 
 <img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>

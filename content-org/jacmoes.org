@@ -184,7 +184,7 @@ I will probably be writing more about Gemini in the future ☺
 CLOSED: [2022-03-29 Tue 00:50]
 :PROPERTIES:
 :EXPORT_FILE_NAME: welcome-to-my-new-blog
-:export_hugo_custom_front_matter: :image “/images/hugoblog.png”
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image "/images/hugoblog.png"
 :END:
 #+begin_description
 I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
