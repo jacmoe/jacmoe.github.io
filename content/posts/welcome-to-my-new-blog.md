@@ -6,15 +6,10 @@ date = 2022-03-29T00:50:00+02:00
 tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
 draft = false
-[comments]
-  host = "writing.exchange"
-  username = "jacmoe"
-  id = 109342914182848028
+image = "“/images/hugoblog.png”"
 +++
 
-<a href="/images/hugoblog.png" rel="hugoblog" class="swipebox" title="My new Emacs Hugo powered blog">
-    <img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>
-</a>
+<img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>
 
 My [old blog](https://jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
