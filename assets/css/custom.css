@@ -6,7 +6,7 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar {
-    width: 20rem;
+    width: 24rem;
   }
 /* Sticky sidebar
  *
@@ -16,7 +16,7 @@ html {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    width: 18rem;
+    width: 22rem;
   }
 }
 
