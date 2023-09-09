@@ -216,16 +216,18 @@ Since it's now going to be much easier to get a blog post up, I am sure I will a
 I have several ideas, and the good thing about it is, that I can have those posts in my org-file, as sub-trees, because the [[https://ox-hugo.scripter.co/][Emacs Hugo exporter]] will only export the trees that are =DONE=, not the ones marked with =TODO=.
 
 It should be easy to blog, and I am most comfortable in Emacs. So, there's that :)
-* pages
+* draft About
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
-:EXPORT_HUGO_MENU: :menu main
-:EXPORT_HUGO_SECTION: pages
-:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_SECTION: /
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
-** draft Gallery
+About me
+* draft Gallery
 :PROPERTIES:
+:EXPORT_HUGO_SECTION: /
 :EXPORT_FILE_NAME: gallery
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
 Hotel California of Creative Writing
 #+begin_export html
@@ -280,8 +282,3 @@ Hotel California of Creative Writing
     </a>
 </div>
 #+end_export
-** draft About
-:PROPERTIES:
-:EXPORT_FILE_NAME: about
-:END:
-About me
