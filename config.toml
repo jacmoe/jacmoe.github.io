@@ -15,7 +15,7 @@ disqusShortname = "notusingdisqus"
 [params]
     brand = "Jacmoe's Cyber Soapbox"                      # name of your site - appears in the sidebar
     brand_image = "/profile.jpg"    # path to the image shown in the sidebar
-    description = "Too many projects; too much time" # Used as default meta description if not specified in front matter
+    description = '"Increasingly Interesting"' # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
 	author_name = "Jacob Moena"
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
