@@ -7,6 +7,7 @@ tags = ["hugo", "emacs", "blog"]
 categories = ["announcement"]
 draft = false
 image = "/images/hugoblog.png"
+hideToc = true
 +++
 
 <img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>
