@@ -1,3 +1,4 @@
+{{ if not .Params.no_comments }}
 <div class="comments">
     {{ if .Site.Params.remark42 }}
         <div id="remark42"></div>
@@ -17,12 +18,11 @@
     {{ else if .Site.DisqusShortname }}
 <div class="commentbox"></div>
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-		{{ if .Site.Params.dark_mode }}
 <script>
 commentBox('5700276543553536-proj', {
 	backgroundColor: '#121212',
     textColor: '#fff'
 });</script>
-		{{ end }}
     {{ end }}
 </div>
+{{ end }}

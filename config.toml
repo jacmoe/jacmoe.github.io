@@ -18,7 +18,6 @@ disqusShortname = "notusingdisqus"
     description = '"Increasingly Interesting"' # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
 	author_name = "Jacob Moena"
-    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
     # MENU PLACEHOLDER
     # Menu dict keys:
@@ -27,6 +26,7 @@ disqusShortname = "notusingdisqus"
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", HasChildren = false},
     ]
 
@@ -80,11 +80,7 @@ disqusShortname = "notusingdisqus"
     code_color_dark = "#ff7f7f"             # default is #ff7f7f
     code_background_color_dark = "#393D47"  # default is #393D47
 
-    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-    # remark42 = true
-    # remark42_host = "https://yourhost.com"
-    # remark42_site_id = "your_site_id"
-    
+  
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
     og_image = "images/site/og-image.png" # path to social icon - front matter: image takes precedent, then og_image, then brand_url
                                           # this is also used in the schema output as well. Image is resized to max 1200x630
