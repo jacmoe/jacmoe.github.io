@@ -6,7 +6,16 @@
     <description>Recent content on Jacmoe&#39;s Cyber Soapbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Mar 2023 17:15:00 +0100</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 01:34:00 +0200</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://jacmoe.github.io/about/about/</link>
+      <pubDate>Sun, 10 Sep 2023 01:34:00 +0200</pubDate>
+      
+      <guid>https://jacmoe.github.io/about/about/</guid>
+      <description>About me</description>
+    </item>
+    
     <item>
       <title>First Entry in my new Gemini Log</title>
       <link>https://jacmoe.github.io/posts/first_entry_in_my_new_gemini_log/</link>
