@@ -94,14 +94,6 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 :END:
 #+begin_description
 #+end_description
-
-# LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
-# LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
-#  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices emacs kmacro
-#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
-#  LocalWords:  TOC Noexport youtube tracktable br clocktable Biblography yjwen
-#  LocalWords:  js ibuffer ie zee un
-
 * done First Entry in my new Gemini Log :@post:gemini:gemlog:
 CLOSED: [2023-03-17 fre 17:15]
 :PROPERTIES:
@@ -230,9 +222,25 @@ CLOSED: [2023-09-10 Sun 01:34]
 Announcing the first entry in my sparklingly new Gemini log!
 #+end_description
 About me
-* draft Gallery
+* Projects
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: /
+:EXPORT_HUGO_SECTION: projects
+:END:
+** draft Projects
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
+:END:
+#+begin_description
+Announcing the first entry in my sparklingly new Gemini log!
+#+end_description
+About me
+* Gallery
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: gallery
+:END:
+** draft Gallery
+:PROPERTIES:
 :EXPORT_FILE_NAME: gallery
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
@@ -289,3 +297,10 @@ Hotel California of Creative Writing
     </a>
 </div>
 #+end_export
+
+# LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
+# LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex
+#  LocalWords:  BetterBibtex CSL OrgMode EmacsConf LinuxForDevices emacs kmacro
+#  LocalWords:  attr html src et cetera Powerthesaurus Proselint Magit config
+#  LocalWords:  TOC Noexport youtube tracktable br clocktable Biblography yjwen
+#  LocalWords:  js ibuffer ie zee un
