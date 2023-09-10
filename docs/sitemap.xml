@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jacmoe.github.io/about/</loc>
-    <lastmod>2023-09-10T01:34:00+02:00</lastmod>
-  </url><url>
     <loc>https://jacmoe.github.io/about/about/</loc>
     <lastmod>2023-09-10T01:34:00+02:00</lastmod>
   </url><url>
+    <loc>https://jacmoe.github.io/projects/projects/</loc>
+    <lastmod>2023-09-10T23:38:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/gallery/gallery/</loc>
+    <lastmod>2023-09-10T23:38:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/gallery/</loc>
+    <lastmod>2023-09-10T23:38:00+02:00</lastmod>
+  </url><url>
     <loc>https://jacmoe.github.io/</loc>
+    <lastmod>2023-09-10T23:38:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/projects/</loc>
+    <lastmod>2023-09-10T23:38:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jacmoe.github.io/about/</loc>
     <lastmod>2023-09-10T01:34:00+02:00</lastmod>
   </url><url>
     <loc>https://jacmoe.github.io/categories/</loc>

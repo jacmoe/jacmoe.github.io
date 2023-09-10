@@ -1,11 +1,13 @@
 +++
 title = "Gallery"
 author = ["Jacob Moena"]
-draft = true
+date = 2023-09-10T23:38:00+02:00
+draft = false
+weight = 120
 layout = "single"
 +++
 
-Hotel California of Creative Writing
+HHotel California of Creative Writing
 
 <div id="gallery">
     <a href="/gallery/hoca/1splash.png" rel="hhc" class="swipebox" title="caption for image 1">

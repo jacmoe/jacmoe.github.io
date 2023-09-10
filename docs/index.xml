@@ -6,7 +6,7 @@
     <description>Recent content on Jacmoe&#39;s Cyber Soapbox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Sep 2023 01:34:00 +0200</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 23:38:00 +0200</lastBuildDate><atom:link href="https://jacmoe.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://jacmoe.github.io/about/about/</link>
@@ -15,6 +15,24 @@
       <guid>https://jacmoe.github.io/about/about/</guid>
       <description>About me
 Something is written here as a text that will appear beside the image . . . Something is written here as a text that will appear beside the image . . . Something is written here as a text that will appear beside the image . . . </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://jacmoe.github.io/projects/projects/</link>
+      <pubDate>Sun, 10 Sep 2023 23:38:00 +0200</pubDate>
+      
+      <guid>https://jacmoe.github.io/projects/projects/</guid>
+      <description>This is my projects</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://jacmoe.github.io/gallery/gallery/</link>
+      <pubDate>Sun, 10 Sep 2023 23:38:00 +0200</pubDate>
+      
+      <guid>https://jacmoe.github.io/gallery/gallery/</guid>
+      <description>HHotel California of Creative Writing</description>
     </item>
     
     <item>
