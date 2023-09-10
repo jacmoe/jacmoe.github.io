@@ -110,11 +110,9 @@ CLOSED: [2023-03-17 fre 17:15]
 #+begin_description
 Announcing the first entry in my sparklingly new Gemini log!
 #+end_description
-#+begin_export html
-<a href="/images/gemtext.png" rel="gemlog" class="swipebox" title="First enty in my new Gemlog">
-    <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
-</a>
-#+end_export
+
+#+hugo: {{< swipebox image="gemtext" ext="png" rel="gemlog" title="First entry in my new Gemlog">}}
+
 The first entry of my [[https://gemini.circumlunar.space/][Gemini]] Log (Gemlog) is up: [[https://tilde.team/~jacmoe/gemfeed/2023-03-17-hello-universe.html][2023-03-17 - Hello, Universe!]]
 
 I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
@@ -188,9 +186,8 @@ CLOSED: [2022-03-29 Tue 00:50]
 #+begin_description
 I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
 #+end_description
-    #+begin_export html
-        <img alt="My new Emacs Hugo powered blog" src="/images/hugoblog.png"/>
-    #+end_export
+
+#+hugo: {{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog">}}
 
 My [[https://jacmoes.wordpress.com/][old blog]] at WordPress only has one single post in it.
 
@@ -241,7 +238,6 @@ Something is written here as a text that will appear beside the image . . .
 #+begin_postmedia
 Something is written here as a text that will appear beside the image . . .
 #+end_postmedia
-
 
 * Projects
 :PROPERTIES:

@@ -9,9 +9,7 @@ draft = false
 image = "/images/gemtext_small.png"
 +++
 
-<a href="/images/gemtext.png" rel="gemlog" class="swipebox" title="First enty in my new Gemlog">
-    <img alt="First entry in my new Gemlog" src="/images/gemtext_small.png"/>
-</a>
+{{< swipebox image="gemtext" ext="png" rel="gemlog" title="First entry in my new Gemlog">}}
 
 The first entry of my [Gemini](https://gemini.circumlunar.space/) Log (Gemlog) is up: [2023-03-17 - Hello, Universe!](https://tilde.team/~jacmoe/gemfeed/2023-03-17-hello-universe.html)
 
