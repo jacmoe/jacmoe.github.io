@@ -31,3 +31,63 @@ html {
   }
 }
 
+        @media (min-width: 1400px) {
+
+            /* clearfix*/
+            .post_media:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .post_media {
+                display: grid;
+                grid-template-columns: fit-content(200px) 1fr;
+                grid-template-rows: 1fr auto;
+                grid-template-areas:
+                    "image content"
+                    "image footer";
+                grid-gap: 20px;
+                margin-bottom: 4em;
+            }
+
+            .post_media-flip {
+                grid-template-columns: 1fr fit-content(200px);
+                grid-template-areas:
+                    "content image"
+                    "footer image";
+            }
+
+            .img {
+                float: left;
+                margin-right: 20px;
+                max-width: 200px;
+                grid-area: image;
+            }
+
+            .post_media-flip .img {
+                float: right;
+                margin: 0 0 0 20px;
+            }
+
+            .content {
+                grid-area: content;
+            }
+
+            .footer {
+                grid-area: footer;
+            }
+
+            @supports(display: grid) {
+                .post_media:after {
+                    content: none;
+                }
+
+                .img,
+                .post_media-flip .img {
+                    max-width: 100%;
+                    margin: 0;
+
+                }
+            }
+        }
