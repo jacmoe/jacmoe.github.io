@@ -1,14 +1,14 @@
 #+STARTUP: fold
 #+hugo_base_dir: ..
-#+hugo_paired_shortcodes: postmedia
+#+hugo_paired_shortcodes: postmedia gallery
 #+bibliography: ~/Dropbox/skriv/jacmoe.bib
 #+cite_export: csl
 #+OPTIONS: ^:nil ‘:nil
-* draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:
+* draft Emacs - my Hotel California of creative writing :@post:emacs:org_mode:writing:efficiency:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-my-hotel-california-of-creative-writing
 :END:
-* draft Creatively Writing Longhand :@post:writing:longhand:
+* draft Creatively Writing Longhand :@post:writing:longhand:efficiency:
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-longhand
 :END:
@@ -76,7 +76,7 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 
 #+print_bibliography:
 
-* draft Creatively Writing Shorthand :@post:writing:shorthand:
+* draft Creatively Writing Shorthand :@post:writing:shorthand:efficiency:
 :PROPERTIES:
 :EXPORT_FILE_NAME: creatively-writing-shorthand
 :END:
@@ -98,6 +98,18 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 * draft Going Tabless :@post:efficiency:audhd:
 :PROPERTIES:
 :EXPORT_FILE_NAME: going-tabless
+:END:
+#+begin_description
+#+end_description
+* draft Setting up a local linux file server :@post:linux:
+:PROPERTIES:
+:EXPORT_FILE_NAME: setting-up-a-local-linux-file-server
+:END:
+#+begin_description
+#+end_description
+* draft Colemak one year later :@post:colemak:efficiency:
+:PROPERTIES:
+:EXPORT_FILE_NAME: colemak-one-year-later
 :END:
 #+begin_description
 #+end_description
@@ -224,21 +236,13 @@ CLOSED: [2023-09-10 Sun 01:34]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
 #+begin_description
-Announcing the first entry in my sparklingly new Gemini log!
+
 #+end_description
-About me
-#+attr_shortcode: :image profile.jpg :alt some description
+#+attr_shortcode: :image  :alt
 #+begin_postmedia
-Something is written here as a text that will appear beside the image . . .
+
 #+end_postmedia
-#+attr_shortcode: :image profile.jpg :alt some description :flip true
-#+begin_postmedia
-Something is written here as a text that will appear beside the image . . .
-#+end_postmedia
-#+attr_shortcode: :image profile.jpg :alt some description
-#+begin_postmedia
-Something is written here as a text that will appear beside the image . . .
-#+end_postmedia
+
 
 * Projects
 :PROPERTIES:
@@ -252,9 +256,9 @@ CLOSED: [2023-09-10 Sun 23:38]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
 #+begin_description
-Announcing the first entry in my sparklingly new Gemini log!
+
 #+end_description
-This is my projects
+Projects
 
 * Gallery
 :PROPERTIES:
@@ -268,58 +272,25 @@ CLOSED: [2023-09-10 Sun 23:38]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
 HHotel California of Creative Writing
-#+begin_export html
-<div id="gallery">
-    <a href="/gallery/hoca/1splash.png" rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/1splash.png"/>
-    </a>
-    <a href="/gallery/hoca/2zen.png" rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/2zen.png"/>
-    </a>
-    <a href="/gallery/hoca/3tracktable.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/3tracktable.png"/>
-    </a>
-    <a href="/gallery/hoca/4dictionary.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/4dictionary.png"/>
-    </a>
-    <a href="/gallery/hoca/5webster.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/5webster.png"/>
-    </a>
-    <a href="/gallery/hoca/6synonyms.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/6synonyms.png"/>
-    </a>
-    <a href="/gallery/hoca/7definitions.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/7definitions.png"/>
-    </a>
-    <a href="/gallery/hoca/8sentences.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/8sentences.png"/>
-    </a>
-    <a href="/gallery/hoca/9clocktable.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/9clocktable.png"/>
-    </a>
-    <a href="/gallery/hoca/10pomodoro.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/10pomodoro.png"/>
-    </a>
-    <a href="/gallery/hoca/11pomodoro_light.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/11pomodoro_light.png"/>
-    </a>
-    <a href="/gallery/hoca/12columns.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/12columns.png"/>
-    </a>
-    <a href="/gallery/hoca/13orgwc.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/13orgwc.png"/>
-    </a>
-    <a href="/gallery/hoca/14writegoodmode.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/14writegoodmode.png"/>
-    </a>
-    <a href="/gallery/hoca/15proselint.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img alt="caption for image 1" src="/gallery/hocasmall/15proselint.png"/>
-    </a>
-    <a href="/gallery/hoca/16diff.png"  rel="hhc" class="swipebox" title="caption for image 1">
-        <img title="caption for image 1" src="/gallery/hocasmall/16diff.png"/>
-    </a>
-</div>
-#+end_export
+#+attr_shortcode: :gallery_dir hoca
+#+begin_gallery
+#+hugo: {{< swipebox image="1splash" ext="png" rel="test" title="Test image">}}
+#+hugo: {{< swipebox image="2zen" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="3tracktable" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="4dictionary" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="5webster" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="6synonyms" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="7definitions" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="8sentences" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="9clocktable" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="10pomodoro" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="11pomodoro_light" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="12columns" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="13orgwc" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="14writegoodmode" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="15proselint" ext="png" rel="test" title="Test image 2">}}
+#+hugo: {{< swipebox image="16diff" ext="png" rel="test" title="Test image 2">}}
+#+end_gallery
 
 # LocalWords: hugo dir TODO todo RAS Platt de facto Zaner Boser D'Nealian el wc
 # LocalWords: IAMPETH Writegood writegood Typopunct typopunct UI Zotero Bibtex

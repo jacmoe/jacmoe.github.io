@@ -1,3 +1,14 @@
-<a href="/images/{{ .Get "image" }}.{{ .Get "ext" }}" rel="{{ .Get "rel" }}" class="swipebox" title="{{ .Get "title" }}">
-    <img alt="{{ .Get "title" }}" src="/images/{{ .Get "image" }}_small.{{ .Get "ext" }}"/>
+{{- $img := .Get "image" -}}
+{{- $ext := .Get "ext" -}}
+{{- $title := .Get "title" -}}
+{{- $rel := .Get "rel" -}}
+{{- with .Parent -}}
+{{- $galdir := .Get "gallery_dir" -}}
+<a href="/gallery/{{ $galdir }}/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" title="{{ $title }}">
+    <img alt="{{ $title }}" src="/gallery/{{ $galdir }}small/{{ $img }}.{{ $ext }}"/>
 </a>
+{{- else -}}
+<a href="/images/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" title="{{ $title }}">
+    <img alt="{{ $title }}" src="/images/{{ $img }}_small.{{ $ext }}"/>
+</a>
+{{- end -}}
