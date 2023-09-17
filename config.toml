@@ -28,6 +28,7 @@ disqusShortname = "notusingdisqus"
     menu = [
         #{Name = "About", URL = "/about/", HasChildren = false},
         #{Name = "Projects", URL = "/projects/", HasChildren = false},
+        #{Name = "Gallery", URL = "/gallery/", HasChildren = false},
         {Name = "Archive", URL = "/posts/", HasChildren = false},
     ]
 
