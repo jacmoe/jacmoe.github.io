@@ -113,6 +113,12 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 :END:
 #+begin_description
 #+end_description
+* draft The typing of the well read :@post:colemak:efficiency:
+:PROPERTIES:
+:EXPORT_FILE_NAME: colemak-one-year-later
+:END:
+#+begin_description
+#+end_description
 * done First Entry in my new Gemini Log :@post:gemini:gemlog:
 CLOSED: [2023-03-17 fre 17:15]
 :PROPERTIES:
