@@ -91,3 +91,24 @@ html {
                 }
             }
         }
+
+figure {
+  border: thin #c0c0c0 solid;
+   display: flex;
+   flex-flow: column;
+   padding: 5px;
+   /* margin: auto; */
+   img {
+       margin: 0;
+   }
+   margin-bottom: 1em;
+}
+
+figcaption {
+  h4 {
+      font-size: 0.65em;
+      font-style: italic;
+      padding: 1px;
+      text-align: center;
+  }
+}

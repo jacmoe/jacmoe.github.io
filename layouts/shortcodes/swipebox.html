@@ -4,11 +4,17 @@
 {{- $rel := .Get "rel" -}}
 {{- with .Parent -}}
 {{- $galdir := .Get "gallery_dir" -}}
-<a href="/gallery/{{ $galdir }}/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" title="{{ $title }}">
-    <img alt="{{ $title }}" src="/gallery/{{ $galdir }}small/{{ $img }}.{{ $ext }}"/>
-</a>
+<figure>
+    <a href="/gallery/{{ $galdir }}/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" caption="{{ $title }}" title="{{ $title }}">
+        <img alt="{{ $title }}" src="/gallery/{{ $galdir }}small/{{ $img }}.{{ $ext }}"/>
+    </a>
+    <figcaption><h4>{{ $title }}</h4></figcaption>
+</figure>
 {{- else -}}
-<a href="/images/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" title="{{ $title }}">
-    <img alt="{{ $title }}" src="/images/{{ $img }}_small.{{ $ext }}"/>
-</a>
+<figure>
+    <a href="/images/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" caption="{{ $title }}" title="{{ $title }}">
+        <img alt="{{ $title }}" src="/images/{{ $img }}_small.{{ $ext }}"/>
+    </a>
+    <figcaption><h4>{{ $title }}</h4></figcaption>
+</figure>
 {{- end -}}

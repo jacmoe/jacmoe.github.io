@@ -83,12 +83,18 @@ Two years ago I wanted to start writing by hand. I quickly realized, however, th
 #+begin_description
 #+end_description
 
-* draft When rodents ate my internet connection :@post:creativity:
+* draft When rodents ate my internet connection :@post:creativity:boredom:
 :PROPERTIES:
 :EXPORT_FILE_NAME: when-rodents-ate-my-internet-connection
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image "/images/rodents.jpg"
 :END:
 #+begin_description
+Being without internet access for three weeks taught me about creativity and boredom.
 #+end_description
+#+hugo: {{< figure src="/images/rodents/rodents.jpg" title="A roof rat peeks out between the railroad ties. (Joshua J. Cotten, Unsplash: https://unsplash.com/photos/QNaBO0oHeyo)" alt="A roof rat peeks out between the railroad ties.">}}
+
+#+print_bibliography:
+
 * draft I Am Autistic :@post:autism:
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-am-autistic
@@ -205,7 +211,7 @@ CLOSED: [2022-03-29 Tue 00:50]
 I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
 #+end_description
 
-#+hugo: {{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog">}}
+#+hugo: {{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog" title="My new Emacs powered blog">}}
 
 My [[https://jacmoes.wordpress.com/][old blog]] at WordPress only has one single post in it.
 

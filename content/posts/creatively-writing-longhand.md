@@ -132,7 +132,7 @@ From 1850 to 1925, Spencerian Script was the de facto writing style for business
 
     There is a website dedicated to the Palmer method of business writing: <https://palmermethod.com/> where you can find a series of self-teaching lessons.
 
-    ## Bibliography
+    ## References
 
     <style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
     </div>

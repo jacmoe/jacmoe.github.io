@@ -31,7 +31,8 @@
       <pubDate>Sun, 10 Sep 2023 23:38:00 +0200</pubDate>
       
       <guid>https://jacmoe.github.io/gallery/gallery/</guid>
-      <description>HHotel California of Creative Writing</description>
+      <description>HHotel California of Creative Writing
+Test image Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 Test image 2 </description>
     </item>
     
     <item>
@@ -40,9 +41,9 @@
       <pubDate>Fri, 17 Mar 2023 17:15:00 +0100</pubDate>
       
       <guid>https://jacmoe.github.io/posts/first_entry_in_my_new_gemini_log/</guid>
-      <description>The first entry of my Gemini Log (Gemlog) is up: 2023-03-17 - Hello, Universe! I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
+      <description>First entry in my new Gemlog The first entry of my Gemini Log (Gemlog) is up: 2023-03-17 - Hello, Universe! I am thinking that my Gemini Capsule should be a place for me to share my writing, my writer’s journal, and my musings about writing.
 Much simpler to put something up on Gemini: simply write a simple text, and put it on the server.
-Here’s to many more entries in the Gemlog! 🚀</description>
+Here’s to many more entries in the Gemlog!</description>
     </item>
     
     <item>
@@ -64,7 +65,7 @@ pip install gmcapsule Now, create a .</description>
       <pubDate>Tue, 29 Mar 2022 00:50:00 +0200</pubDate>
       
       <guid>https://jacmoe.github.io/posts/welcome-to-my-new-blog/</guid>
-      <description>My old blog at WordPress only has one single post in it.
+      <description>My new Emacs powered blog My old blog at WordPress only has one single post in it.
 I wrote it using Org-mode in Emacs, and used an extension to put it on WordPress.
 That was good.
 I had to perform a lot of tweaking to the HTML, however, and that has obviously put me off just writing blog posts.

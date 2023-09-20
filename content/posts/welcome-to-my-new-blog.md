@@ -10,7 +10,7 @@ image = "/images/hugoblog.png"
 hideToc = true
 +++
 
-{{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog">}}
+{{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog" title="My new Emacs powered blog">}}
 
 My [old blog](https://jacmoes.wordpress.com/) at WordPress only has one single post in it.
 
