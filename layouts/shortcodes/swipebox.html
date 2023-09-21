@@ -3,7 +3,7 @@
 {{- $title := .Get "title" -}}
 {{- $rel := .Get "rel" -}}
 {{- with .Parent -}}
-{{- $galdir := .Get "gallery_dir" -}}
+{{- $galdir := .Get "galdir" -}}
 <figure>
     <a href="/gallery/{{ $galdir }}/{{ $img }}.{{ $ext }}" rel="{{ $rel }}" class="swipebox" caption="{{ $title }}" title="{{ $title }}">
         <img alt="{{ $title }}" src="/gallery/{{ $galdir }}small/{{ $img }}.{{ $ext }}"/>

@@ -9,7 +9,7 @@ layout = "single"
 
 HHotel California of Creative Writing
 
-{{< gallery gallery_dir="hoca" >}}
+{{< gallery galdir="hoca" >}}
 {{< swipebox image="1splash" ext="png" rel="test" title="Test image">}}
 
 {{< swipebox image="2zen" ext="png" rel="test" title="Test image 2">}}

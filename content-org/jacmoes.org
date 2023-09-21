@@ -306,7 +306,7 @@ CLOSED: [2023-09-10 Sun 23:38]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout single
 :END:
 HHotel California of Creative Writing
-#+attr_shortcode: :gallery_dir hoca
+#+attr_shortcode: :galdir hoca
 #+begin_gallery
 #+hugo: {{< swipebox image="1splash" ext="png" rel="test" title="Test image">}}
 #+hugo: {{< swipebox image="2zen" ext="png" rel="test" title="Test image 2">}}
