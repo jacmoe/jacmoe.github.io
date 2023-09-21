@@ -1,11 +1,11 @@
-<div class="post_media {{ with .Get "flip" }}post_media-flip{{ end }}">
-    <div class="img">
-        <img src="/images/{{ .Get "image" }}" alt="{{ .Get "alt" }}">
+<div class="layout">
+    <div class="layout__item layout__item--figure">
+        <figure>
+        <img src="/images/{{ .Get "image" }}" alt="{{ .Get "alt" }}" title=" {{ .Get "title" }}">
+        <figcaption><h4>{{ .Get "title" }}</h4></figcaption>
+        </figure>
     </div>
-    <div class="content">
+    <div class="layout__item layout__item--body">
         <p>{{ .Inner }}</p>
-    </div>
-    <div class="footer">
-        {{ with .Get "footer" }} {{ . }} {{ end }}
     </div>
 </div>
