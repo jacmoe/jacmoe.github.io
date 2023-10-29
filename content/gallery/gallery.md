@@ -7,7 +7,7 @@ weight = 120
 layout = "single"
 +++
 
-HHotel California of Creative Writing
+Hotel California of Creative Writing
 
 {{< gallery galdir="hoca" >}}
 {{< swipebox image="1splash" ext="png" rel="test" title="Test image">}}

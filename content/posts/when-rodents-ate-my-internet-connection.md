@@ -2,9 +2,10 @@
 title = "When rodents ate my internet connection"
 author = ["Jacob Moena"]
 description = "Being without internet access for three weeks taught me about creativity and boredom."
+date = 2023-09-22T02:59:00+02:00
 tags = ["creativity", "boredom"]
 categories = ["post"]
-draft = true
+draft = false
 image = "/images/rodents.jpg"
 +++
 
