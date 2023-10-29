@@ -2,10 +2,9 @@
 title = "When rodents ate my internet connection"
 author = ["Jacob Moena"]
 description = "Being without internet access for three weeks taught me about creativity and boredom."
-date = 2023-09-22T02:59:00+02:00
 tags = ["creativity", "boredom"]
 categories = ["post"]
-draft = false
+draft = true
 image = "/images/rodents.jpg"
 +++
 
@@ -15,7 +14,7 @@ In a Vox interview (<a href="#citeproc_bib_item_2">“Neil Gaiman: Boredom Is a 
 
 > You have to let yourself get so bored that your mind has nothing better to do than tell itself a story – Neil Gaiman
 
-Agatha Christie, who had no formal education until she was 16 years old, credits having to find her own ways to entertain herself with kickstarting her prolific writing career.
+Agatha Christie, who had no formal education until she was 16 years old, credits having to find her own ways to entertain herself with kick-starting her prolific writing career.
 
 The following quote is taken from an 1955 BBC interview (<a href="#citeproc_bib_item_1">“Agatha Christie Interview” n.d.</a>):
 

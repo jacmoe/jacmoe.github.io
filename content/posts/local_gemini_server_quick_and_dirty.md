@@ -55,7 +55,7 @@ amfora gemini://localhost/
 
 Now, enjoy creating content for Gemini!
 
-I am excited about the whole idea of the small internet, and the syntax for the `.gmi` files are so simple, much simpler than even Markdown. I like not having to mess around with HTML, CSS, Javascript, fonts ... Just plain text.
+I am excited about the whole idea of the small internet, and the syntax for the `.gmi` files are so simple, much simpler than even Markdown. I like not having to mess around with HTML, CSS, JavaScript, fonts ... Just plain text.
 
 I will probably be writing more about Gemini in the future ☺
 
