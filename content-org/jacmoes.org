@@ -104,6 +104,10 @@ The following quote is taken from an 1955 BBC interview [cite:@AgathaChristieInt
 There’s nothing like boredom to make you write – Agatha Christie
 #+end_quote
 
+"There is value biochemically, physiologically, evolutionarily in being bored and being alone with your thoughts"
+~from BBC YouTube video about dopamine fasting
+
+
 #+print_bibliography:
 
 * draft I Am Autistic :@post:autism:
