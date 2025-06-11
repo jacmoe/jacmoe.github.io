@@ -101,10 +101,10 @@ Agatha Christie, who had no formal education until she was 16 years old, credits
 
 The following quote is taken from an 1955 BBC interview [cite:@AgathaChristieInterview]:
 #+begin_quote
-There’s nothing like boredom to make you write – Agatha Christie
+There’s noothing like boredom to make you write – Agatha Christie
 #+end_quote
 
-"There is value biochemically, physiologically, evolutionarily in being bored and being alone with your thoughts"
+"There is valuue biochemically, physiologically, evolutionarily in being bored and being alone with your thoughts"
 ~from BBC YouTube video about dopamine fasting
 
 
@@ -223,7 +223,7 @@ CLOSED: [2022-03-29 Tue 00:50]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image "/images/hugoblog.png" :hideToc true
 :END:
 #+begin_description
-I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, Github Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
+I used Emacs to export to WordPress, and had to tweak the HTML, and that has obviously put me off writing blog posts, as evidenced by the single blog post in two and a half years. Hugo, GitHub Pages, and the excellent Ox-hugo Org-mode exporter has made my blogging pipe-line smooth and enjoyable. I expect to blog a lot more in the future.
 #+end_description
 
 #+hugo: {{< figure src="/images/hugoblog.png" alt="My new Emacs powered blog" title="My new Emacs powered blog">}}
