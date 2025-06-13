@@ -95,16 +95,16 @@ Being without internet access for three weeks taught me about creativity and bor
 #+hugo: {{< figure src="/images/rodents/rodents.jpg" title="A roof rat peeks out between the railroad ties. (Joshua J. Cotten, Unsplash: https://unsplash.com/photos/QNaBO0oHeyo)" alt="A roof rat peeks out between the railroad ties.">}}
 In a Vox interview [cite:@NeilGaimanBoredom] Neil Gaiman was asked what advice he would give to beginning writers. And his advice was to get bored. “Ideas come from daydreaming,” he explained. “They come from drifting.”
 #+begin_quote
-You have to let yourself get so bored that your mind has nothing better to do than tell itself a story – Neil Gaiman
+You have to let yourself get so bored that your mind has nothing better to do than tell itself a story. – Neil Gaiman
 #+end_quote
 Agatha Christie, who had no formal education until she was 16 years old, credits having to find her own ways to entertain herself with kick-starting her prolific writing career.
 
 The following quote is taken from an 1955 BBC interview [cite:@AgathaChristieInterview]:
 #+begin_quote
-There’s noothing like boredom to make you write – Agatha Christie
+There’s nothing like boredom to make you write. – Agatha Christie
 #+end_quote
 
-"There is valuue biochemically, physiologically, evolutionarily in being bored and being alone with your thoughts"
+"There is value biochemically, physiologically, evolutionarily in being bored and being alone with your thoughts"
 ~from BBC YouTube video about dopamine fasting
 
 
