@@ -140,6 +140,7 @@ There’s nothing like boredom to make you write. – Agatha Christie
 :END:
 #+begin_description
 #+end_description
+Write about my experience with typing books.
 * done First Entry in my new Gemini Log :@post:gemini:gemlog:
 CLOSED: [2023-03-17 fre 17:15]
 :PROPERTIES:
