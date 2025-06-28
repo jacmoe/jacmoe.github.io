@@ -47,6 +47,7 @@ Writing requires that you use more of your motor skills. Reading circuit. Activa
 Spencerian Script is a script styled developed by Platt Rogers Spencer in 1840. His script was based on already existing scripts, inspired by the shapes found in nature, resulting in a unique oval-based penmanship style that could be written very quickly and legibly. For the first time you didn't have to lift your pen.
 
 From 1850 to 1925, Spencerian Script was the established writing style for business correspondence in the United States of America. Spencerian was the first longhand where you didn't have to lift your hand in the middle of words and was both rapid and highly legible. In the 1920s the growing popularity of the typewriter rendered it obsolete as the primary means of written communication in business.
+#TODO rewrite in my own words
 
 **** Variants
 ***** Spencerian Standard Hand
